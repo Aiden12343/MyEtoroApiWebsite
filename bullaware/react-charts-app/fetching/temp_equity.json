@@ -1,0 +1,2172 @@
+[
+    {
+        "TickerName": "OTLY",
+        "OpenRate": 0.6489,
+        "ClosedRate": 0.68,
+        "IsBuy": true,
+        "dollar_return": 0.031100000000000017,
+        "invested_amount": 0.6489,
+        "leverage": 1,
+        "CloseDateTime": "2025-01-17T14:39:47.34Z"
+    },
+    {
+        "TickerName": "OTLY",
+        "OpenRate": 0.62,
+        "ClosedRate": 0.7003,
+        "IsBuy": true,
+        "dollar_return": 0.08030000000000004,
+        "invested_amount": 0.62,
+        "leverage": 1,
+        "CloseDateTime": "2025-01-02T14:30:06.01Z"
+    },
+    {
+        "TickerName": "BYND",
+        "OpenRate": 4.0,
+        "ClosedRate": 4.02,
+        "IsBuy": true,
+        "dollar_return": 0.019999999999999574,
+        "invested_amount": 4.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-27T14:46:23.303Z"
+    },
+    {
+        "TickerName": "OTLY",
+        "OpenRate": 0.6355,
+        "ClosedRate": 0.6364,
+        "IsBuy": true,
+        "dollar_return": 0.0009000000000000119,
+        "invested_amount": 0.6355,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-27T14:43:58.25Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 177.82,
+        "ClosedRate": 250.83,
+        "IsBuy": true,
+        "dollar_return": 73.01000000000002,
+        "invested_amount": 177.82,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-19T18:32:37.553Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 170.5,
+        "ClosedRate": 450.6599,
+        "IsBuy": true,
+        "dollar_return": 280.1599,
+        "invested_amount": 170.5,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-19T14:34:30.67Z"
+    },
+    {
+        "TickerName": "NSDQ100",
+        "OpenRate": 21317.45,
+        "ClosedRate": 21324.85,
+        "IsBuy": true,
+        "dollar_return": 7.399999999997817,
+        "invested_amount": 4263.49,
+        "leverage": 5,
+        "CloseDateTime": "2024-12-18T20:50:55.42Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 184.21,
+        "ClosedRate": 435.3301,
+        "IsBuy": true,
+        "dollar_return": 251.1201,
+        "invested_amount": 184.21,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-18T20:45:42.243Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 133.47,
+        "ClosedRate": 135.9,
+        "IsBuy": true,
+        "dollar_return": 2.430000000000007,
+        "invested_amount": 133.47,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-18T15:34:34.223Z"
+    },
+    {
+        "TickerName": "OTLY",
+        "OpenRate": 0.6465,
+        "ClosedRate": 0.6639,
+        "IsBuy": true,
+        "dollar_return": 0.017400000000000082,
+        "invested_amount": 0.6465,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-18T14:39:18.043Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 157.49,
+        "ClosedRate": 480.9099,
+        "IsBuy": true,
+        "dollar_return": 323.4199,
+        "invested_amount": 157.49,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-17T14:56:50.257Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 157.49,
+        "ClosedRate": 461.0801,
+        "IsBuy": true,
+        "dollar_return": 303.5901,
+        "invested_amount": 157.49,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-16T17:59:28.203Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 857.41,
+        "ClosedRate": 1257.17,
+        "IsBuy": true,
+        "dollar_return": 399.7600000000001,
+        "invested_amount": 857.41,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-16T15:40:27.72Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 217.42,
+        "ClosedRate": 447.79,
+        "IsBuy": true,
+        "dollar_return": 230.37000000000003,
+        "invested_amount": 217.42,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-16T15:39:57.3Z"
+    },
+    {
+        "TickerName": "SOXX",
+        "OpenRate": 225.5579,
+        "ClosedRate": 226.6894,
+        "IsBuy": true,
+        "dollar_return": 1.1315000000000168,
+        "invested_amount": 225.5579,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-16T15:04:00.753Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 857.41,
+        "ClosedRate": 1247.79,
+        "IsBuy": true,
+        "dollar_return": 390.38,
+        "invested_amount": 857.41,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-16T11:26:01.983Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 157.49,
+        "ClosedRate": 424.49,
+        "IsBuy": true,
+        "dollar_return": 267.0,
+        "invested_amount": 157.49,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-11T20:59:24.177Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 134.81,
+        "ClosedRate": 137.91,
+        "IsBuy": true,
+        "dollar_return": 3.0999999999999943,
+        "invested_amount": 134.81,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-11T16:51:14.093Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 187.74,
+        "ClosedRate": 249.7,
+        "IsBuy": true,
+        "dollar_return": 61.95999999999998,
+        "invested_amount": 187.74,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-11T15:25:45.323Z"
+    },
+    {
+        "TickerName": "META",
+        "OpenRate": 492.58,
+        "ClosedRate": 633.44,
+        "IsBuy": true,
+        "dollar_return": 140.86000000000007,
+        "invested_amount": 492.58,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-11T14:58:34.82Z"
+    },
+    {
+        "TickerName": "GOOG",
+        "OpenRate": 183.33,
+        "ClosedRate": 192.88,
+        "IsBuy": true,
+        "dollar_return": 9.549999999999983,
+        "invested_amount": 183.33,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-11T14:53:10.99Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 211.74,
+        "ClosedRate": 247.88,
+        "IsBuy": true,
+        "dollar_return": 36.139999999999986,
+        "invested_amount": 211.74,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-11T14:30:08.367Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 136.18,
+        "ClosedRate": 136.84,
+        "IsBuy": true,
+        "dollar_return": 0.6599999999999966,
+        "invested_amount": 136.18,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-10T17:34:52.803Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 170.5,
+        "ClosedRate": 406.02,
+        "IsBuy": true,
+        "dollar_return": 235.51999999999998,
+        "invested_amount": 170.5,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-10T17:32:24.51Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 184.21,
+        "ClosedRate": 403.22,
+        "IsBuy": true,
+        "dollar_return": 219.01000000000002,
+        "invested_amount": 184.21,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-10T15:31:53.447Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 157.49,
+        "ClosedRate": 372.95,
+        "IsBuy": true,
+        "dollar_return": 215.45999999999998,
+        "invested_amount": 157.49,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-05T15:15:40.61Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 184.21,
+        "ClosedRate": 373.1499,
+        "IsBuy": true,
+        "dollar_return": 188.9399,
+        "invested_amount": 184.21,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-05T15:14:40.227Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 1145.94,
+        "ClosedRate": 1229.25,
+        "IsBuy": true,
+        "dollar_return": 83.30999999999995,
+        "invested_amount": 1145.94,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-05T14:35:42.287Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 132.97,
+        "ClosedRate": 145.43,
+        "IsBuy": true,
+        "dollar_return": 12.460000000000008,
+        "invested_amount": 132.97,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-04T19:32:25.6Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 177.94,
+        "ClosedRate": 243.15,
+        "IsBuy": true,
+        "dollar_return": 65.21000000000001,
+        "invested_amount": 177.94,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-04T14:30:15.65Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 185.62,
+        "ClosedRate": 243.15,
+        "IsBuy": true,
+        "dollar_return": 57.53,
+        "invested_amount": 185.62,
+        "leverage": 1,
+        "CloseDateTime": "2024-12-04T14:30:14.74Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 143.33,
+        "ClosedRate": 143.5,
+        "IsBuy": true,
+        "dollar_return": 0.1699999999999875,
+        "invested_amount": 143.33,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-22T15:39:12.57Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 143.33,
+        "ClosedRate": 143.38,
+        "IsBuy": true,
+        "dollar_return": 0.04999999999998295,
+        "invested_amount": 143.33,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-22T15:25:06.293Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 143.1,
+        "ClosedRate": 143.4,
+        "IsBuy": true,
+        "dollar_return": 0.30000000000001137,
+        "invested_amount": 143.1,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-22T15:23:56.86Z"
+    },
+    {
+        "TickerName": "GOOG",
+        "OpenRate": 142.31,
+        "ClosedRate": 166.64,
+        "IsBuy": true,
+        "dollar_return": 24.329999999999984,
+        "invested_amount": 142.31,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-21T16:01:19.653Z"
+    },
+    {
+        "TickerName": "GOOG",
+        "OpenRate": 120.32,
+        "ClosedRate": 166.71,
+        "IsBuy": true,
+        "dollar_return": 46.390000000000015,
+        "invested_amount": 120.32,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-21T16:01:06.247Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 142.46,
+        "ClosedRate": 143.74,
+        "IsBuy": true,
+        "dollar_return": 1.2800000000000011,
+        "invested_amount": 142.46,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-21T15:46:06.547Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 141.1,
+        "ClosedRate": 141.66,
+        "IsBuy": true,
+        "dollar_return": 0.5600000000000023,
+        "invested_amount": 141.1,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-21T15:32:15.097Z"
+    },
+    {
+        "TickerName": "SEDG",
+        "OpenRate": 11.11,
+        "ClosedRate": 11.13,
+        "IsBuy": true,
+        "dollar_return": 0.02000000000000135,
+        "invested_amount": 11.11,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-20T14:47:08.207Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 317.8501,
+        "ClosedRate": 323.4199,
+        "IsBuy": true,
+        "dollar_return": 5.5697999999999865,
+        "invested_amount": 317.8501,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-15T16:30:16.87Z"
+    },
+    {
+        "TickerName": "NSDQ100",
+        "OpenRate": 20473.09,
+        "ClosedRate": 20481.71,
+        "IsBuy": true,
+        "dollar_return": 8.619999999998981,
+        "invested_amount": 4094.618,
+        "leverage": 5,
+        "CloseDateTime": "2024-11-15T16:28:23.46Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 177.94,
+        "ClosedRate": 225.73,
+        "IsBuy": true,
+        "dollar_return": 47.78999999999999,
+        "invested_amount": 177.94,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-15T14:42:25.44Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 181.91,
+        "ClosedRate": 226.23,
+        "IsBuy": true,
+        "dollar_return": 44.31999999999999,
+        "invested_amount": 181.91,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-15T14:38:13.75Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 177.94,
+        "ClosedRate": 226.32,
+        "IsBuy": true,
+        "dollar_return": 48.379999999999995,
+        "invested_amount": 177.94,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-15T14:37:54.66Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 185.62,
+        "ClosedRate": 226.18,
+        "IsBuy": true,
+        "dollar_return": 40.56,
+        "invested_amount": 185.62,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-15T14:36:40.48Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 181.91,
+        "ClosedRate": 226.24,
+        "IsBuy": true,
+        "dollar_return": 44.33000000000001,
+        "invested_amount": 181.91,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-15T14:36:13.013Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 181.91,
+        "ClosedRate": 226.69,
+        "IsBuy": true,
+        "dollar_return": 44.78,
+        "invested_amount": 181.91,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-15T14:31:00.98Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 184.06,
+        "ClosedRate": 226.69,
+        "IsBuy": true,
+        "dollar_return": 42.629999999999995,
+        "invested_amount": 184.06,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-15T14:31:00.63Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 185.62,
+        "ClosedRate": 226.69,
+        "IsBuy": true,
+        "dollar_return": 41.06999999999999,
+        "invested_amount": 185.62,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-15T14:31:00.11Z"
+    },
+    {
+        "TickerName": "SEDG",
+        "OpenRate": 11.88,
+        "ClosedRate": 12.0,
+        "IsBuy": true,
+        "dollar_return": 0.11999999999999922,
+        "invested_amount": 11.88,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T17:24:40.497Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 184.21,
+        "ClosedRate": 320.0601,
+        "IsBuy": true,
+        "dollar_return": 135.85009999999997,
+        "invested_amount": 184.21,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T16:37:55.427Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 184.06,
+        "ClosedRate": 226.43,
+        "IsBuy": true,
+        "dollar_return": 42.370000000000005,
+        "invested_amount": 184.06,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T15:29:19.793Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 184.06,
+        "ClosedRate": 226.3,
+        "IsBuy": true,
+        "dollar_return": 42.24000000000001,
+        "invested_amount": 184.06,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T15:28:55.373Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 147.16,
+        "ClosedRate": 147.76,
+        "IsBuy": true,
+        "dollar_return": 0.5999999999999943,
+        "invested_amount": 147.16,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T15:26:26.75Z"
+    },
+    {
+        "TickerName": "IWM",
+        "OpenRate": 216.1037,
+        "ClosedRate": 235.9955,
+        "IsBuy": true,
+        "dollar_return": 19.89179999999999,
+        "invested_amount": 216.1037,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T14:33:10.8Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 181.91,
+        "ClosedRate": 225.92,
+        "IsBuy": true,
+        "dollar_return": 44.00999999999999,
+        "invested_amount": 181.91,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T14:31:23.623Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 69.456,
+        "ClosedRate": 147.08,
+        "IsBuy": true,
+        "dollar_return": 77.62400000000001,
+        "invested_amount": 69.456,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T14:31:22.893Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 118.35,
+        "ClosedRate": 147.08,
+        "IsBuy": true,
+        "dollar_return": 28.730000000000018,
+        "invested_amount": 118.35,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T14:31:22.78Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 67.1,
+        "ClosedRate": 147.08,
+        "IsBuy": true,
+        "dollar_return": 79.98000000000002,
+        "invested_amount": 67.1,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T14:31:22.717Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 187.74,
+        "ClosedRate": 225.92,
+        "IsBuy": true,
+        "dollar_return": 38.17999999999998,
+        "invested_amount": 187.74,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T14:31:22.447Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 185.62,
+        "ClosedRate": 225.82,
+        "IsBuy": true,
+        "dollar_return": 40.19999999999999,
+        "invested_amount": 185.62,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T14:31:22.417Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 185.18,
+        "ClosedRate": 225.92,
+        "IsBuy": true,
+        "dollar_return": 40.73999999999998,
+        "invested_amount": 185.18,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T14:31:21.76Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 184.06,
+        "ClosedRate": 225.92,
+        "IsBuy": true,
+        "dollar_return": 41.859999999999985,
+        "invested_amount": 184.06,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-14T14:31:21.597Z"
+    },
+    {
+        "TickerName": "SPOT",
+        "OpenRate": 286.2,
+        "ClosedRate": 451.01,
+        "IsBuy": true,
+        "dollar_return": 164.81,
+        "invested_amount": 286.2,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-13T15:29:44.207Z"
+    },
+    {
+        "TickerName": "SPOT",
+        "OpenRate": 145.1,
+        "ClosedRate": 451.2,
+        "IsBuy": true,
+        "dollar_return": 306.1,
+        "invested_amount": 145.1,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-13T15:29:15.54Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 157.49,
+        "ClosedRate": 328.22,
+        "IsBuy": true,
+        "dollar_return": 170.73000000000002,
+        "invested_amount": 157.49,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-12T18:04:01.55Z"
+    },
+    {
+        "TickerName": "NFLX",
+        "OpenRate": 418.71,
+        "ClosedRate": 803.9,
+        "IsBuy": true,
+        "dollar_return": 385.19,
+        "invested_amount": 418.71,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-11T20:29:35.917Z"
+    },
+    {
+        "TickerName": "NFLX",
+        "OpenRate": 574.89,
+        "ClosedRate": 801.32,
+        "IsBuy": true,
+        "dollar_return": 226.43000000000006,
+        "invested_amount": 574.89,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-11T18:17:48.6Z"
+    },
+    {
+        "TickerName": "SOXL",
+        "OpenRate": 32.4687,
+        "ClosedRate": 32.5112,
+        "IsBuy": true,
+        "dollar_return": 0.04250000000000398,
+        "invested_amount": 32.4687,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-11T15:19:59.287Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 174.04,
+        "ClosedRate": 349.5801,
+        "IsBuy": true,
+        "dollar_return": 175.54010000000002,
+        "invested_amount": 174.04,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-11T14:40:57.047Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 216.17,
+        "ClosedRate": 317.97,
+        "IsBuy": true,
+        "dollar_return": 101.80000000000004,
+        "invested_amount": 216.17,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-08T17:09:41.94Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 272.76,
+        "ClosedRate": 311.8,
+        "IsBuy": true,
+        "dollar_return": 39.04000000000002,
+        "invested_amount": 272.76,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-08T15:16:10.227Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 234.99,
+        "ClosedRate": 310.6699,
+        "IsBuy": true,
+        "dollar_return": 75.67989999999998,
+        "invested_amount": 234.99,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-08T15:13:50.023Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 291.94,
+        "ClosedRate": 310.6401,
+        "IsBuy": true,
+        "dollar_return": 18.70010000000002,
+        "invested_amount": 291.94,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-08T15:13:37.36Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 298.54,
+        "ClosedRate": 305.8901,
+        "IsBuy": true,
+        "dollar_return": 7.350099999999998,
+        "invested_amount": 298.54,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-08T14:52:12.417Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 293.89,
+        "ClosedRate": 301.3301,
+        "IsBuy": true,
+        "dollar_return": 7.4401000000000295,
+        "invested_amount": 293.89,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-08T14:34:29.563Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 212.38,
+        "ClosedRate": 297.3501,
+        "IsBuy": true,
+        "dollar_return": 84.9701,
+        "invested_amount": 212.38,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-07T16:30:29.437Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 118.42,
+        "ClosedRate": 147.98,
+        "IsBuy": true,
+        "dollar_return": 29.559999999999988,
+        "invested_amount": 118.42,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-07T16:29:56.96Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 1137.54,
+        "ClosedRate": 1189.26,
+        "IsBuy": true,
+        "dollar_return": 51.72000000000003,
+        "invested_amount": 1137.54,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-07T08:00:04.47Z"
+    },
+    {
+        "TickerName": "NSDQ100",
+        "OpenRate": 20801.86,
+        "ClosedRate": 20797.74,
+        "IsBuy": true,
+        "dollar_return": -4.119999999998981,
+        "invested_amount": 2080.186,
+        "leverage": 10,
+        "CloseDateTime": "2024-11-06T23:01:52.547Z"
+    },
+    {
+        "TickerName": "TTWO",
+        "OpenRate": 149.4,
+        "ClosedRate": 167.79,
+        "IsBuy": true,
+        "dollar_return": 18.389999999999986,
+        "invested_amount": 149.4,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-06T18:06:46.493Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 134.19,
+        "ClosedRate": 144.42,
+        "IsBuy": true,
+        "dollar_return": 10.22999999999999,
+        "invested_amount": 134.19,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-06T17:01:45.427Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 274.87,
+        "ClosedRate": 286.1401,
+        "IsBuy": true,
+        "dollar_return": 11.270100000000014,
+        "invested_amount": 274.87,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-06T17:00:38.47Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 249.8,
+        "ClosedRate": 285.6899,
+        "IsBuy": true,
+        "dollar_return": 35.88990000000001,
+        "invested_amount": 249.8,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-06T16:55:52.12Z"
+    },
+    {
+        "TickerName": "SEDG",
+        "OpenRate": 14.9,
+        "ClosedRate": 15.02,
+        "IsBuy": true,
+        "dollar_return": 0.11999999999999922,
+        "invested_amount": 14.9,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-06T16:10:10.18Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 1080.38,
+        "ClosedRate": 1182.15,
+        "IsBuy": true,
+        "dollar_return": 101.76999999999998,
+        "invested_amount": 1080.38,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-06T15:31:35.343Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 1153.48,
+        "ClosedRate": 1176.58,
+        "IsBuy": true,
+        "dollar_return": 23.09999999999991,
+        "invested_amount": 1153.48,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-06T08:50:23.567Z"
+    },
+    {
+        "TickerName": "AMZN",
+        "OpenRate": 174.7,
+        "ClosedRate": 200.43,
+        "IsBuy": true,
+        "dollar_return": 25.730000000000018,
+        "invested_amount": 174.7,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-01T14:32:44.05Z"
+    },
+    {
+        "TickerName": "AMZN",
+        "OpenRate": 177.4,
+        "ClosedRate": 200.43,
+        "IsBuy": true,
+        "dollar_return": 23.03,
+        "invested_amount": 177.4,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-01T14:32:43.917Z"
+    },
+    {
+        "TickerName": "AMZN",
+        "OpenRate": 170.33,
+        "ClosedRate": 199.95,
+        "IsBuy": true,
+        "dollar_return": 29.619999999999976,
+        "invested_amount": 170.33,
+        "leverage": 1,
+        "CloseDateTime": "2024-11-01T13:32:56.88Z"
+    },
+    {
+        "TickerName": "SNAP",
+        "OpenRate": 10.35,
+        "ClosedRate": 12.77,
+        "IsBuy": true,
+        "dollar_return": 2.42,
+        "invested_amount": 10.35,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-30T18:45:21.067Z"
+    },
+    {
+        "TickerName": "SNAP",
+        "OpenRate": 10.95,
+        "ClosedRate": 12.76,
+        "IsBuy": true,
+        "dollar_return": 1.8100000000000005,
+        "invested_amount": 10.95,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-30T18:45:07.083Z"
+    },
+    {
+        "TickerName": "SNAP",
+        "OpenRate": 10.95,
+        "ClosedRate": 12.22,
+        "IsBuy": true,
+        "dollar_return": 1.2700000000000014,
+        "invested_amount": 10.95,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-30T13:46:15.723Z"
+    },
+    {
+        "TickerName": "SNAP",
+        "OpenRate": 10.35,
+        "ClosedRate": 12.21,
+        "IsBuy": true,
+        "dollar_return": 1.8600000000000012,
+        "invested_amount": 10.35,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-30T13:46:04.877Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 194.09,
+        "ClosedRate": 261.6,
+        "IsBuy": true,
+        "dollar_return": 67.51000000000002,
+        "invested_amount": 194.09,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-25T13:34:07.873Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 852.6,
+        "ClosedRate": 1158.31,
+        "IsBuy": true,
+        "dollar_return": 305.7099999999999,
+        "invested_amount": 852.6,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-25T07:41:43.103Z"
+    },
+    {
+        "TickerName": "IWM",
+        "OpenRate": 214.0005,
+        "ClosedRate": 226.2501,
+        "IsBuy": true,
+        "dollar_return": 12.249600000000015,
+        "invested_amount": 214.0005,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-16T14:16:51.537Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 81.661,
+        "ClosedRate": 138.13,
+        "IsBuy": true,
+        "dollar_return": 56.468999999999994,
+        "invested_amount": 81.661,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-14T19:57:33.803Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 132.94,
+        "ClosedRate": 138.19,
+        "IsBuy": true,
+        "dollar_return": 5.25,
+        "invested_amount": 132.94,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-14T19:57:07.35Z"
+    },
+    {
+        "TickerName": "IWM",
+        "OpenRate": 217.3255,
+        "ClosedRate": 221.1178,
+        "IsBuy": true,
+        "dollar_return": 3.792299999999983,
+        "invested_amount": 217.3255,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-14T13:48:56.703Z"
+    },
+    {
+        "TickerName": "BRK.B",
+        "OpenRate": 461.45,
+        "ClosedRate": 462.03,
+        "IsBuy": true,
+        "dollar_return": 0.5799999999999841,
+        "invested_amount": 461.45,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-11T14:24:28.957Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 1137.01,
+        "ClosedRate": 1153.52,
+        "IsBuy": true,
+        "dollar_return": 16.50999999999999,
+        "invested_amount": 1137.01,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-11T08:57:55.43Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 228.18,
+        "ClosedRate": 243.45,
+        "IsBuy": true,
+        "dollar_return": 15.269999999999982,
+        "invested_amount": 228.18,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-07T15:03:56.56Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 126.11,
+        "ClosedRate": 127.43,
+        "IsBuy": true,
+        "dollar_return": 1.3200000000000074,
+        "invested_amount": 126.11,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-07T15:03:13.703Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 81.661,
+        "ClosedRate": 127.39,
+        "IsBuy": true,
+        "dollar_return": 45.729,
+        "invested_amount": 81.661,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-07T15:02:45.827Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 121.07,
+        "ClosedRate": 127.4,
+        "IsBuy": true,
+        "dollar_return": 6.3300000000000125,
+        "invested_amount": 121.07,
+        "leverage": 1,
+        "CloseDateTime": "2024-10-07T15:01:52.34Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 1050.15,
+        "ClosedRate": 1156.83,
+        "IsBuy": true,
+        "dollar_return": 106.67999999999984,
+        "invested_amount": 1050.15,
+        "leverage": 1,
+        "CloseDateTime": "2024-09-26T07:07:35.713Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 238.28,
+        "ClosedRate": 252.78,
+        "IsBuy": true,
+        "dollar_return": 14.5,
+        "invested_amount": 238.28,
+        "leverage": 1,
+        "CloseDateTime": "2024-09-24T16:13:55.047Z"
+    },
+    {
+        "TickerName": "SONO",
+        "OpenRate": 11.94,
+        "ClosedRate": 12.31,
+        "IsBuy": true,
+        "dollar_return": 0.370000000000001,
+        "invested_amount": 11.94,
+        "leverage": 1,
+        "CloseDateTime": "2024-09-17T14:35:19.69Z"
+    },
+    {
+        "TickerName": "QQQ",
+        "OpenRate": 449.0226,
+        "ClosedRate": 475.7252,
+        "IsBuy": true,
+        "dollar_return": 26.70259999999996,
+        "invested_amount": 449.0226,
+        "leverage": 1,
+        "CloseDateTime": "2024-09-17T13:30:47.073Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 108.36,
+        "ClosedRate": 109.91,
+        "IsBuy": true,
+        "dollar_return": 1.5499999999999972,
+        "invested_amount": 108.36,
+        "leverage": 1,
+        "CloseDateTime": "2024-09-04T15:05:10.39Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 222.27,
+        "ClosedRate": 222.6,
+        "IsBuy": true,
+        "dollar_return": 0.3299999999999841,
+        "invested_amount": 222.27,
+        "leverage": 1,
+        "CloseDateTime": "2024-09-03T19:21:04.437Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 182.52,
+        "ClosedRate": 231.01,
+        "IsBuy": true,
+        "dollar_return": 48.48999999999998,
+        "invested_amount": 182.52,
+        "leverage": 1,
+        "CloseDateTime": "2024-08-29T13:45:53.247Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 92.0,
+        "ClosedRate": 119.1,
+        "IsBuy": true,
+        "dollar_return": 27.099999999999994,
+        "invested_amount": 92.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-08-15T13:35:18.28Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 998.41,
+        "ClosedRate": 1089.05,
+        "IsBuy": true,
+        "dollar_return": 90.63999999999999,
+        "invested_amount": 998.41,
+        "leverage": 1,
+        "CloseDateTime": "2024-08-15T12:00:18.197Z"
+    },
+    {
+        "TickerName": "SBUX",
+        "OpenRate": 85.37,
+        "ClosedRate": 91.54,
+        "IsBuy": true,
+        "dollar_return": 6.170000000000002,
+        "invested_amount": 85.37,
+        "leverage": 1,
+        "CloseDateTime": "2024-08-13T13:30:13.603Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 206.57,
+        "ClosedRate": 208.38,
+        "IsBuy": true,
+        "dollar_return": 1.8100000000000023,
+        "invested_amount": 206.57,
+        "leverage": 1,
+        "CloseDateTime": "2024-08-05T13:39:39.387Z"
+    },
+    {
+        "TickerName": "IWM",
+        "OpenRate": 199.1182,
+        "ClosedRate": 216.0255,
+        "IsBuy": true,
+        "dollar_return": 16.907299999999992,
+        "invested_amount": 199.1182,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-15T14:16:58.18Z"
+    },
+    {
+        "TickerName": "IWM",
+        "OpenRate": 194.7918,
+        "ClosedRate": 207.4683,
+        "IsBuy": true,
+        "dollar_return": 12.676500000000004,
+        "invested_amount": 194.7918,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-11T13:31:31.46Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 243.53,
+        "ClosedRate": 264.23,
+        "IsBuy": true,
+        "dollar_return": 20.700000000000017,
+        "invested_amount": 243.53,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-10T13:44:21.56Z"
+    },
+    {
+        "TickerName": "NFLX",
+        "OpenRate": 419.63,
+        "ClosedRate": 696.0,
+        "IsBuy": true,
+        "dollar_return": 276.37,
+        "invested_amount": 419.63,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-05T15:49:27.397Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 182.99,
+        "ClosedRate": 224.88,
+        "IsBuy": true,
+        "dollar_return": 41.889999999999986,
+        "invested_amount": 182.99,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-05T15:31:39.617Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 187.43,
+        "ClosedRate": 224.81,
+        "IsBuy": true,
+        "dollar_return": 37.379999999999995,
+        "invested_amount": 187.43,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-05T15:30:25.42Z"
+    },
+    {
+        "TickerName": "META",
+        "OpenRate": 285.4,
+        "ClosedRate": 533.69,
+        "IsBuy": true,
+        "dollar_return": 248.29000000000008,
+        "invested_amount": 285.4,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-05T15:28:20.3Z"
+    },
+    {
+        "TickerName": "SNAP",
+        "OpenRate": 10.95,
+        "ClosedRate": 16.15,
+        "IsBuy": true,
+        "dollar_return": 5.199999999999999,
+        "invested_amount": 10.95,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-02T16:58:32.313Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 194.43,
+        "ClosedRate": 208.08,
+        "IsBuy": true,
+        "dollar_return": 13.650000000000006,
+        "invested_amount": 194.43,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-01T14:04:49.817Z"
+    },
+    {
+        "TickerName": "AMZN",
+        "OpenRate": 194.28,
+        "ClosedRate": 194.36,
+        "IsBuy": true,
+        "dollar_return": 0.0800000000000125,
+        "invested_amount": 194.28,
+        "leverage": 1,
+        "CloseDateTime": "2024-07-01T13:32:34.663Z"
+    },
+    {
+        "TickerName": "AMZN",
+        "OpenRate": 145.34,
+        "ClosedRate": 191.71,
+        "IsBuy": true,
+        "dollar_return": 46.370000000000005,
+        "invested_amount": 145.34,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-26T16:16:49.997Z"
+    },
+    {
+        "TickerName": "SEDG",
+        "OpenRate": 28.09,
+        "ClosedRate": 28.11,
+        "IsBuy": true,
+        "dollar_return": 0.019999999999999574,
+        "invested_amount": 28.09,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-25T14:52:42.76Z"
+    },
+    {
+        "TickerName": "GOOG",
+        "OpenRate": 171.15,
+        "ClosedRate": 182.56,
+        "IsBuy": true,
+        "dollar_return": 11.409999999999997,
+        "invested_amount": 171.15,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-25T14:12:01.383Z"
+    },
+    {
+        "TickerName": "QQQ",
+        "OpenRate": 474.5509,
+        "ClosedRate": 475.5057,
+        "IsBuy": true,
+        "dollar_return": 0.9547999999999774,
+        "invested_amount": 474.5509,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-25T13:31:06.373Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 119.77,
+        "ClosedRate": 120.82,
+        "IsBuy": true,
+        "dollar_return": 1.0499999999999972,
+        "invested_amount": 119.77,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-24T15:59:42.31Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 171.94,
+        "ClosedRate": 211.76,
+        "IsBuy": true,
+        "dollar_return": 39.81999999999999,
+        "invested_amount": 171.94,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-24T15:53:11.923Z"
+    },
+    {
+        "TickerName": "GOOG",
+        "OpenRate": 154.81,
+        "ClosedRate": 182.34,
+        "IsBuy": true,
+        "dollar_return": 27.53,
+        "invested_amount": 154.81,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-21T16:34:53.58Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 853.38,
+        "ClosedRate": 1127.19,
+        "IsBuy": true,
+        "dollar_return": 273.81000000000006,
+        "invested_amount": 853.38,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-21T11:43:35.617Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 209.58,
+        "ClosedRate": 209.77,
+        "IsBuy": true,
+        "dollar_return": 0.18999999999999773,
+        "invested_amount": 209.58,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-20T16:37:32.383Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 1124.16,
+        "ClosedRate": 1136.89,
+        "IsBuy": true,
+        "dollar_return": 12.730000000000018,
+        "invested_amount": 1124.16,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-18T07:00:10.523Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 185.29,
+        "ClosedRate": 218.9,
+        "IsBuy": true,
+        "dollar_return": 33.610000000000014,
+        "invested_amount": 185.29,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-17T18:59:15.28Z"
+    },
+    {
+        "TickerName": "SEDG",
+        "OpenRate": 40.23,
+        "ClosedRate": 40.29,
+        "IsBuy": true,
+        "dollar_return": 0.060000000000002274,
+        "invested_amount": 40.23,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-17T13:51:38.887Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 1023.56,
+        "ClosedRate": 1126.06,
+        "IsBuy": true,
+        "dollar_return": 102.5,
+        "invested_amount": 1023.56,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-17T08:13:17.18Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 118.987,
+        "ClosedRate": 124.09,
+        "IsBuy": true,
+        "dollar_return": 5.103000000000009,
+        "invested_amount": 118.987,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-12T13:33:13.597Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 194.09,
+        "ClosedRate": 199.02,
+        "IsBuy": true,
+        "dollar_return": 4.930000000000007,
+        "invested_amount": 194.09,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-11T13:59:31.043Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 194.25,
+        "ClosedRate": 199.02,
+        "IsBuy": true,
+        "dollar_return": 4.77000000000001,
+        "invested_amount": 194.25,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-11T13:59:31.007Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 190.36,
+        "ClosedRate": 199.02,
+        "IsBuy": true,
+        "dollar_return": 8.659999999999997,
+        "invested_amount": 190.36,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-11T13:59:30.967Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 192.33,
+        "ClosedRate": 198.1,
+        "IsBuy": true,
+        "dollar_return": 5.769999999999982,
+        "invested_amount": 192.33,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-11T13:51:02.95Z"
+    },
+    {
+        "TickerName": "SEDG",
+        "OpenRate": 45.38,
+        "ClosedRate": 46.01,
+        "IsBuy": true,
+        "dollar_return": 0.6299999999999955,
+        "invested_amount": 45.38,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-10T14:38:33.287Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 1116.8601,
+        "ClosedRate": 1183.1702,
+        "IsBuy": true,
+        "dollar_return": 66.31009999999992,
+        "invested_amount": 1116.8601,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-05T13:30:08.05Z"
+    },
+    {
+        "TickerName": "TTWO",
+        "OpenRate": 155.44,
+        "ClosedRate": 165.79,
+        "IsBuy": true,
+        "dollar_return": 10.349999999999994,
+        "invested_amount": 155.44,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-04T18:37:13.19Z"
+    },
+    {
+        "TickerName": "TTWO",
+        "OpenRate": 158.98,
+        "ClosedRate": 164.28,
+        "IsBuy": true,
+        "dollar_return": 5.300000000000011,
+        "invested_amount": 158.98,
+        "leverage": 1,
+        "CloseDateTime": "2024-06-04T16:08:08.327Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 424.78,
+        "ClosedRate": 1139.5,
+        "IsBuy": true,
+        "dollar_return": 714.72,
+        "invested_amount": 424.78,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-28T19:31:11.27Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 860.26,
+        "ClosedRate": 1143.1899,
+        "IsBuy": true,
+        "dollar_return": 282.9299000000001,
+        "invested_amount": 860.26,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-28T17:32:44.8Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 887.53,
+        "ClosedRate": 1020.0,
+        "IsBuy": true,
+        "dollar_return": 132.47000000000003,
+        "invested_amount": 887.53,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-23T13:30:26.003Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 890.0,
+        "ClosedRate": 945.3301,
+        "IsBuy": true,
+        "dollar_return": 55.330100000000016,
+        "invested_amount": 890.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-22T14:51:20.533Z"
+    },
+    {
+        "TickerName": "SEDG",
+        "OpenRate": 50.01,
+        "ClosedRate": 52.58,
+        "IsBuy": true,
+        "dollar_return": 2.5700000000000003,
+        "invested_amount": 50.01,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-22T14:50:24.707Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 173.31,
+        "ClosedRate": 189.98,
+        "IsBuy": true,
+        "dollar_return": 16.669999999999987,
+        "invested_amount": 173.31,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-15T15:27:10.707Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 165.79,
+        "ClosedRate": 189.91,
+        "IsBuy": true,
+        "dollar_return": 24.120000000000005,
+        "invested_amount": 165.79,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-15T15:25:47.86Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 870.34,
+        "ClosedRate": 1055.62,
+        "IsBuy": true,
+        "dollar_return": 185.27999999999986,
+        "invested_amount": 870.34,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-15T15:22:45.907Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 987.52,
+        "ClosedRate": 1055.48,
+        "IsBuy": true,
+        "dollar_return": 67.96000000000004,
+        "invested_amount": 987.52,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-15T15:22:31.82Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 1031.12,
+        "ClosedRate": 1055.57,
+        "IsBuy": true,
+        "dollar_return": 24.450000000000045,
+        "invested_amount": 1031.12,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-15T15:22:02.44Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 772.51,
+        "ClosedRate": 941.3501,
+        "IsBuy": true,
+        "dollar_return": 168.8401,
+        "invested_amount": 772.51,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-15T15:20:21.973Z"
+    },
+    {
+        "TickerName": "SBUX",
+        "OpenRate": 73.14,
+        "ClosedRate": 75.93,
+        "IsBuy": true,
+        "dollar_return": 2.7900000000000063,
+        "invested_amount": 73.14,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-15T13:44:31.743Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 183.25,
+        "ClosedRate": 187.37,
+        "IsBuy": true,
+        "dollar_return": 4.1200000000000045,
+        "invested_amount": 183.25,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-06T14:00:22.947Z"
+    },
+    {
+        "TickerName": "AAPL",
+        "OpenRate": 175.48,
+        "ClosedRate": 185.19,
+        "IsBuy": true,
+        "dollar_return": 9.710000000000008,
+        "invested_amount": 175.48,
+        "leverage": 1,
+        "CloseDateTime": "2024-05-03T13:31:22.037Z"
+    },
+    {
+        "TickerName": "SNAP",
+        "OpenRate": 12.06,
+        "ClosedRate": 15.05,
+        "IsBuy": true,
+        "dollar_return": 2.99,
+        "invested_amount": 12.06,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-30T15:43:27.12Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 183.31,
+        "ClosedRate": 193.82,
+        "IsBuy": true,
+        "dollar_return": 10.509999999999991,
+        "invested_amount": 183.31,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-29T15:41:37.567Z"
+    },
+    {
+        "TickerName": "NIO",
+        "OpenRate": 6.56,
+        "ClosedRate": 4.48,
+        "IsBuy": true,
+        "dollar_return": -2.079999999999999,
+        "invested_amount": 6.56,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-26T19:57:05.12Z"
+    },
+    {
+        "TickerName": "SNAP",
+        "OpenRate": 12.26,
+        "ClosedRate": 14.02,
+        "IsBuy": true,
+        "dollar_return": 1.7599999999999998,
+        "invested_amount": 12.26,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-26T13:43:46.513Z"
+    },
+    {
+        "TickerName": "GOOG",
+        "OpenRate": 120.32,
+        "ClosedRate": 174.88,
+        "IsBuy": true,
+        "dollar_return": 54.56,
+        "invested_amount": 120.32,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-26T13:38:23.433Z"
+    },
+    {
+        "TickerName": "GOOG",
+        "OpenRate": 154.81,
+        "ClosedRate": 174.91,
+        "IsBuy": true,
+        "dollar_return": 20.099999999999994,
+        "invested_amount": 154.81,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-26T13:37:55Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 162.36,
+        "ClosedRate": 164.42,
+        "IsBuy": true,
+        "dollar_return": 2.059999999999974,
+        "invested_amount": 162.36,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-24T14:02:30.437Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 162.3,
+        "ClosedRate": 163.02,
+        "IsBuy": true,
+        "dollar_return": 0.7199999999999989,
+        "invested_amount": 162.3,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-24T13:50:16.773Z"
+    },
+    {
+        "TickerName": "SPOT",
+        "OpenRate": 145.1,
+        "ClosedRate": 310.2,
+        "IsBuy": true,
+        "dollar_return": 165.1,
+        "invested_amount": 145.1,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-23T13:38:32.877Z"
+    },
+    {
+        "TickerName": "NSDQ100",
+        "OpenRate": 17901.0,
+        "ClosedRate": 17914.0,
+        "IsBuy": true,
+        "dollar_return": 13.0,
+        "invested_amount": 3580.2,
+        "leverage": 5,
+        "CloseDateTime": "2024-04-04T22:00:48.223Z"
+    },
+    {
+        "TickerName": "SEDG",
+        "OpenRate": 65.07,
+        "ClosedRate": 67.0,
+        "IsBuy": true,
+        "dollar_return": 1.9300000000000068,
+        "invested_amount": 65.07,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-03T14:35:57.78Z"
+    },
+    {
+        "TickerName": "META",
+        "OpenRate": 467.43,
+        "ClosedRate": 501.21,
+        "IsBuy": true,
+        "dollar_return": 33.77999999999997,
+        "invested_amount": 467.43,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-03T13:58:22.74Z"
+    },
+    {
+        "TickerName": "META",
+        "OpenRate": 467.43,
+        "ClosedRate": 501.48,
+        "IsBuy": true,
+        "dollar_return": 34.05000000000001,
+        "invested_amount": 467.43,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-03T13:57:51.417Z"
+    },
+    {
+        "TickerName": "META",
+        "OpenRate": 470.53,
+        "ClosedRate": 501.62,
+        "IsBuy": true,
+        "dollar_return": 31.090000000000032,
+        "invested_amount": 470.53,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-03T13:56:19.217Z"
+    },
+    {
+        "TickerName": "SPOT",
+        "OpenRate": 145.1,
+        "ClosedRate": 281.3301,
+        "IsBuy": true,
+        "dollar_return": 136.23010000000002,
+        "invested_amount": 145.1,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-03T13:45:42.517Z"
+    },
+    {
+        "TickerName": "GOOG",
+        "OpenRate": 94.34,
+        "ClosedRate": 156.3,
+        "IsBuy": true,
+        "dollar_return": 61.96000000000001,
+        "invested_amount": 94.34,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-01T14:24:18.45Z"
+    },
+    {
+        "TickerName": "GOOG",
+        "OpenRate": 94.34,
+        "ClosedRate": 156.24,
+        "IsBuy": true,
+        "dollar_return": 61.900000000000006,
+        "invested_amount": 94.34,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-01T14:23:52.05Z"
+    },
+    {
+        "TickerName": "GOOG",
+        "OpenRate": 141.54,
+        "ClosedRate": 156.35,
+        "IsBuy": true,
+        "dollar_return": 14.810000000000002,
+        "invested_amount": 141.54,
+        "leverage": 1,
+        "CloseDateTime": "2024-04-01T14:23:39.233Z"
+    },
+    {
+        "TickerName": "OTLY",
+        "OpenRate": 1.12,
+        "ClosedRate": 1.14,
+        "IsBuy": true,
+        "dollar_return": 0.019999999999999796,
+        "invested_amount": 1.12,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-28T13:56:39.15Z"
+    },
+    {
+        "TickerName": "PYPL",
+        "OpenRate": 65.42,
+        "ClosedRate": 67.48,
+        "IsBuy": true,
+        "dollar_return": 2.0600000000000023,
+        "invested_amount": 65.42,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-26T14:11:56.033Z"
+    },
+    {
+        "TickerName": "OTLY",
+        "OpenRate": 1.01,
+        "ClosedRate": 1.02,
+        "IsBuy": true,
+        "dollar_return": 0.010000000000000009,
+        "invested_amount": 1.01,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-20T18:04:54.73Z"
+    },
+    {
+        "TickerName": "SPOT",
+        "OpenRate": 195.18,
+        "ClosedRate": 255.04,
+        "IsBuy": true,
+        "dollar_return": 59.859999999999985,
+        "invested_amount": 195.18,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-15T15:25:45.84Z"
+    },
+    {
+        "TickerName": "IWM",
+        "OpenRate": 202.1127,
+        "ClosedRate": 202.4159,
+        "IsBuy": true,
+        "dollar_return": 0.3032000000000039,
+        "invested_amount": 202.1127,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-15T13:37:13.237Z"
+    },
+    {
+        "TickerName": "IWM",
+        "OpenRate": 201.632,
+        "ClosedRate": 205.5912,
+        "IsBuy": true,
+        "dollar_return": 3.9591999999999814,
+        "invested_amount": 201.632,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-13T18:57:52.177Z"
+    },
+    {
+        "TickerName": "OTLY",
+        "OpenRate": 1.03,
+        "ClosedRate": 1.06,
+        "IsBuy": true,
+        "dollar_return": 0.030000000000000027,
+        "invested_amount": 1.03,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-13T15:23:18.827Z"
+    },
+    {
+        "TickerName": "TQQQ",
+        "OpenRate": 60.4606,
+        "ClosedRate": 60.8486,
+        "IsBuy": true,
+        "dollar_return": 0.3879999999999981,
+        "invested_amount": 60.4606,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-08T19:25:04.08Z"
+    },
+    {
+        "TickerName": "RDFN",
+        "OpenRate": 6.635,
+        "ClosedRate": 6.815,
+        "IsBuy": true,
+        "dollar_return": 0.1800000000000006,
+        "invested_amount": 6.635,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-08T14:30:16.17Z"
+    },
+    {
+        "TickerName": "TSLA",
+        "OpenRate": 178.67,
+        "ClosedRate": 178.79,
+        "IsBuy": true,
+        "dollar_return": 0.12000000000000455,
+        "invested_amount": 178.67,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-05T16:31:52.35Z"
+    },
+    {
+        "TickerName": "NIO",
+        "OpenRate": 5.41,
+        "ClosedRate": 5.57,
+        "IsBuy": true,
+        "dollar_return": 0.16000000000000014,
+        "invested_amount": 5.41,
+        "leverage": 1,
+        "CloseDateTime": "2024-03-05T15:24:33.55Z"
+    },
+    {
+        "TickerName": "GOOG",
+        "OpenRate": 119.96,
+        "ClosedRate": 142.1,
+        "IsBuy": true,
+        "dollar_return": 22.14,
+        "invested_amount": 119.96,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-26T14:42:01.5Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 854.26,
+        "ClosedRate": 1030.95,
+        "IsBuy": true,
+        "dollar_return": 176.69000000000005,
+        "invested_amount": 854.26,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-23T14:44:34.023Z"
+    },
+    {
+        "TickerName": "NIO",
+        "OpenRate": 10.67,
+        "ClosedRate": 5.46,
+        "IsBuy": true,
+        "dollar_return": -5.21,
+        "invested_amount": 10.67,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-23T14:43:33.107Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 716.8701,
+        "ClosedRate": 755.29,
+        "IsBuy": true,
+        "dollar_return": 38.419899999999984,
+        "invested_amount": 716.8701,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-22T14:35:06.433Z"
+    },
+    {
+        "TickerName": "SEDG",
+        "OpenRate": 84.44,
+        "ClosedRate": 87.48,
+        "IsBuy": true,
+        "dollar_return": 3.0400000000000063,
+        "invested_amount": 84.44,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-15T14:45:06.477Z"
+    },
+    {
+        "TickerName": "SONO",
+        "OpenRate": 16.03,
+        "ClosedRate": 18.52,
+        "IsBuy": true,
+        "dollar_return": 2.4899999999999984,
+        "invested_amount": 16.03,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-08T17:57:55.913Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 424.78,
+        "ClosedRate": 700.22,
+        "IsBuy": true,
+        "dollar_return": 275.44000000000005,
+        "invested_amount": 424.78,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-08T17:56:31.343Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 424.78,
+        "ClosedRate": 698.3101,
+        "IsBuy": true,
+        "dollar_return": 273.53010000000006,
+        "invested_amount": 424.78,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-08T14:31:15.663Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 824.53,
+        "ClosedRate": 1012.31,
+        "IsBuy": true,
+        "dollar_return": 187.77999999999997,
+        "invested_amount": 824.53,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-08T09:26:18.487Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 849.0,
+        "ClosedRate": 1012.16,
+        "IsBuy": true,
+        "dollar_return": 163.15999999999997,
+        "invested_amount": 849.0,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-08T09:26:09.79Z"
+    },
+    {
+        "TickerName": "SEDG",
+        "OpenRate": 69.14,
+        "ClosedRate": 74.45,
+        "IsBuy": true,
+        "dollar_return": 5.310000000000002,
+        "invested_amount": 69.14,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-07T17:47:28.747Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 870.9,
+        "ClosedRate": 1006.68,
+        "IsBuy": true,
+        "dollar_return": 135.77999999999997,
+        "invested_amount": 870.9,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-07T14:33:32.26Z"
+    },
+    {
+        "TickerName": "QQQ",
+        "OpenRate": 428.0011,
+        "ClosedRate": 429.6346,
+        "IsBuy": true,
+        "dollar_return": 1.6334999999999695,
+        "invested_amount": 428.0011,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-07T14:30:13.17Z"
+    },
+    {
+        "TickerName": "AMZN",
+        "OpenRate": 139.86,
+        "ClosedRate": 170.78,
+        "IsBuy": true,
+        "dollar_return": 30.919999999999987,
+        "invested_amount": 139.86,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-02T16:06:32.51Z"
+    },
+    {
+        "TickerName": "META",
+        "OpenRate": 312.05,
+        "ClosedRate": 470.48,
+        "IsBuy": true,
+        "dollar_return": 158.43,
+        "invested_amount": 312.05,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-02T14:53:19.837Z"
+    },
+    {
+        "TickerName": "META",
+        "OpenRate": 249.08,
+        "ClosedRate": 471.03,
+        "IsBuy": true,
+        "dollar_return": 221.94999999999996,
+        "invested_amount": 249.08,
+        "leverage": 1,
+        "CloseDateTime": "2024-02-02T14:53:08.28Z"
+    },
+    {
+        "TickerName": "OTLY",
+        "OpenRate": 1.02,
+        "ClosedRate": 1.18,
+        "IsBuy": true,
+        "dollar_return": 0.15999999999999992,
+        "invested_amount": 1.02,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-29T20:26:26.173Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 612.5,
+        "ClosedRate": 618.6501,
+        "IsBuy": true,
+        "dollar_return": 6.150099999999952,
+        "invested_amount": 612.5,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-29T19:11:26.41Z"
+    },
+    {
+        "TickerName": "NVDA",
+        "OpenRate": 424.78,
+        "ClosedRate": 613.3601,
+        "IsBuy": true,
+        "dollar_return": 188.58010000000002,
+        "invested_amount": 424.78,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-29T14:35:25.54Z"
+    },
+    {
+        "TickerName": "NFLX",
+        "OpenRate": 435.35,
+        "ClosedRate": 558.16,
+        "IsBuy": true,
+        "dollar_return": 122.80999999999995,
+        "invested_amount": 435.35,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-24T14:52:27.333Z"
+    },
+    {
+        "TickerName": "NFLX",
+        "OpenRate": 418.71,
+        "ClosedRate": 558.61,
+        "IsBuy": true,
+        "dollar_return": 139.90000000000003,
+        "invested_amount": 418.71,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-24T14:52:18.097Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 871.19,
+        "ClosedRate": 1000.16,
+        "IsBuy": true,
+        "dollar_return": 128.9699999999999,
+        "invested_amount": 871.19,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-24T13:39:58.24Z"
+    },
+    {
+        "TickerName": "CNDX.L",
+        "OpenRate": 924.92,
+        "ClosedRate": 1000.19,
+        "IsBuy": true,
+        "dollar_return": 75.2700000000001,
+        "invested_amount": 924.92,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-24T13:39:49.8Z"
+    },
+    {
+        "TickerName": "OTLY",
+        "OpenRate": 1.17,
+        "ClosedRate": 1.2,
+        "IsBuy": true,
+        "dollar_return": 0.030000000000000027,
+        "invested_amount": 1.17,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-23T14:39:55.163Z"
+    },
+    {
+        "TickerName": "OTLY",
+        "OpenRate": 1.11,
+        "ClosedRate": 1.15,
+        "IsBuy": true,
+        "dollar_return": 0.039999999999999813,
+        "invested_amount": 1.11,
+        "leverage": 1,
+        "CloseDateTime": "2024-01-22T20:15:10.023Z"
+    }
+]

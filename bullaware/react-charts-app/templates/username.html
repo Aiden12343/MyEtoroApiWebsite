@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0D0D0D;
+            color: #FFFFFF;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #121212;
+        }
+        header a {
+            text-decoration: none;
+            color: #FFFFFF;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        header .search_submit {
+            padding: 10px 20px;
+            background-color: #1DB954;
+            border: none;
+            border-radius: 5px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #121212, #1A1A1A);
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #CCCCCC;
+            margin-bottom: 40px;
+        }
+        .hero .buttons a {
+            text-decoration: none;
+            padding: 15px 30px;
+            margin: 0 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+        .hero .buttons .start {
+            background-color: #1DB954;
+        }
+        .hero .buttons .learn {
+            background-color: transparent;
+            border: 2px solid #1DB954;
+        }
+        .dashboard {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 50px 20px;
+            background-color: #1A1A1A;
+        }
+        .card {
+            background-color: #121212;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 10px;
+            width: 450px; /* Increased width */
+            height: 450px; /* Increased height */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .card h3 {
+            margin: 0 0 10px 0;
+            font-size: 18px;
+            color: #1DB954;
+        }
+        .card p {
+            margin: 5px 0;
+            color: #CCCCCC;
+        }
+        .search-box {
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .search-box input[type="text"] {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .search-box button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #1DB954;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>Marau</h2>
+        </div>
+        <nav>
+            <a href="/home">Home</a>
+            <a href="/about">About</a>
+            <a href="#">Users</a>
+            <a href="/hotstocks">Hot Stocks</a>
+            <a href="/hiddenmetrics">Hidden Metrics</a>
+        </nav>
+        <div class="search-box">
+            <input type="text" id="username-search" placeholder="Search for usernames...">
+            <button class="search_submit" onclick="searchUsernames()">Search</button>
+        </div>
+    </header>
+    <section class="hero">
+        <h1>Viewing Profile: {{ username }}</h1>
+    </section>
+    <section class="dashboard">
+        <div class="card">
+            <h3>Risk Score</h3>
+            <!-- Line chart removed -->
+        </div>
+        <div class="card">
+            <h3>Portfolio Returns
+            <span style="float: right; cursor: pointer;" onclick="openSettings()">
+                <img src="https://img.icons8.com/ios-filled/50/ffffff/settings.png" alt="Settings" width="20" height="20">
+            </span>
+            <div id="settings-popup" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #121212; padding: 20px; border-radius: 10px; box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3); z-index: 1000;">
+                <h3 style="color: #1DB954;">Settings</h3>
+                <label style="color: #FFFFFF;">
+                    <input type="radio" name="data-interval" value="monthly" checked> Monthly
+                </label>
+                <label style="color: #FFFFFF;">
+                    <input type="radio" name="data-interval" value="yearly"> Yearly
+                </label>
+                <button onclick="closeSettings()" style="margin-top: 10px; padding: 10px 20px; background-color: #1DB954; border: none; border-radius: 5px; color: #FFFFFF; cursor: pointer;">Close</button>
+            </div>
+            <script>
+                function openSettings() {
+                    document.getElementById('settings-popup').style.display = 'block';
+                }
+
+                function closeSettings() {
+                    document.getElementById('settings-popup').style.display = 'none';
+                }
+            </script>
+            </h3>
+            <canvas id="barChart" width="450" height="450"></canvas> <!-- Adjusted width and height -->
+        </div>
+        <div class="card">
+            <h3>Portfolio Holdings</h3>
+            <canvas id="pieChart" width="450" height="450"></canvas> <!-- Adjusted width and height -->
+        </div>
+    </section>
+    <script>
+        function searchUsernames() {
+            var username = document.getElementById('username-search').value;
+            if (username) {
+                window.location.href = '/username?username=' + encodeURIComponent(username);
+            } else {
+                alert('Please enter a username');
+            }
+        }
+    </script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script>
+    // Bar Chart
+    var barChart = echarts.init(document.getElementById('barChart'));
+    var barOption = {
+        title: {
+            text: 'Returns %',
+            left: 'center',
+            textStyle: {
+                color: '#fff', // Adjust if using a dark background
+            }
+        },
+        tooltip: {},
+        xAxis: {
+            data: [],
+            axisLabel: {
+                color: '#fff' // Adjust if using a dark background
+            }
+        },
+        yAxis: {
+            axisLabel: {
+                color: '#fff' // Adjust if using a dark background
+            }
+        },
+        series: [{
+            name: 'Returns',
+            type: 'bar',
+            data: [],
+            itemStyle: {
+                color: function(params) {
+                    return params.value >= 0 ? '#1DB954' : '#FF4C4C'; // Green for positive, red for negative
+                }
+            },
+            barWidth: '50%' // Thicker bars
+        }]
+    };
+    barChart.setOption(barOption);
+
+    // Fetch data and update Bar Chart
+    function fetchBarChartData() {
+        const timeframe = document.querySelector('input[name="data-interval"]:checked').value;
+        fetch(`/api/portfolio_returns?username={{ username }}&timeframe=${timeframe}`)
+            .then(response => response.json())
+            .then(data => {
+                const returnsData = data['returns'];
+                if (!returnsData) {
+                    throw new Error("No returns data found");
+                }
+                const xAxisData = returnsData.map(item => {
+                    const date = new Date(item.start);
+                    return timeframe === 'yearly' ? date.getFullYear() : date.toLocaleString('default', { month: 'long' });
+                });
+                const seriesData = returnsData.map(item => item.gain);
+
+                barOption.xAxis.data = xAxisData;
+                barOption.series[0].data = seriesData;
+                barChart.setOption(barOption);
+            })
+            .catch(error => console.error('Error fetching bar chart data:', error));
+    }
+
+    // Initial fetch
+    fetchBarChartData();
+
+    // Update chart when settings change
+    document.querySelectorAll('input[name="data-interval"]').forEach(radio => {
+        radio.addEventListener('change', fetchBarChartData);
+    });
+    // Fetch investment percentages from server and render Pie Chart
+    fetch('/api/exposure?username={{ username }}')
+        .then(response => response.json())
+        .then(data => {
+            const exposureData = data["Exposure"];
+            if (!exposureData) {
+                throw new Error("No exposure data found");
+            }
+            const investment_pcts = exposureData.map(item => item.investmentPct);
+            const asset_names = exposureData.map(item => item.instrumentId);
+
+            // Filter top 15 assets
+            const top15_pcts = investment_pcts.slice(0, 15);
+            const top15_names = asset_names.slice(0, 15);
+
+            // Calculate the percentage for "Other"
+            const other_pct = investment_pcts.slice(15).reduce((acc, pct) => acc + pct, 0);
+
+            // Create pie chart data
+            const pieData = [];
+            for (let i = 0; i < top15_pcts.length; i++) {
+                pieData.push({ value: top15_pcts[i], name: `${top15_names[i]}` });
+            }
+            if (other_pct > 0) {
+                pieData.push({ value: other_pct, name: 'Other' });
+            }
+
+            // Initialize and set up the pie chart
+            const pieChart = echarts.init(document.getElementById('pieChart'));
+            const pieOption = {
+                title: {
+                    text: 'Exposure (%)',
+                    left: 'center',
+                    textStyle: {
+                        color: '#fff', // Adjust if using a dark background
+                    }
+                },
+                tooltip: {
+                    trigger: 'item',
+                    formatter: '{a} <br/>{b}: {c} ({d}%)'
+                },
+                legend: {
+                    orient: 'vertical',
+                    right: 'right',
+                    textStyle: {
+                        color: '#fff' // Adjust if using a dark background
+                    }
+                },
+                series: [
+                    {
+                        name: 'Investment Percentage',
+                        type: 'pie',
+                        radius: '50%',
+                        data: pieData,
+                        label: {
+                            show: false // Hide asset names
+                        },
+                        labelLine: {
+                            show: false // Hide lines drawn from the circle
+                        },
+                        emphasis: {
+                            itemStyle: {
+                                shadowBlur: 10,
+                                shadowOffsetX: 0,
+                                shadowColor: 'rgba(0, 0, 0, 0.5)'
+                            },
+                            label: {
+                                show: true,
+                                formatter: '{b}: {d}%',
+                                fontSize: 10,
+                                fontWeight: 'bold'
+                            }
+                        }
+                    }
+                ]
+            };
+            pieChart.setOption(pieOption);
+        })
+        .catch(error => console.error('Error fetching investment percentages:', error));
+</script>
+</html>
