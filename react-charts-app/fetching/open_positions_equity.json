@@ -1,0 +1,50 @@
+[
+    {
+        "TickerName": "INTC",
+        "AverageOpen": 25.132499,
+        "InvestedAmount": 17.930988,
+        "UnrealisedValue": -14.572760949876095,
+        "Leverage": 1.0,
+        "CurrentRate": 21.47
+    },
+    {
+        "TickerName": "AMD",
+        "AverageOpen": 141.6421,
+        "InvestedAmount": 12.46764,
+        "UnrealisedValue": -72.02766691541571,
+        "Leverage": 5.0,
+        "CurrentRate": 121.2378
+    },
+    {
+        "TickerName": "SOXL",
+        "AverageOpen": 32.767323,
+        "InvestedAmount": 51.422712,
+        "UnrealisedValue": -1.0257871843848845,
+        "Leverage": 1.0,
+        "CurrentRate": 32.4312
+    },
+    {
+        "TickerName": "SPWRQ",
+        "AverageOpen": 3.19,
+        "InvestedAmount": 2.417994,
+        "UnrealisedValue": -99.92476489028212,
+        "Leverage": 1.0,
+        "CurrentRate": 0.0024
+    },
+    {
+        "TickerName": "RDFN",
+        "AverageOpen": 11.926969,
+        "InvestedAmount": 8.965494,
+        "UnrealisedValue": -35.60811636217047,
+        "Leverage": 1.0,
+        "CurrentRate": 7.68
+    },
+    {
+        "TickerName": "OPRA",
+        "AverageOpen": 20.48,
+        "InvestedAmount": 2.241374,
+        "UnrealisedValue": -10.595703125000009,
+        "Leverage": 1.0,
+        "CurrentRate": 18.31
+    }
+]

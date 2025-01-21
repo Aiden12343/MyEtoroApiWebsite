@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% extends "base.html" %}
+
+    {% block title %} Hot Stocks {% endblock %}
+
+    {% block content %}
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0D0D0D;
+            color: #FFFFFF;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #121212;
+        }
+        header a {
+            text-decoration: none;
+            color: #FFFFFF;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+        header .search_submit {
+            padding: 10px 20px;
+            background-color: #1DB954;
+            border: none;
+            border-radius: 5px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px 20px;
+            background: linear-gradient(135deg, #121212, #1A1A1A);
+        }
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #CCCCCC;
+            margin-bottom: 40px;
+        }
+        .hero .buttons a {
+            text-decoration: none;
+            padding: 15px 30px;
+            margin: 0 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+        .hero .buttons .start {
+            background-color: #1DB954;
+        }
+        .hero .buttons .learn {
+            background-color: transparent;
+            border: 2px solid #1DB954;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>Explore Hot Stocks</h1>
+        <p>Discover the trending stocks in the market</p>
+    </section>
+    <section class="dashboard">
+        <div class="card" style="width: 90%; margin: 0 auto;">
+            <div class="card-container" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+                <div class="card" style="width: 30%; margin: 20px 0;">
+                    <h3 style="text-align: center;">Hot Stocks Overview ({{ hot_stocks_data['user_count'] }} Users)</h3>
+                    <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+                    <p style="font-size: 18px; color: #CCCCCC; text-align: center;">Top 10 most popular holdings</p>
+                    <div style="overflow-x: auto;">
+                        <table style="width: 100%; color: #CCCCCC; margin-top: 20px; border-collapse: collapse;">
+                            <thead>
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <th style="padding: 10px;">Stock Ticker</th>
+                                    <th style="padding: 10px;">Number of Shareholders (Long)</th>
+                                    <th style="padding: 10px;">Number of Users Short</th>
+                                    <th style="padding: 10px;">Average P/L</th>
+                                    <th style="padding: 10px;">Average % Value</th>
+                                </tr>
+                            </thead>
+                            <tbody style="max-height: 300px; overflow-y: auto;">
+                                {% for ticker, data in top_10_assets.items() %}
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <td style="padding: 10px;">{{ ticker }}</td>
+                                    <td style="padding: 10px;">{{ data['user_count'] }}</td>
+                                    <td style="padding: 10px;">{{ data['sell_count'] }}</td>
+                                    <td style="padding: 10px; color: {{ 'green' if data['average_net_profit'] >= 0 else 'red' }};">{{ data['average_net_profit'] }}%</td>
+                                    <td style="padding: 10px;">{{ data['average_value'] }}%</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="card" style="width: 30%; margin: 20px 0;">
+                    <h3 style="text-align: center;">Top 10 Shorted Stocks</h3>
+                    <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+                    <p style="font-size: 18px; color: #CCCCCC; text-align: center;">Top 10 most shorted stocks</p>
+                    <div style="overflow-x: auto;">
+                        <table style="width: 100%; color: #CCCCCC; margin-top: 20px; border-collapse: collapse;">
+                            <thead>
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <th style="padding: 10px;">Stock Ticker</th>
+                                    <th style="padding: 10px;">Number of Shareholders (Long)</th>
+                                    <th style="padding: 10px;">Number of Users Short</th>
+                                    <th style="padding: 10px;">Average P/L</th>
+                                    <th style="padding: 10px;">Average % Value</th>
+                                </tr>
+                            </thead>
+                            <tbody style="max-height: 300px; overflow-y: auto;">
+                                {% for ticker, data in top_10_shorted_assets.items() %}
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <td style="padding: 10px;">{{ ticker }}</td>
+                                    <td style="padding: 10px;">{{ data['user_count'] }}</td>
+                                    <td style="padding: 10px;">{{ data['sell_count'] }}</td>
+                                    <td style="padding: 10px; color: {{ 'green' if data['average_net_profit'] >= 0 else 'red' }};">{{ data['average_net_profit'] }}%</td>
+                                    <td style="padding: 10px;">{{ data['average_value'] }}%</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="card" style="width: 30%; margin: 20px 0;">
+                    <h3 style="text-align: center;">Top 10 Net Profit Stocks</h3>
+                    <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+                    <p style="font-size: 18px; color: #CCCCCC; text-align: center;">Top 10 stocks by net profit</p>
+                    <div style="overflow-x: auto;">
+                        <table style="width: 100%; color: #CCCCCC; margin-top: 20px; border-collapse: collapse;">
+                            <thead>
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <th style="padding: 10px;">Stock Ticker</th>
+                                    <th style="padding: 10px;">Number of Shareholders (Long)</th>
+                                    <th style="padding: 10px;">Number of Users Short</th>
+                                    <th style="padding: 10px;">Average P/L</th>
+                                    <th style="padding: 10px;">Average % Value</th>
+                                </tr>
+                            </thead>
+                            <tbody style="max-height: 300px; overflow-y: auto;">
+                                {% for ticker, data in top_10_net_profit_assets.items() %}
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <td style="padding: 10px;">{{ ticker }}</td>
+                                    <td style="padding: 10px;">{{ data['user_count'] }}</td>
+                                    <td style="padding: 10px;">{{ data['sell_count'] }}</td>
+                                    <td style="padding: 10px; color: {{ 'green' if data['average_net_profit'] >= 0 else 'red' }};">{{ data['average_net_profit'] }}%</td>
+                                    <td style="padding: 10px;">{{ data['average_value'] }}%</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+{% endblock %}
+</html>

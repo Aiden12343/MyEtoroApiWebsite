@@ -1,0 +1,112 @@
+{
+    "NSDQ100": {
+        "buy_count": 13,
+        "sell_count": 19,
+        "total_invested": 0,
+        "total_net_profit": -596.55,
+        "total_value": 225.99,
+        "user_count": 32,
+        "average_invested": 0.0,
+        "average_net_profit": -18.64,
+        "average_value": 7.06
+    },
+    "GER40": {
+        "buy_count": 0,
+        "sell_count": 16,
+        "total_invested": 0,
+        "total_net_profit": -356.97,
+        "total_value": 210.05999999999997,
+        "user_count": 16,
+        "average_invested": 0.0,
+        "average_net_profit": -22.31,
+        "average_value": 13.13
+    },
+    "SPX500": {
+        "buy_count": 8,
+        "sell_count": 12,
+        "total_invested": 0,
+        "total_net_profit": -361.8,
+        "total_value": 227.75999999999996,
+        "user_count": 20,
+        "average_invested": 0.0,
+        "average_net_profit": -18.09,
+        "average_value": 11.39
+    },
+    "USDJPY": {
+        "buy_count": 1,
+        "sell_count": 8,
+        "total_invested": 0,
+        "total_net_profit": -97.7,
+        "total_value": 64.96,
+        "user_count": 9,
+        "average_invested": 0.0,
+        "average_net_profit": -10.86,
+        "average_value": 7.22
+    },
+    "NVDA": {
+        "buy_count": 107,
+        "sell_count": 7,
+        "total_invested": 0,
+        "total_net_profit": 4372.63,
+        "total_value": 712.2799999999999,
+        "user_count": 114,
+        "average_invested": 0.0,
+        "average_net_profit": 38.36,
+        "average_value": 6.25
+    },
+    "AAPL": {
+        "buy_count": 85,
+        "sell_count": 6,
+        "total_invested": 0,
+        "total_net_profit": 1331.52,
+        "total_value": 290.8399999999999,
+        "user_count": 91,
+        "average_invested": 0.0,
+        "average_net_profit": 14.63,
+        "average_value": 3.2
+    },
+    "GOLD": {
+        "buy_count": 5,
+        "sell_count": 6,
+        "total_invested": 0,
+        "total_net_profit": -160.19,
+        "total_value": 68.47,
+        "user_count": 11,
+        "average_invested": 0.0,
+        "average_net_profit": -14.56,
+        "average_value": 6.22
+    },
+    "MSFT": {
+        "buy_count": 126,
+        "sell_count": 5,
+        "total_invested": 0,
+        "total_net_profit": 1639.96,
+        "total_value": 505.49999999999994,
+        "user_count": 131,
+        "average_invested": 0.0,
+        "average_net_profit": 12.52,
+        "average_value": 3.86
+    },
+    "BTC": {
+        "buy_count": 98,
+        "sell_count": 5,
+        "total_invested": 0,
+        "total_net_profit": 6927.12,
+        "total_value": 746.2399999999999,
+        "user_count": 103,
+        "average_invested": 0.0,
+        "average_net_profit": 67.25,
+        "average_value": 7.25
+    },
+    "META": {
+        "buy_count": 74,
+        "sell_count": 5,
+        "total_invested": 0,
+        "total_net_profit": 2829.14,
+        "total_value": 311.8100000000001,
+        "user_count": 79,
+        "average_invested": 0.0,
+        "average_net_profit": 35.81,
+        "average_value": 3.95
+    }
+}

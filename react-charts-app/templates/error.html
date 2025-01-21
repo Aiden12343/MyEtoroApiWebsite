@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}Error{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<section class="hero">
+    <h1>Something went wrong</h1>
+    <p>You broke something. Try request again. If the issue persists, contact the owner.</p>
+    <div class="buttons">
+        <a href="/home" class="home" style="background-color: #1DB954; padding: 15px 30px; border-radius: 5px; color: #FFFFFF; text-decoration: none;">Return to home</a>
+    </div>
+</section>
+{% endblock %}

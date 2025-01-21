@@ -1,0 +1,112 @@
+{
+    "MSFT": {
+        "buy_count": 126,
+        "sell_count": 5,
+        "total_invested": 0,
+        "total_net_profit": 1639.96,
+        "total_value": 505.49999999999994,
+        "user_count": 131,
+        "average_invested": 0.0,
+        "average_net_profit": 12.52,
+        "average_value": 3.86
+    },
+    "BABA": {
+        "buy_count": 119,
+        "sell_count": 1,
+        "total_invested": 0,
+        "total_net_profit": -2471.13,
+        "total_value": 670.08,
+        "user_count": 120,
+        "average_invested": 0.0,
+        "average_net_profit": -20.59,
+        "average_value": 5.58
+    },
+    "NVDA": {
+        "buy_count": 107,
+        "sell_count": 7,
+        "total_invested": 0,
+        "total_net_profit": 4372.63,
+        "total_value": 712.2799999999999,
+        "user_count": 114,
+        "average_invested": 0.0,
+        "average_net_profit": 38.36,
+        "average_value": 6.25
+    },
+    "INTC": {
+        "buy_count": 103,
+        "sell_count": 2,
+        "total_invested": 0,
+        "total_net_profit": -2296.58,
+        "total_value": 439.3600000000002,
+        "user_count": 105,
+        "average_invested": 0.0,
+        "average_net_profit": -21.87,
+        "average_value": 4.18
+    },
+    "BTC": {
+        "buy_count": 98,
+        "sell_count": 5,
+        "total_invested": 0,
+        "total_net_profit": 6927.12,
+        "total_value": 746.2399999999999,
+        "user_count": 103,
+        "average_invested": 0.0,
+        "average_net_profit": 67.25,
+        "average_value": 7.25
+    },
+    "GOOG": {
+        "buy_count": 92,
+        "sell_count": 3,
+        "total_invested": 0,
+        "total_net_profit": 2572.93,
+        "total_value": 376.2200000000001,
+        "user_count": 95,
+        "average_invested": 0.0,
+        "average_net_profit": 27.08,
+        "average_value": 3.96
+    },
+    "AAPL": {
+        "buy_count": 85,
+        "sell_count": 6,
+        "total_invested": 0,
+        "total_net_profit": 1331.52,
+        "total_value": 290.8399999999999,
+        "user_count": 91,
+        "average_invested": 0.0,
+        "average_net_profit": 14.63,
+        "average_value": 3.2
+    },
+    "PYPL": {
+        "buy_count": 89,
+        "sell_count": 1,
+        "total_invested": 0,
+        "total_net_profit": 60.58,
+        "total_value": 254.71000000000006,
+        "user_count": 90,
+        "average_invested": 0.0,
+        "average_net_profit": 0.67,
+        "average_value": 2.83
+    },
+    "NKE": {
+        "buy_count": 88,
+        "sell_count": 1,
+        "total_invested": 0,
+        "total_net_profit": -1526.92,
+        "total_value": 324.04999999999995,
+        "user_count": 89,
+        "average_invested": 0.0,
+        "average_net_profit": -17.16,
+        "average_value": 3.64
+    },
+    "KO": {
+        "buy_count": 83,
+        "sell_count": 2,
+        "total_invested": 0,
+        "total_net_profit": 207.21,
+        "total_value": 202.14,
+        "user_count": 85,
+        "average_invested": 0.0,
+        "average_net_profit": 2.44,
+        "average_value": 2.38
+    }
+}

@@ -1,0 +1,187 @@
+{% extends "base.html" %}
+
+{% block title %}Ticker Page{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h1>{{ ticker_name }}</h1>
+    <p>Discover users holding your favourite assets</p>
+</section>
+<section class="dashboard">
+    <div class="card-container" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+        <div class="card" style="width: 30%; margin: 20px 0;">
+            <h3 style="text-align: center;">Shareholders</h3>
+            <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+            {% if users_with_ticker %}
+            <div>
+                <ul style="list-style-type: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px;">
+                    {% for user in users_with_ticker %}
+                    <li style="padding: 10px; border: 1px solid #1DB954; border-radius: 5px; background-color: #f9f9f9; flex: 1 1 calc(25% - 20px); text-align: center; position: relative;">
+                        {{ user.username }}
+                        <div class="user-details-card" style="display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); background-color: white; border: 1px solid #1DB954; border-radius: 5px; padding: 20px; width: 300px; z-index: 10;">
+                            <h3>User Details</h3>
+                            <div style="align-items: center;">
+                                <img src="{{ user.avatar_url }}" alt="User Avatar" style="border-radius: 50%; width: 100px; height: 100px; margin-right: 20px;">
+                                <p style="font-size: 20px; font-weight: bold;">{{ user.username }}</p>
+                            </div>
+                            <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+                            <h3>Trading Data</h3>
+                            <table style="width: 100%; color: #CCCCCC; margin-top: 20px; border-collapse: collapse;">
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <td style="padding: 10px;">Total Closed Positions:</td>
+                                    <td style="padding: 10px;">{{ user.TotalClosedManualPositions }}</td>
+                                </tr>
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <td style="padding: 10px;">Total Closed Copy Positions:</td>
+                                    <td style="padding: 10px;">{{ user.TotalClosedMirrorPositions }}</td>
+                                </tr>
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <td style="padding: 10px;">Total Net Profit Closed:</td>
+                                    <td style="padding: 10px;">{{ user.TotalNetProfitPercentage | round(2) }}%</td>
+                                </tr>
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <td style="padding: 10px;">Total Profitable Trades:</td>
+                                    <td style="padding: 10px;">{{ user.TotalProfitabilityPercentage | round(2) }}%</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px;">Risk Score:</td>
+                                    <td style="padding: 10px;">{{ user.RiskScore }}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% else %}
+            <p style="font-size: 18px; color: #CCCCCC; text-align: center;">No users with ticker found.</p>
+            {% endif %}
+        </div>
+        <div class="card" style="width: 30%; margin: 20px 0;">
+            <h3 style="text-align: center;">User Distribution</h3>
+            <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+            <div id="user-distribution-chart" style="width: 100%; height: 400px;"></div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+        <script>
+            var chartDom = document.getElementById('user-distribution-chart');
+            var myChart = echarts.init(chartDom);
+            var option;
+
+            var userDistributionData = JSON.parse('{{ country_percentage | tojson | safe }}');
+            var formattedData = Object.keys(userDistributionData).map(function(key) {
+            return { name: key, value: userDistributionData[key] };
+            });
+
+            option = {
+            title: {
+            text: 'User Distribution by Country',
+            left: 'center',
+            textStyle: {
+            fontSize: 18,
+            fontWeight: 'bold'
+            }
+            },
+            tooltip: {
+            trigger: 'item'
+            },
+            legend: {
+            orient: 'vertical',
+            right: 'right',
+            textStyle: {
+            fontSize: 14,
+            color: '#FFFFFF' // Set legend text color to white
+            }
+            },
+            series: [
+            {
+            name: 'Users',
+            type: 'pie',
+            radius: '50%',
+            data: formattedData,
+            emphasis: {
+            itemStyle: {
+            shadowBlur: 10,
+            shadowOffsetX: 0,
+            shadowColor: 'rgba(0, 0, 0, 0.5)'
+            }
+            },
+            label: {
+            show: false
+            }
+            }
+            ]
+            };
+
+            option && myChart.setOption(option);
+        </script>
+    <div class="card" style="width: 30%; margin: 20px 0;">
+        <h3 style="text-align: center;">Investors by number of copiers</h3>
+        <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+        <div id="copier-distribution-chart" style="width: 100%; height: 400px;"></div>
+    </div>
+    <script>
+        var copierChartDom = document.getElementById('copier-distribution-chart');
+        var copierChart = echarts.init(copierChartDom);
+        var copierOption;
+
+        var copierDistributionData = JSON.parse('{{ copier_percentage | default({}) | tojson | safe }}');
+        var copierCategories = Object.keys(copierDistributionData);
+        var copierValues = Object.values(copierDistributionData);
+
+        copierOption = {
+            title: {
+                text: 'Copier Distribution',
+                left: 'center',
+                textStyle: {
+                    fontSize: 18,
+                    fontWeight: 'bold'
+                }
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                }
+            },
+            xAxis: {
+                type: 'category',
+                data: copierCategories,
+                axisLabel: {
+                    fontSize: 14,
+                    color: '#FFFFFF' // Set x-axis label text color to white
+                }
+            },
+            yAxis: {
+                type: 'value',
+                axisLabel: {
+                    fontSize: 14,
+                    color: '#FFFFFF' // Set y-axis label text color to white
+                }
+            },
+            series: [
+                {
+                    name: 'Users',
+                    type: 'bar',
+                    data: copierValues,
+                    itemStyle: {
+                        color: '#1DB954'
+                    }
+                }
+            ]
+        };
+
+        copierOption && copierChart.setOption(copierOption);
+    </script>
+
+<script>
+    document.querySelectorAll('.card-container li').forEach(function(item) {
+        item.addEventListener('mouseover', function() {
+            this.querySelector('.user-details-card').style.display = 'block';
+        });
+        item.addEventListener('mouseout', function() {
+            this.querySelector('.user-details-card').style.display = 'none';
+        });
+    });
+</script>
+{% endblock %}
