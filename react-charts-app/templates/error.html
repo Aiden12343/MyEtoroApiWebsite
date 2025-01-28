@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %}Error{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+<section class="hero">
+    <h1>Something went wrong</h1>
+    <p>You broke something. Try request again. If the issue persists, contact the owner.</p>
+    <div class="buttons">
+        <a href="/home" class="home" style="background-color: #1DB954; padding: 15px 30px; border-radius: 5px; color: #FFFFFF; text-decoration: none;">Return to home</a>
+    </div>
+</section>
+<section class="error-reasons" style="text-align: center; padding: 20px;">
+    <h2>Possible Reasons for the Error</h2>
+    <ul style="list-style-type: none; padding: 0;">
+        <li style="margin-bottom: 10px;">Network issues or server downtime.</li>
+        <li style="margin-bottom: 10px;">Incorrect URL or missing parameters.</li>
+        <li style="margin-bottom: 10px;">Insufficient permissions to access the resource.</li>
+        <li style="margin-bottom: 10px;">Unexpected server error or bug in the application.</li>
+        <li style="margin-bottom: 10px;">Searched for user, was a private account or holds an undefined position.</li>
+    </ul>
+</section>
+{% endblock %}

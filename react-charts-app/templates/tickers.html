@@ -1,0 +1,665 @@
+{% extends "base.html" %}
+
+{% block title %}Ticker Page{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h1>{{ ticker_name if ticker_name else "Search for a Ticker" }}</h1>
+    <p>Discover users holding your favourite assets</p>
+<form action="/tickers?ticker=" method="get" style="margin-top: 20px; text-align: center;">
+    <input type="text" name="ticker" placeholder="Enter ticker symbol" style="padding: 10px; border: 1px solid #1DB954; border-radius: 5px; width: 300px;">
+    <button type="submit" style="padding: 10px 20px; border: none; border-radius: 5px; background-color: #1DB954; color: white; cursor: pointer;">Search</button>
+</form>
+</section>
+<section class="dashboard">
+    <div class="card-container" style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px;">
+        <div class="card" style="width: 30%; margin: 20px 0;">
+            {% if size %}
+            <h3 style="text-align: center;">Shareholders (Displaying {{ size if size <= total_users_invested else total_users_invested }} out of {{total_users_invested}})</h3>
+            {% endif %}
+            <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+            {% if users_with_ticker %}
+            <div>
+                <ul style="list-style-type: none; padding: 0; display: flex; flex-wrap: wrap; gap: 10px;">
+                    {% for user in users_with_ticker %}
+                    <li style="padding: 10px; border: 1px solid #1DB954; border-radius: 5px; background-color: #f9f9f9; flex: 1 1 calc(25% - 20px); text-align: center; position: relative;">
+                        {{ user.username }}
+                        <div class="user-details-card" style="display: none; position: absolute; top: 100%; left: 50%; transform: translateX(-50%); background-color: white; border: 1px solid #1DB954; border-radius: 5px; padding: 20px; width: 300px; z-index: 10;">
+                            <h3>User Details</h3>
+                            <div style="align-items: center;">
+                                <img src="{{ user.avatar_url }}" alt="User Avatar" style="border-radius: 50%; width: 100px; height: 100px; margin-right: 20px;">
+                                <p style="font-size: 20px; font-weight: bold;">{{ user.username }}</p>
+                            </div>
+                            <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+                            <h3>Trading Data</h3>
+                            <table style="width: 100%; color: #CCCCCC; margin-top: 20px; border-collapse: collapse;">
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <td style="padding: 10px;">Total Closed Positions:</td>
+                                    <td style="padding: 10px;">{{ user.TotalClosedManualPositions }}</td>
+                                </tr>
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <td style="padding: 10px;">Total Closed Copy Positions:</td>
+                                    <td style="padding: 10px;">{{ user.TotalClosedMirrorPositions }}</td>
+                                </tr>
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <td style="padding: 10px;">Total Net Profit Closed:</td>
+                                    <td style="padding: 10px;">{{ user.TotalNetProfitPercentage | round(2) }}%</td>
+                                </tr>
+                                <tr style="border-bottom: 1px solid #1DB954;">
+                                    <td style="padding: 10px;">Total Profitable Trades:</td>
+                                    <td style="padding: 10px;">{{ user.TotalProfitabilityPercentage | round(2) }}%</td>
+                                </tr>
+                                <tr>
+                                    <td style="padding: 10px;">Risk Score:</td>
+                                    <td style="padding: 10px;">{{ user.RiskScore }}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {% else %}
+            <p style="font-size: 18px; color: #CCCCCC; text-align: center;">No users with ticker found.</p>
+            <p style="font-size: 14px; color: #888888; text-align: center;">We likely found no results for this ticker, or you have not searched for an asset yet.</p>
+            {% endif %}
+        </div>
+        {% if country_percentage %}
+        <div class="card" style="width: 30%; margin: 20px 0;">
+            <h3 style="text-align: center;">User Distribution</h3>
+            <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+            <div id="user-distribution-chart" style="width: 100%; height: 400px;"></div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+        <script>
+            var chartDom = document.getElementById('user-distribution-chart');
+            var myChart = echarts.init(chartDom);
+            var option;
+
+            var userDistributionData = JSON.parse('{{ country_percentage | tojson | safe }}');
+            var formattedData = Object.keys(userDistributionData).map(function(key) {
+            return { name: key, value: userDistributionData[key] };
+            });
+
+            // Sort data by value in descending order
+            formattedData.sort(function(a, b) {
+            return b.value - a.value;
+            });
+
+            // Get top 10 countries and sum the rest into "Other"
+            var top10Data = formattedData.slice(0, 15);
+            var otherData = formattedData.slice(15);
+            var otherValue = otherData.reduce(function(sum, item) {
+            return sum + item.value;
+            }, 0);
+            if (otherValue > 0) {
+            top10Data.push({ name: 'Other', value: otherValue });
+
+            option = {
+            title: {
+            text: 'User Distribution by Country',
+            left: 'center',
+            textStyle: {
+            fontSize: 18,
+            fontWeight: 'bold'
+            }
+            },
+            tooltip: {
+            trigger: 'item',
+            formatter: function(params) {
+            if (params.name === 'Other') {
+                var otherBreakdown = otherData.map(function(item) {
+                return item.name + ': ' + item.value.toFixed(2);
+                }).join('<br/>');
+                return 'Other:<br/>' + otherBreakdown;
+            }
+            return params.name + ': ' + params.value.toFixed(2);
+            }
+            },
+            legend: {
+            orient: 'horizontal',
+            left: 'left',
+            top: 'bottom',
+            textStyle: {
+            fontSize: 14,
+            color: '#FFFFFF' // Set legend text color to white
+            },
+            formatter: function(name) {
+            var index = top10Data.findIndex(function(item) {
+                return item.name === name;
+            });
+            return index % 2 === 0 ? '{left|' + name + '}' : '{right|' + name + '}';
+            },
+            textStyle: {
+            rich: {
+                left: {
+                align: 'left'
+                },
+                right: {
+                align: 'right'
+                }
+            },
+            color: '#FFFFFF' // Ensure legend text color is white
+            }
+            },
+            series: [
+            {
+            name: 'Users',
+            type: 'pie',
+            radius: '50%',
+            data: top10Data,
+            emphasis: {
+                itemStyle: {
+                shadowBlur: 10,
+                shadowOffsetX: 0,
+                shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            },
+            label: {
+                show: false
+            }
+            }
+            ]
+            }
+            }
+
+            option && myChart.setOption(option);
+        </script>
+        {% endif %}
+        {% if copier_percentage %}
+        <div class="card" style="width: 30%; margin: 20px 0;">
+        <h3 style="text-align: center;">Investors by number of copiers (% per Category)</h3>
+        <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+        <div id="copier-distribution-chart" style="width: 100%; height: 400px;"></div>
+        </div>
+        <script>
+        var copierChartDom = document.getElementById('copier-distribution-chart');
+        var copierChart = echarts.init(copierChartDom);
+        var copierOption;
+
+        var copierDistributionData = JSON.parse('{{ copier_percentage | default({}) | tojson | safe }}');
+        var copierCategories = ['0-100', '101-300', '301-600', '601-1000', '1001-2000', '2001+'];
+        var copierValues = copierCategories.map(function(category) {
+            return copierDistributionData[category] || 0;
+        });
+
+        copierOption = {
+            title: {
+                text: 'Copier Distribution',
+                left: 'center',
+                textStyle: {
+                    fontSize: 18,
+                    fontWeight: 'bold'
+                }
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                }
+            },
+            xAxis: {
+                type: 'category',
+                data: copierCategories,
+                axisLabel: {
+                    fontSize: 14,
+                    color: '#FFFFFF' // Set x-axis label text color to white
+                }
+            },
+            yAxis: {
+                type: 'value',
+                axisLabel: {
+                    fontSize: 14,
+                    color: '#FFFFFF' // Set y-axis label text color to white
+                }
+            },
+            series: [
+                {
+                    name: 'Users',
+                    type: 'bar',
+                    data: copierValues,
+                    itemStyle: {
+                        color: '#1DB954'
+                    }
+                }
+            ]
+        };
+
+        copierOption && copierChart.setOption(copierOption);
+        </script>
+        {% endif %}
+        {% if ordered_aggregated_counts %}
+        <div class="card" style="width: 30%; margin: 20px 0;">
+            <h3 style="text-align: center; color: #FFFFFF;">Active interest in asset</h3>
+            <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+            <div id="buyers-chart" style="width: 100%; height: 400px;"></div>
+        </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.2/echarts.min.js"></script>
+<script>
+    // Get the DOM element for the chart
+    var buyersChartDom = document.getElementById('buyers-chart');
+
+    // Initialize ECharts
+    var buyersChart = echarts.init(buyersChartDom);
+
+    // Get data passed from Flask
+    var buyersData = JSON.parse('{{ ordered_aggregated_counts | default({}) | tojson | safe }}');
+    var investedAmountData = JSON.parse('{{ average_invested_amount | default({}) | tojson | safe }}');
+
+    // Ensure data is valid before proceeding
+    if (buyersData && Object.keys(buyersData).length > 0) {
+        var dates = Object.keys(buyersData);
+        var buyers = Object.values(buyersData);
+        var investedAmounts = dates.map(date => investedAmountData[date] || null); // Map invested amounts to dates
+
+        // Define chart options
+        var buyersOption = {
+            title: {
+                text: 'Number of positions opened per day vs Average % allocation',
+                left: 'center',
+                textStyle: {
+                    fontSize: 18,
+                    fontWeight: 'bold',
+                    color: '#FFFFFF' // Title text color
+                }
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                },
+                textStyle: {
+                    fontSize: 12,
+                    color: '#FFFFFF'
+                },
+                backgroundColor: 'rgba(0, 0, 0, 0.7)'
+            },
+            xAxis: {
+                type: 'category',
+                data: dates,
+                axisLabel: {
+                    fontSize: 14,
+                    color: '#FFFFFF' // Set x-axis label text color to white
+                }
+            },
+            yAxis: [
+                {
+                    type: 'value',
+                    name: 'Buyers',
+                    axisLabel: {
+                        fontSize: 14,
+                        color: '#FFFFFF' // Set y-axis label text color to white
+                    },
+                    splitLine: {
+                        lineStyle: {
+                            color: 'rgba(255, 255, 255, 0.2)' // Light grid lines
+                        }
+                    }
+                },
+                {
+                    type: 'value',
+                    name: 'Avg Invested Amount',
+                    axisLabel: {
+                        fontSize: 14,
+                        color: '#FFFFFF' // Set y-axis label text color to white
+                    },
+                    splitLine: {
+                        lineStyle: {
+                            color: 'rgba(255, 255, 255, 0.2)' // Light grid lines
+                        }
+                    }
+                }
+            ],
+            series: [
+                {
+                    name: 'Buyers',
+                    type: 'bar',
+                    data: buyers,
+                    itemStyle: {
+                        color: '#1DB954'
+                    },
+                    barWidth: '60%' // Adjust bar width
+                },
+                {
+                    name: 'Avg Invested Amount',
+                    type: 'line',
+                    yAxisIndex: 1,
+                    data: investedAmounts,
+                    itemStyle: {
+                        color: '#FF5733'
+                    },
+                    connectNulls: true // Ensure the line is continuous
+                }
+            ],
+            backgroundColor: '#1E1E1E' // Optional: Chart background color for a dark theme
+        };
+
+        // Set the options and render the chart
+        buyersChart.setOption(buyersOption);
+    } else {
+        console.log(buyersData);
+        console.warn('No data available for the chart.');
+        buyersChartDom.innerHTML = "<p style='color: #FFFFFF; text-align: center;'>No data available to display the chart.</p>";
+    }
+</script>
+{% endif %}
+{% if ordered_aggregated_closed_counts %}
+<div class="card" style="width: 30%; margin: 20px 0;">
+    <h3 style="text-align: center; color: #FFFFFF;">Historical Ownership</h3>
+    <div style="border-top: 2px solid #1DB954; width: 100%; margin-top: 20px; margin-bottom: 20px;"></div>
+    <div id="buyers-chart-closed" style="width: 100%; height: 400px;"></div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.2/echarts.min.js"></script>
+<script>
+    // Get the DOM element for the chart
+    var buyersChartDom = document.getElementById('buyers-chart-closed');
+
+    // Initialize ECharts
+    var buyersChart = echarts.init(buyersChartDom);
+
+    // Get data passed from Flask
+    var buyersData = JSON.parse('{{ ordered_aggregated_closed_counts | default({}) | tojson | safe }}');
+
+    // Example prices data
+    var pricesData = JSON.parse('{{ price_data | default([]) | tojson | safe }}');
+
+    // Ensure data is valid before proceeding
+    if (buyersData && Object.keys(buyersData).length > 0) {
+        var dates = Object.keys(buyersData);
+        var buyers = Object.values(buyersData);
+        var prices = dates.map(date => {
+            var priceObj = pricesData.find(item => item.date === date);
+            return priceObj ? priceObj.price : null; // Use null for missing data
+        }); // Map prices to dates
+
+        // Define chart options
+        var buyersOption = {
+            title: {
+                text: 'Number of historically owned positions per day',
+                left: 'center',
+                textStyle: {
+                    fontSize: 18,
+                    fontWeight: 'bold',
+                    color: '#FFFFFF' // Title text color
+                }
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                },
+                textStyle: {
+                    fontSize: 12,
+                    color: '#FFFFFF'
+                },
+                backgroundColor: 'rgba(0, 0, 0, 0.7)'
+            },
+            xAxis: {
+                type: 'category',
+                data: dates,
+                axisLabel: {
+                    fontSize: 14,
+                    color: '#FFFFFF' // Set x-axis label text color to white
+                }
+            },
+            yAxis: [
+                {
+                    type: 'value',
+                    name: 'Buyers',
+                    axisLabel: {
+                        fontSize: 14,
+                        color: '#FFFFFF' // Set y-axis label text color to white
+                    },
+                    splitLine: {
+                        lineStyle: {
+                            color: 'rgba(255, 255, 255, 0.2)' // Light grid lines
+                        }
+                    }
+                },
+                {
+                    type: 'value',
+                    name: 'Price',
+                    axisLabel: {
+                        fontSize: 14,
+                        color: '#FFFFFF' // Set y-axis label text color to white
+                    },
+                    splitLine: {
+                        lineStyle: {
+                            color: 'rgba(255, 255, 255, 0.2)' // Light grid lines
+                        }
+                    }
+                }
+            ],
+            series: [
+                {
+                    name: 'Buyers',
+                    type: 'bar',
+                    data: buyers,
+                    itemStyle: {
+                        color: '#1DB954'
+                    },
+                    barWidth: '60%' // Adjust bar width
+                },
+                {
+                    name: 'Price',
+                    type: 'line',
+                    yAxisIndex: 1,
+                    data: prices,
+                    itemStyle: {
+                        color: '#FF5733'
+                    },
+                    connectNulls: true // Ensure the line is continuous
+                }
+            ],
+            backgroundColor: '#1E1E1E' // Optional: Chart background color for a dark theme
+        };
+
+        // Set the options and render the chart
+        buyersChart.setOption(buyersOption);
+        } else {
+        console.log(buyersData);
+        console.warn('No data available for the chart.');
+        buyersChartDom.innerHTML = "<p style='color: #FFFFFF; text-align: center;'>No data available to display the chart.</p>";
+        }
+
+        // Check if price data is unavailable
+        if (!pricesData || pricesData.length === 0) {
+        var card = buyersChartDom.closest('.card');
+        var exclamationMark = document.createElement('div');
+        exclamationMark.innerHTML = `
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="red" width="24px" height="24px" style="position: absolute; top: 10px; right: 10px; cursor: pointer;">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+            </svg>
+            <div style="display: none; position: absolute; top: 35px; right: 10px; background-color: white; border: 1px solid #1DB954; border-radius: 5px; padding: 10px; z-index: 10; color: black;">
+            Price data not available
+            </div>
+            `;
+            card.style.position = 'relative';
+            card.appendChild(exclamationMark);
+
+            exclamationMark.addEventListener('mouseover', function() {
+                this.querySelector('div').style.display = 'block';
+            });
+            exclamationMark.addEventListener('mouseout', function() {
+                this.querySelector('div').style.display = 'none';
+            });
+            }
+            </script>
+            {% endif %}
+            <script>
+                document.querySelectorAll('.card-container li').forEach(function(item) {
+                    item.addEventListener('mouseover', function() {
+                        this.querySelector('.user-details-card').style.display = 'block';
+                    });
+                    item.addEventListener('mouseout', function() {
+                        this.querySelector('.user-details-card').style.display = 'none';
+                    });
+                });
+            </script>
+    {% if ticker_posts %}
+    <div class="card" style="width: 30%; margin: 20px 0; position: relative;">
+        <h3 style="text-align: center; color: #FFFFFF;">Ticker Posts Over Time</h3>
+        <div id="ticker-posts-chart" style="width: 100%; height: 400px;"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.4.2/echarts.min.js"></script>
+    <script>
+        // Get the DOM element for the chart
+        var tickerPostsChartDom = document.getElementById('ticker-posts-chart');
+
+        // Initialize ECharts
+        var tickerPostsChart = echarts.init(tickerPostsChartDom);
+
+        // Get data passed from Flask
+        var tickerPostsData = JSON.parse('{{ ticker_posts | default({}) | tojson | safe }}');
+
+        // Ensure data is valid before proceeding
+        if (tickerPostsData && Object.keys(tickerPostsData).length > 0) {
+            var dates = Object.keys(tickerPostsData);
+            var posts = Object.values(tickerPostsData);
+
+            // Define chart options
+            var tickerPostsOption = {
+                title: {
+                    text: 'Number of Ticker Posts Over Time',
+                    left: 'center',
+                    textStyle: {
+                        fontSize: 18,
+                        fontWeight: 'bold',
+                        color: '#FFFFFF' // Title text color
+                    }
+                },
+                tooltip: {
+                    trigger: 'axis',
+                    axisPointer: {
+                        type: 'shadow'
+                    },
+                    textStyle: {
+                        fontSize: 12,
+                        color: '#FFFFFF'
+                    },
+                    backgroundColor: 'rgba(0, 0, 0, 0.7)'
+                },
+                xAxis: {
+                    type: 'category',
+                    data: dates,
+                    axisLabel: {
+                        fontSize: 14,
+                        color: '#FFFFFF' // Set x-axis label text color to white
+                    }
+                },
+                yAxis: {
+                    type: 'value',
+                    axisLabel: {
+                        fontSize: 14,
+                        color: '#FFFFFF' // Set y-axis label text color to white
+                    },
+                    splitLine: {
+                        lineStyle: {
+                            color: 'rgba(255, 255, 255, 0.2)' // Light grid lines
+                        }
+                    }
+                },
+                series: [
+                    {
+                        name: 'Posts',
+                        type: 'bar',
+                        data: posts,
+                        itemStyle: {
+                            color: '#1DB954'
+                        },
+                        barWidth: '60%' // Adjust bar width
+                    }
+                ],
+                backgroundColor: '#1E1E1E' // Optional: Chart background color for a dark theme
+            };
+
+            // Set the options and render the chart
+            tickerPostsChart.setOption(tickerPostsOption);
+        } else {
+            console.log(tickerPostsData);
+            console.warn('No data available for the chart.');
+            tickerPostsChartDom.innerHTML = "<p style='color: #FFFFFF; text-align: center;'>No data available to display the chart.</p>";
+        }
+    </script>
+    {% endif %}
+{% if price_information %}
+<section class="hero" style="width: 100%; text-align: center; padding: 50px 0; background-color: #1DB954; color: white;">
+    <h1>{{ ticker_name }} Fundamentals</h1>
+    <p>Research stock fundamentals</p>
+    <form action="/tickers?ticker=" method="get" style="margin-top: 20px; text-align: center;">
+        <input type="text" name="ticker" placeholder="Enter ticker symbol" style="padding: 10px; border: 1px solid #1DB954; border-radius: 5px; width: 300px;">
+        <button type="submit" style="padding: 10px 20px; border: none; border-radius: 5px; background-color: #1DB954; color: white; cursor: pointer;">Search</button>
+    </form>
+    <div id="price-change-chart" style="width: 80%; height: 400px; margin: 0 auto; margin-top: 40px;"></div>
+    <script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+    <script>
+        var priceChangeChartDom = document.getElementById('price-change-chart');
+        var priceChangeChart = echarts.init(priceChangeChartDom);
+
+        var priceChangeData = {
+            "Daily Price Change": "{{ price_information['Daily Price Change'] }}",
+            "Weekly Price Change": "{{ price_information['Weekly Price Change'] }}",
+            "Monthly Price Change": "{{ price_information['Monthly Price Change'] }}",
+            "Three Month Price Change": "{{ price_information['Three Month Price Change'] }}",
+            "Six Month Price Change": "{{ price_information['Six Month Price Change'] }}",
+            "Year-to-Date Price Change": "{{ price_information['Year-to-Date Price Change'] }}",
+            "One Month Ago Price Change": "{{ price_information['One Month Ago Price Change'] }}",
+            "Three Months Ago Price Change": "{{ price_information['Three Months Ago Price Change'] }}",
+            "Six Months Ago Price Change": "{{ price_information['Six Months Ago Price Change'] }}"
+        };
+
+        var priceChangeCategories = Object.keys(priceChangeData);
+        var priceChangeValues = Object.values(priceChangeData);
+
+        var priceChangeOption = {
+            title: {
+                text: 'Price Change Overview',
+                left: 'center',
+                textStyle: {
+                    fontSize: 18,
+                    fontWeight: 'bold',
+                    color: '#FFFFFF'
+                }
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer: {
+                    type: 'shadow'
+                }
+            },
+            polar: {
+                radius: '70%'
+            },
+            angleAxis: {
+                type: 'category',
+                data: priceChangeCategories,
+                axisLabel: {
+                    fontSize: 14,
+                    color: '#FFFFFF' // Set axis label text color to white
+                }
+            },
+            radiusAxis: {
+                axisLabel: {
+                    fontSize: 14,
+                    color: '#FFFFFF' // Set axis label text color to white
+                }
+            },
+            series: [{
+                type: 'bar',
+                data: priceChangeValues,
+                coordinateSystem: 'polar',
+                itemStyle: {
+                    color: '#1DB954'
+                }
+            }]
+        };
+
+        priceChangeChart.setOption(priceChangeOption);
+    </script>
+</section>
+{% endif %}
+{% endblock %}
