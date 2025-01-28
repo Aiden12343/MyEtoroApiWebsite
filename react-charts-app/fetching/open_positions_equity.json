@@ -1,50 +1,191 @@
 [
     {
-        "TickerName": "INTC",
-        "AverageOpen": 25.132499,
-        "InvestedAmount": 17.930988,
-        "UnrealisedValue": -14.572760949876095,
+        "TickerName": "BABA",
+        "AverageOpen": 78.843858,
+        "InvestedAmount": 13.270984,
+        "UnrealisedValue": 15.646294223704793,
         "Leverage": 1.0,
-        "CurrentRate": 21.47
+        "CurrentRate": 91.18,
+        "OpenDates": [
+            "2023-11-16",
+            "2023-11-17",
+            "2024-11-22",
+            "2024-04-16",
+            "2024-01-03",
+            "2024-07-01",
+            "2023-11-16",
+            "2024-06-17",
+            "2024-08-15",
+            "2024-04-02"
+        ]
     },
     {
-        "TickerName": "AMD",
-        "AverageOpen": 141.6421,
-        "InvestedAmount": 12.46764,
-        "UnrealisedValue": -72.02766691541571,
-        "Leverage": 5.0,
-        "CurrentRate": 121.2378
+        "TickerName": "MTCH",
+        "AverageOpen": 35.303087,
+        "InvestedAmount": 6.955254,
+        "UnrealisedValue": 0.44447387844582253,
+        "Leverage": 1.0,
+        "CurrentRate": 35.46,
+        "OpenDates": [
+            "2024-10-01",
+            "2024-07-19",
+            "2024-11-29",
+            "2024-08-12",
+            "2024-07-31",
+            "2024-03-25"
+        ]
     },
     {
-        "TickerName": "SOXL",
-        "AverageOpen": 32.767323,
-        "InvestedAmount": 51.422712,
-        "UnrealisedValue": -1.0257871843848845,
+        "TickerName": "03690.HK",
+        "AverageOpen": 66.9,
+        "InvestedAmount": 2.772028,
+        "UnrealisedValue": 123.61733931240654,
         "Leverage": 1.0,
-        "CurrentRate": 32.4312
+        "CurrentRate": 149.6,
+        "OpenDates": [
+            "2024-01-29"
+        ]
     },
     {
-        "TickerName": "SPWRQ",
-        "AverageOpen": 3.19,
-        "InvestedAmount": 2.417994,
-        "UnrealisedValue": -99.92476489028212,
+        "TickerName": "9988.HK",
+        "AverageOpen": 78.001075,
+        "InvestedAmount": 2.917729,
+        "UnrealisedValue": 11.857432734100138,
         "Leverage": 1.0,
-        "CurrentRate": 0.0024
+        "CurrentRate": 87.25,
+        "OpenDates": [
+            "2023-05-03",
+            "2023-10-20",
+            "2022-09-28"
+        ]
     },
     {
-        "TickerName": "RDFN",
-        "AverageOpen": 11.926969,
-        "InvestedAmount": 8.965494,
-        "UnrealisedValue": -35.60811636217047,
+        "TickerName": "RMV.L",
+        "AverageOpen": 617.2,
+        "InvestedAmount": 2.398363,
+        "UnrealisedValue": 3.370058327932591,
         "Leverage": 1.0,
-        "CurrentRate": 7.68
+        "CurrentRate": 638.0,
+        "OpenDates": [
+            "2024-10-29"
+        ]
     },
     {
-        "TickerName": "OPRA",
-        "AverageOpen": 20.48,
-        "InvestedAmount": 2.241374,
-        "UnrealisedValue": -10.595703125000009,
+        "TickerName": "GAW.L",
+        "AverageOpen": 8150.246972,
+        "InvestedAmount": 8.242096,
+        "UnrealisedValue": 76.55906685326886,
         "Leverage": 1.0,
-        "CurrentRate": 18.31
+        "CurrentRate": 14390.0,
+        "OpenDates": [
+            "2022-01-11",
+            "2021-11-17",
+            "2023-12-07",
+            "2022-02-24",
+            "2021-11-11",
+            "2022-09-21",
+            "2024-10-01",
+            "2022-01-19",
+            "2022-02-21",
+            "2021-11-25"
+        ]
+    },
+    {
+        "TickerName": "BFIT.NV",
+        "AverageOpen": 21.737952,
+        "InvestedAmount": 10.459622,
+        "UnrealisedValue": 4.517665693621915,
+        "Leverage": 1.0,
+        "CurrentRate": 22.72,
+        "OpenDates": [
+            "2024-10-01",
+            "2025-01-15",
+            "2024-11-26",
+            "2024-04-02",
+            "2024-07-01",
+            "2024-10-01",
+            "2024-04-02",
+            "2024-07-05"
+        ]
+    },
+    {
+        "TickerName": "IBKR",
+        "AverageOpen": 81.210199,
+        "InvestedAmount": 5.196174,
+        "UnrealisedValue": 153.0716616025039,
+        "Leverage": 1.0,
+        "CurrentRate": 205.52,
+        "OpenDates": [
+            "2023-10-24",
+            "2023-10-19",
+            "2023-10-20",
+            "2023-11-29"
+        ]
+    },
+    {
+        "TickerName": "CROX",
+        "AverageOpen": 102.821475,
+        "InvestedAmount": 9.932702,
+        "UnrealisedValue": -0.10841606775239596,
+        "Leverage": 1.0,
+        "CurrentRate": 102.71,
+        "OpenDates": [
+            "2024-01-03",
+            "2024-08-02",
+            "2024-10-29",
+            "2023-10-11",
+            "2024-10-29",
+            "2023-11-01",
+            "2024-10-01",
+            "2024-08-06"
+        ]
+    },
+    {
+        "TickerName": "CDLX",
+        "AverageOpen": 5.80235,
+        "InvestedAmount": 6.475581,
+        "UnrealisedValue": -31.407102294759877,
+        "Leverage": 1.0,
+        "CurrentRate": 3.98,
+        "OpenDates": [
+            "2024-08-08",
+            "2024-10-01",
+            "2024-07-05"
+        ]
+    },
+    {
+        "TickerName": "PRX.NV",
+        "AverageOpen": 30.731145,
+        "InvestedAmount": 9.090517,
+        "UnrealisedValue": 14.802100605102735,
+        "Leverage": 1.0,
+        "CurrentRate": 35.28,
+        "OpenDates": [
+            "2024-04-02",
+            "2023-09-14",
+            "2024-07-01",
+            "2023-06-28",
+            "2021-12-28",
+            "2024-01-03",
+            "2021-12-23",
+            "2021-10-28",
+            "2023-12-22",
+            "2022-02-16",
+            "2022-02-22",
+            "2025-01-07"
+        ]
+    },
+    {
+        "TickerName": "DIDIY",
+        "AverageOpen": 3.34869,
+        "InvestedAmount": 3.837381,
+        "UnrealisedValue": 41.547888875948516,
+        "Leverage": 1.0,
+        "CurrentRate": 4.74,
+        "OpenDates": [
+            "2024-02-16",
+            "2024-02-05",
+            "2024-02-14"
+        ]
     }
 ]

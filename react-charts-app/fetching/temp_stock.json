@@ -1,0 +1,1826 @@
+{
+    "ticker_name": "TRUMP",
+    "users_with_ticker": [
+        {
+            "username": "AamrAbdelhadi",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12055846/4.jpg",
+            "TotalClosedManualPositions": 365,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 10.77935711,
+            "TotalProfitabilityPercentage": 67.12328767,
+            "RiskScore": 4,
+            "Country": "France",
+            "Copiers": 87
+        },
+        {
+            "username": "adrianopd99",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/5822311/6.jpg",
+            "TotalClosedManualPositions": 1067,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 12.34742105,
+            "TotalProfitabilityPercentage": 67.29147142,
+            "RiskScore": 3,
+            "Country": "Italy",
+            "Copiers": 3
+        },
+        {
+            "username": "AlbertiniAlex",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/29580536/1.jpg",
+            "TotalClosedManualPositions": 12,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 2.48355698,
+            "TotalProfitabilityPercentage": 58.33333333,
+            "RiskScore": 6,
+            "Country": "Sweden",
+            "Copiers": 8
+        },
+        {
+            "username": "Alphafixinvest",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/32328804/1.jpg",
+            "TotalClosedManualPositions": 5,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 2.20033634,
+            "TotalProfitabilityPercentage": 40.0,
+            "RiskScore": 5,
+            "Country": "Italy",
+            "Copiers": 2
+        },
+        {
+            "username": "andrecole96",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/4725066/6.jpg",
+            "TotalClosedManualPositions": 60,
+            "TotalClosedMirrorPositions": 1337,
+            "TotalNetProfitPercentage": 36.7583684,
+            "TotalProfitabilityPercentage": 51.53901217,
+            "RiskScore": 7,
+            "Country": "United Kingdom",
+            "Copiers": 1
+        },
+        {
+            "username": "Babylon39",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/16870167/5.jpg",
+            "TotalClosedManualPositions": 398,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 4.62443964,
+            "TotalProfitabilityPercentage": 89.44723618,
+            "RiskScore": 7,
+            "Country": "United Kingdom",
+            "Copiers": 5
+        },
+        {
+            "username": "Bellosguardo",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/30166302/1.jpg",
+            "TotalClosedManualPositions": 21,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 6.53081704,
+            "TotalProfitabilityPercentage": 100.0,
+            "RiskScore": 5,
+            "Country": "Italy",
+            "Copiers": 2
+        },
+        {
+            "username": "bielus86",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/1382915/6.jpg",
+            "TotalClosedManualPositions": 1984,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 29.53904834,
+            "TotalProfitabilityPercentage": 81.50201613,
+            "RiskScore": 5,
+            "Country": "United Kingdom",
+            "Copiers": 14
+        },
+        {
+            "username": "BjornEmil",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/22376142/3.jpg",
+            "TotalClosedManualPositions": 778,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 27.0472255,
+            "TotalProfitabilityPercentage": 67.48071979,
+            "RiskScore": 7,
+            "Country": "Norway",
+            "Copiers": 5
+        },
+        {
+            "username": "CesareQuerci",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/30523279/1.jpg",
+            "TotalClosedManualPositions": 2199,
+            "TotalClosedMirrorPositions": 4229,
+            "TotalNetProfitPercentage": 64.20722351,
+            "TotalProfitabilityPercentage": 68.90168015,
+            "RiskScore": 4,
+            "Country": "Italy",
+            "Copiers": 53
+        },
+        {
+            "username": "ChartMatthew",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/18243331/2.jpg",
+            "TotalClosedManualPositions": 152,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 5.57434477,
+            "TotalProfitabilityPercentage": 62.5,
+            "RiskScore": 3,
+            "Country": "Hungary",
+            "Copiers": 171
+        },
+        {
+            "username": "CryptoAnalyzer",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/17091190/7.jpg",
+            "TotalClosedManualPositions": 13,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -4.27575507,
+            "TotalProfitabilityPercentage": 61.53846154,
+            "RiskScore": 7,
+            "Country": "Czech Republic",
+            "Copiers": 9
+        },
+        {
+            "username": "cvorka01",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/1939323/3.jpg",
+            "TotalClosedManualPositions": 80,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 44.90890867,
+            "TotalProfitabilityPercentage": 82.5,
+            "RiskScore": 5,
+            "Country": "Cyprus",
+            "Copiers": 5
+        },
+        {
+            "username": "c_carpineanu",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/13342544/1.jpg",
+            "TotalClosedManualPositions": 98,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 6.16667158,
+            "TotalProfitabilityPercentage": 78.57142857,
+            "RiskScore": 6,
+            "Country": "Romania",
+            "Copiers": 2
+        },
+        {
+            "username": "damide98",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/6145474/8.jpg",
+            "TotalClosedManualPositions": 1401,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -12.74289246,
+            "TotalProfitabilityPercentage": 93.00499643,
+            "RiskScore": 5,
+            "Country": "Italy",
+            "Copiers": 1
+        },
+        {
+            "username": "DaSilva_PI",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/22138397/9.jpg",
+            "TotalClosedManualPositions": 1888,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 35.23123378,
+            "TotalProfitabilityPercentage": 63.93008475,
+            "RiskScore": 4,
+            "Country": "Poland",
+            "Copiers": 3
+        },
+        {
+            "username": "dcdsd01182018",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/14688259/17.jpg",
+            "TotalClosedManualPositions": 349,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 53.23105844,
+            "TotalProfitabilityPercentage": 58.45272206,
+            "RiskScore": 7,
+            "Country": "Singapore",
+            "Copiers": 5
+        },
+        {
+            "username": "DimitriHoarau",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/28967150/8.jpg",
+            "TotalClosedManualPositions": 65,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 8.30607224,
+            "TotalProfitabilityPercentage": 75.38461538,
+            "RiskScore": 5,
+            "Country": "Reunion Island",
+            "Copiers": 41
+        },
+        {
+            "username": "DolarovyHamoun",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/18835930/4.jpg",
+            "TotalClosedManualPositions": 133,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 27.16106183,
+            "TotalProfitabilityPercentage": 72.18045113,
+            "RiskScore": 4,
+            "Country": "Czech Republic",
+            "Copiers": 6
+        },
+        {
+            "username": "doll753",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/10946858/2.jpg",
+            "TotalClosedManualPositions": 199,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 17.80177263,
+            "TotalProfitabilityPercentage": 73.36683417,
+            "RiskScore": 6,
+            "Country": "Taiwan",
+            "Copiers": 5
+        },
+        {
+            "username": "DOOMUS",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/7570193/2.jpg",
+            "TotalClosedManualPositions": 30,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 15.95273452,
+            "TotalProfitabilityPercentage": 96.66666667,
+            "RiskScore": 4,
+            "Country": "Czech Republic",
+            "Copiers": 30
+        },
+        {
+            "username": "Doulou83",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12379938/4.jpg",
+            "TotalClosedManualPositions": 76,
+            "TotalClosedMirrorPositions": 334,
+            "TotalNetProfitPercentage": -0.28921842,
+            "TotalProfitabilityPercentage": 59.26829268,
+            "RiskScore": 6,
+            "Country": "Cyprus",
+            "Copiers": 0
+        },
+        {
+            "username": "DV1982",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/21000327/2.jpg",
+            "TotalClosedManualPositions": 158,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -12.6298751,
+            "TotalProfitabilityPercentage": 51.89873418,
+            "RiskScore": 7,
+            "Country": "Slovenia",
+            "Copiers": 2
+        },
+        {
+            "username": "ELPAPUA",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/35182529/1.jpg",
+            "TotalClosedManualPositions": 65,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -0.13661698,
+            "TotalProfitabilityPercentage": 61.53846154,
+            "RiskScore": 4,
+            "Country": "Peru",
+            "Copiers": 1
+        },
+        {
+            "username": "ErnestasLev",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/16977217/2.jpg",
+            "TotalClosedManualPositions": 29,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 5.79587305,
+            "TotalProfitabilityPercentage": 55.17241379,
+            "RiskScore": 5,
+            "Country": "United Kingdom",
+            "Copiers": 8
+        },
+        {
+            "username": "Erwan_",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/8292834/1.jpg",
+            "TotalClosedManualPositions": 234,
+            "TotalClosedMirrorPositions": 2,
+            "TotalNetProfitPercentage": 31.30847277,
+            "TotalProfitabilityPercentage": 97.88135593,
+            "RiskScore": 4,
+            "Country": "France",
+            "Copiers": 1
+        },
+        {
+            "username": "EstephanyTejada",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/10221354/3.jpg",
+            "TotalClosedManualPositions": 226,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 29.01250292,
+            "TotalProfitabilityPercentage": 88.49557522,
+            "RiskScore": 5,
+            "Country": "Dominican Republic",
+            "Copiers": 11
+        },
+        {
+            "username": "F1l1pp1",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/29430833/2.jpg",
+            "TotalClosedManualPositions": 591,
+            "TotalClosedMirrorPositions": 5250,
+            "TotalNetProfitPercentage": 28.40193894,
+            "TotalProfitabilityPercentage": 49.47782914,
+            "RiskScore": 6,
+            "Country": "Italy",
+            "Copiers": 3
+        },
+        {
+            "username": "Fiurah",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/36194524/2.jpg",
+            "TotalClosedManualPositions": 44,
+            "TotalClosedMirrorPositions": 685,
+            "TotalNetProfitPercentage": 28.63221117,
+            "TotalProfitabilityPercentage": 69.5473251,
+            "RiskScore": 7,
+            "Country": "Italy",
+            "Copiers": 1
+        },
+        {
+            "username": "fletchbee21",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/8432140/14.jpg",
+            "TotalClosedManualPositions": 48,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 1.79892927,
+            "TotalProfitabilityPercentage": 85.41666667,
+            "RiskScore": 7,
+            "Country": "United Kingdom",
+            "Copiers": 55
+        },
+        {
+            "username": "FreedomFund",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/4209594/17.jpg",
+            "TotalClosedManualPositions": 42,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -9.95681408,
+            "TotalProfitabilityPercentage": 42.85714286,
+            "RiskScore": 4,
+            "Country": "Slovakia",
+            "Copiers": 1
+        },
+        {
+            "username": "fstege",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/6711757/1.jpg",
+            "TotalClosedManualPositions": 162,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 24.89336088,
+            "TotalProfitabilityPercentage": 41.97530864,
+            "RiskScore": 6,
+            "Country": "Spain",
+            "Copiers": 7
+        },
+        {
+            "username": "fxmamun",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/2303222/3.jpg",
+            "TotalClosedManualPositions": 46,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 21.0600312,
+            "TotalProfitabilityPercentage": 97.82608696,
+            "RiskScore": 5,
+            "Country": "United Kingdom",
+            "Copiers": 2
+        },
+        {
+            "username": "Geppo75",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/3711370/1.jpg",
+            "TotalClosedManualPositions": 592,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -0.82453429,
+            "TotalProfitabilityPercentage": 43.07432432,
+            "RiskScore": 3,
+            "Country": "Italy",
+            "Copiers": 6
+        },
+        {
+            "username": "GilbertoAlmonte",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/26999021/1.jpg",
+            "TotalClosedManualPositions": 50,
+            "TotalClosedMirrorPositions": 229,
+            "TotalNetProfitPercentage": 11.55014102,
+            "TotalProfitabilityPercentage": 78.85304659,
+            "RiskScore": 4,
+            "Country": "Dominican Republic",
+            "Copiers": 4
+        },
+        {
+            "username": "Giorgioverni1976",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/31074399/3.jpg",
+            "TotalClosedManualPositions": 324,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -0.04803742,
+            "TotalProfitabilityPercentage": 65.12345679,
+            "RiskScore": 5,
+            "Country": "Italy",
+            "Copiers": 1
+        },
+        {
+            "username": "GIUSEPPE1980ANA",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/25764695/1.jpg",
+            "TotalClosedManualPositions": 294,
+            "TotalClosedMirrorPositions": 88,
+            "TotalNetProfitPercentage": 10.80555272,
+            "TotalProfitabilityPercentage": 100.2617801,
+            "RiskScore": 5,
+            "Country": "Italy",
+            "Copiers": 2
+        },
+        {
+            "username": "gmagalhaes",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12391529/3.jpg",
+            "TotalClosedManualPositions": 59,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 7.64528541,
+            "TotalProfitabilityPercentage": 76.27118644,
+            "RiskScore": 7,
+            "Country": "Portugal",
+            "Copiers": 6
+        },
+        {
+            "username": "GPRPasculli",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/21633050/3.jpg",
+            "TotalClosedManualPositions": 18,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 2.84723314,
+            "TotalProfitabilityPercentage": 94.44444444,
+            "RiskScore": 3,
+            "Country": "Italy",
+            "Copiers": 2
+        },
+        {
+            "username": "Greenflagmoney",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/31411844/1.jpg",
+            "TotalClosedManualPositions": 11,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -8.13198107,
+            "TotalProfitabilityPercentage": 72.72727273,
+            "RiskScore": 4,
+            "Country": "Italy",
+            "Copiers": 1
+        },
+        {
+            "username": "HanzekV",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/7113776/4.jpg",
+            "TotalClosedManualPositions": 218,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 24.36206887,
+            "TotalProfitabilityPercentage": 67.43119266,
+            "RiskScore": 5,
+            "Country": "Slovenia",
+            "Copiers": 16
+        },
+        {
+            "username": "Heliosac",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/26641374/4.jpg",
+            "TotalClosedManualPositions": 141,
+            "TotalClosedMirrorPositions": 624,
+            "TotalNetProfitPercentage": 276.06296755,
+            "TotalProfitabilityPercentage": 75.68627451,
+            "RiskScore": 7,
+            "Country": "Spain",
+            "Copiers": 1
+        },
+        {
+            "username": "hitchinsa",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/14540474/1.jpg",
+            "TotalClosedManualPositions": 131,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -14.78414466,
+            "TotalProfitabilityPercentage": 55.72519084,
+            "RiskScore": 5,
+            "Country": "United Kingdom",
+            "Copiers": 0
+        },
+        {
+            "username": "hospatle",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/10881038/3.jpg",
+            "TotalClosedManualPositions": 102,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 43.21824384,
+            "TotalProfitabilityPercentage": 67.64705882,
+            "RiskScore": 6,
+            "Country": "Taiwan",
+            "Copiers": 13
+        },
+        {
+            "username": "InvestmentsPro",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/5124302/2.jpg",
+            "TotalClosedManualPositions": 46,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -6.4841057,
+            "TotalProfitabilityPercentage": 34.7826087,
+            "RiskScore": 5,
+            "Country": "Lithuania",
+            "Copiers": 84
+        },
+        {
+            "username": "Inyanga-Invest",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/34399834/7.jpg",
+            "TotalClosedManualPositions": 5130,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 47.37777665,
+            "TotalProfitabilityPercentage": 94.69785575,
+            "RiskScore": 6,
+            "Country": "Denmark",
+            "Copiers": 11
+        },
+        {
+            "username": "IsraMX",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/27209732/1.jpg",
+            "TotalClosedManualPositions": 188,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 43.08466227,
+            "TotalProfitabilityPercentage": 62.23404255,
+            "RiskScore": 5,
+            "Country": "Mexico",
+            "Copiers": 2
+        },
+        {
+            "username": "Ivanpiperberg",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12783317/2.jpg",
+            "TotalClosedManualPositions": 207,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 2.40349865,
+            "TotalProfitabilityPercentage": 53.62318841,
+            "RiskScore": 4,
+            "Country": "Spain",
+            "Copiers": 2
+        },
+        {
+            "username": "JFerr11",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/23526545/1.jpg",
+            "TotalClosedManualPositions": 69,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -1.37657535,
+            "TotalProfitabilityPercentage": 44.92753623,
+            "RiskScore": 5,
+            "Country": "Malta",
+            "Copiers": 1
+        },
+        {
+            "username": "jmej136",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/7866731/1.jpg",
+            "TotalClosedManualPositions": 79,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 8.3329898,
+            "TotalProfitabilityPercentage": 56.96202532,
+            "RiskScore": 5,
+            "Country": "United Kingdom",
+            "Copiers": 2
+        },
+        {
+            "username": "jmwaller",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/6729548/3.jpg",
+            "TotalClosedManualPositions": 360,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 6.14135086,
+            "TotalProfitabilityPercentage": 73.33333333,
+            "RiskScore": 5,
+            "Country": "United Kingdom",
+            "Copiers": 2
+        },
+        {
+            "username": "JohnnieGreek",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/17145258/2.jpg",
+            "TotalClosedManualPositions": 112,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 1.99169547,
+            "TotalProfitabilityPercentage": 64.28571429,
+            "RiskScore": 3,
+            "Country": "Greece",
+            "Copiers": 1
+        },
+        {
+            "username": "Johnnysp01",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/7717959/5.jpg",
+            "TotalClosedManualPositions": 485,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 9.32356457,
+            "TotalProfitabilityPercentage": 79.58762887,
+            "RiskScore": 7,
+            "Country": "France",
+            "Copiers": 10
+        },
+        {
+            "username": "JuanCarlosPazos",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/32387311/2.jpg",
+            "TotalClosedManualPositions": 3274,
+            "TotalClosedMirrorPositions": 2019,
+            "TotalNetProfitPercentage": 15.08402777,
+            "TotalProfitabilityPercentage": 74.91025883,
+            "RiskScore": 4,
+            "Country": "Spain",
+            "Copiers": 2
+        },
+        {
+            "username": "Juanchacon3",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12628115/2.jpg",
+            "TotalClosedManualPositions": 103,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 29.73383599,
+            "TotalProfitabilityPercentage": 96.11650485,
+            "RiskScore": 5,
+            "Country": "Spain",
+            "Copiers": 5
+        },
+        {
+            "username": "JulianFx05",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/13501655/2.jpg",
+            "TotalClosedManualPositions": 70,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 6.70095104,
+            "TotalProfitabilityPercentage": 44.28571429,
+            "RiskScore": 5,
+            "Country": "Guatemala",
+            "Copiers": 8
+        },
+        {
+            "username": "julienpourtier",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/6975882/6.jpg",
+            "TotalClosedManualPositions": 348,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 5.74338836,
+            "TotalProfitabilityPercentage": 69.82758621,
+            "RiskScore": 6,
+            "Country": "France",
+            "Copiers": 19
+        },
+        {
+            "username": "JutofTrading",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/17663663/28.jpg",
+            "TotalClosedManualPositions": 250,
+            "TotalClosedMirrorPositions": 205,
+            "TotalNetProfitPercentage": 21.89372358,
+            "TotalProfitabilityPercentage": 66.37362637,
+            "RiskScore": 5,
+            "Country": "Austria",
+            "Copiers": 10
+        },
+        {
+            "username": "kutas04",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/8947562/2.jpg",
+            "TotalClosedManualPositions": 17,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -1.7657685,
+            "TotalProfitabilityPercentage": 76.47058824,
+            "RiskScore": 5,
+            "Country": "Romania",
+            "Copiers": 0
+        },
+        {
+            "username": "LeeColl14",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/30933364/5.jpg",
+            "TotalClosedManualPositions": 221,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 12.57160218,
+            "TotalProfitabilityPercentage": 76.92307692,
+            "RiskScore": 6,
+            "Country": "Ireland",
+            "Copiers": 44
+        },
+        {
+            "username": "LeoConsta",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/9072372/10.jpg",
+            "TotalClosedManualPositions": 16,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -14.97944661,
+            "TotalProfitabilityPercentage": 56.25,
+            "RiskScore": 5,
+            "Country": "Spain",
+            "Copiers": 3
+        },
+        {
+            "username": "liyakim",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/7054021/2.jpg",
+            "TotalClosedManualPositions": 33,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 8.913907,
+            "TotalProfitabilityPercentage": 87.87878788,
+            "RiskScore": 4,
+            "Country": "France",
+            "Copiers": 1
+        },
+        {
+            "username": "Lupocs94",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/6307336/8.jpg",
+            "TotalClosedManualPositions": 367,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 30.17762605,
+            "TotalProfitabilityPercentage": 69.20980926,
+            "RiskScore": 5,
+            "Country": "Italy",
+            "Copiers": 22
+        },
+        {
+            "username": "LuTraderLB",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/13861894/2.jpg",
+            "TotalClosedManualPositions": 145,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 4.58310578,
+            "TotalProfitabilityPercentage": 77.93103448,
+            "RiskScore": 3,
+            "Country": "Italy",
+            "Copiers": 2
+        },
+        {
+            "username": "ManuelSB11",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/16198960/1.jpg",
+            "TotalClosedManualPositions": 59,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 3.24345883,
+            "TotalProfitabilityPercentage": 67.79661017,
+            "RiskScore": 7,
+            "Country": "Mexico",
+            "Copiers": 2
+        },
+        {
+            "username": "MarcDa",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/23346150/2.jpg",
+            "TotalClosedManualPositions": 240,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 15.33658397,
+            "TotalProfitabilityPercentage": 75.0,
+            "RiskScore": 4,
+            "Country": "France",
+            "Copiers": 0
+        },
+        {
+            "username": "MarielkaK",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/28481844/1.jpg",
+            "TotalClosedManualPositions": 36,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 50.0043993,
+            "TotalProfitabilityPercentage": 63.88888889,
+            "RiskScore": 7,
+            "Country": "Bulgaria",
+            "Copiers": 8
+        },
+        {
+            "username": "markgrech1",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/16869374/5.jpg",
+            "TotalClosedManualPositions": 209,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 5.25888589,
+            "TotalProfitabilityPercentage": 95.215311,
+            "RiskScore": 7,
+            "Country": "Malta",
+            "Copiers": 2
+        },
+        {
+            "username": "Matteospaggiari",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/2332426/2.jpg",
+            "TotalClosedManualPositions": 120,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 41.98588313,
+            "TotalProfitabilityPercentage": 89.16666667,
+            "RiskScore": 4,
+            "Country": "Italy",
+            "Copiers": 917
+        },
+        {
+            "username": "MaurizioMaritan",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/25961588/2.jpg",
+            "TotalClosedManualPositions": 23,
+            "TotalClosedMirrorPositions": 2654,
+            "TotalNetProfitPercentage": 14.19563846,
+            "TotalProfitabilityPercentage": 72.73066866,
+            "RiskScore": 5,
+            "Country": "Italy",
+            "Copiers": 1
+        },
+        {
+            "username": "maverick7113",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/6256957/2.jpg",
+            "TotalClosedManualPositions": 221,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 28.4112381,
+            "TotalProfitabilityPercentage": 73.30316742,
+            "RiskScore": 5,
+            "Country": "France",
+            "Copiers": 2
+        },
+        {
+            "username": "metriix",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/9828145/4.jpg",
+            "TotalClosedManualPositions": 34,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 3.69363219,
+            "TotalProfitabilityPercentage": 82.35294118,
+            "RiskScore": 6,
+            "Country": "Slovakia",
+            "Copiers": 2
+        },
+        {
+            "username": "MrLloydz",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/24413516/4.jpg",
+            "TotalClosedManualPositions": 193,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 22.29828443,
+            "TotalProfitabilityPercentage": 65.80310881,
+            "RiskScore": 6,
+            "Country": "United Kingdom",
+            "Copiers": 4
+        },
+        {
+            "username": "murphy1124",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12252376/7.jpg",
+            "TotalClosedManualPositions": 157,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 6.12804526,
+            "TotalProfitabilityPercentage": 71.97452229,
+            "RiskScore": 5,
+            "Country": "Taiwan",
+            "Copiers": 7
+        },
+        {
+            "username": "NathanGilbert",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/3124860/55.jpg",
+            "TotalClosedManualPositions": 115,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 15.90251044,
+            "TotalProfitabilityPercentage": 60.0,
+            "RiskScore": 5,
+            "Country": "Curacao",
+            "Copiers": 75
+        },
+        {
+            "username": "Nextalgo",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/16045141/7.jpg",
+            "TotalClosedManualPositions": 60,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 38.34420681,
+            "TotalProfitabilityPercentage": 78.33333333,
+            "RiskScore": 6,
+            "Country": "Azerbaijan",
+            "Copiers": 53
+        },
+        {
+            "username": "Nico24091992",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/9267166/2.jpg",
+            "TotalClosedManualPositions": 15,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 0.02232031,
+            "TotalProfitabilityPercentage": 86.66666667,
+            "RiskScore": 4,
+            "Country": "Italy",
+            "Copiers": 1
+        },
+        {
+            "username": "NikolayNedyalkov",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/15339670/2.jpg",
+            "TotalClosedManualPositions": 98,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 10.8482675,
+            "TotalProfitabilityPercentage": 79.59183673,
+            "RiskScore": 3,
+            "Country": "Bulgaria",
+            "Copiers": 8
+        },
+        {
+            "username": "NIQUE3",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/6701754/10.jpg",
+            "TotalClosedManualPositions": 76,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 98.96736406,
+            "TotalProfitabilityPercentage": 48.68421053,
+            "RiskScore": 3,
+            "Country": "Spain",
+            "Copiers": 328
+        },
+        {
+            "username": "OliviGauth",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/25338371/2.jpg",
+            "TotalClosedManualPositions": 731,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -0.18645903,
+            "TotalProfitabilityPercentage": 96.58002736,
+            "RiskScore": 7,
+            "Country": "France",
+            "Copiers": 33
+        },
+        {
+            "username": "OptimInvest",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/41385646/1.jpg",
+            "TotalClosedManualPositions": 1,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 0.00191835,
+            "TotalProfitabilityPercentage": 100.0,
+            "RiskScore": 3,
+            "Country": "France",
+            "Copiers": 1
+        },
+        {
+            "username": "OtelloRuggeri",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12787425/3.jpg",
+            "TotalClosedManualPositions": 199,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 25.11275285,
+            "TotalProfitabilityPercentage": 91.45728643,
+            "RiskScore": 5,
+            "Country": "Italy",
+            "Copiers": 10
+        },
+        {
+            "username": "Peanut44",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/16202743/3.jpg",
+            "TotalClosedManualPositions": 13,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -0.09133376,
+            "TotalProfitabilityPercentage": 84.61538462,
+            "RiskScore": 6,
+            "Country": "Ireland",
+            "Copiers": 1
+        },
+        {
+            "username": "philcarey1968",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/28682105/3.jpg",
+            "TotalClosedManualPositions": 188,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 8.96113188,
+            "TotalProfitabilityPercentage": 82.44680851,
+            "RiskScore": 4,
+            "Country": "United Kingdom",
+            "Copiers": 3
+        },
+        {
+            "username": "pizarrosaul",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/6727633/3.jpg",
+            "TotalClosedManualPositions": 122,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 15.78247032,
+            "TotalProfitabilityPercentage": 81.14754098,
+            "RiskScore": 5,
+            "Country": "Mexico",
+            "Copiers": 4
+        },
+        {
+            "username": "RaimonGarcia",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/34015910/4.jpg",
+            "TotalClosedManualPositions": 1293,
+            "TotalClosedMirrorPositions": 708,
+            "TotalNetProfitPercentage": -3.76353507,
+            "TotalProfitabilityPercentage": 76.36181909,
+            "RiskScore": 3,
+            "Country": "Spain",
+            "Copiers": 1
+        },
+        {
+            "username": "raphaelpizzaia",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/24789948/4.jpg",
+            "TotalClosedManualPositions": 132,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 0.76610567,
+            "TotalProfitabilityPercentage": 61.36363636,
+            "RiskScore": 4,
+            "Country": "Luxembourg",
+            "Copiers": 194
+        },
+        {
+            "username": "RCDSV9",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12722755/1.jpg",
+            "TotalClosedManualPositions": 86,
+            "TotalClosedMirrorPositions": 145,
+            "TotalNetProfitPercentage": 31.74473153,
+            "TotalProfitabilityPercentage": 72.72727273,
+            "RiskScore": 6,
+            "Country": "Spain",
+            "Copiers": 4
+        },
+        {
+            "username": "ricco095",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/21125843/2.jpg",
+            "TotalClosedManualPositions": 81,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 0.42845917,
+            "TotalProfitabilityPercentage": 50.61728395,
+            "RiskScore": 5,
+            "Country": "Italy",
+            "Copiers": 2
+        },
+        {
+            "username": "Rokeno",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12866163/2.jpg",
+            "TotalClosedManualPositions": 20,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 30.02752928,
+            "TotalProfitabilityPercentage": 70.0,
+            "RiskScore": 6,
+            "Country": "Romania",
+            "Copiers": 0
+        },
+        {
+            "username": "Roronoazorro007",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/20824976/2.jpg",
+            "TotalClosedManualPositions": 87,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 16.75192053,
+            "TotalProfitabilityPercentage": 96.55172414,
+            "RiskScore": 4,
+            "Country": "Belgium",
+            "Copiers": 0
+        },
+        {
+            "username": "ruffjarek",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/6709174/19.jpg",
+            "TotalClosedManualPositions": 108,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 60.26130477,
+            "TotalProfitabilityPercentage": 98.14814815,
+            "RiskScore": 7,
+            "Country": "Ireland",
+            "Copiers": 8
+        },
+        {
+            "username": "SalvadorMaV",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/17006574/8.jpg",
+            "TotalClosedManualPositions": 500,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 4.48121077,
+            "TotalProfitabilityPercentage": 59.6,
+            "RiskScore": 3,
+            "Country": "Mexico",
+            "Copiers": 4
+        },
+        {
+            "username": "SandyVizir",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/32523113/3.jpg",
+            "TotalClosedManualPositions": 268,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 22.93849369,
+            "TotalProfitabilityPercentage": 79.10447761,
+            "RiskScore": 6,
+            "Country": "France",
+            "Copiers": 21
+        },
+        {
+            "username": "Scaccopacco",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/23469340/3.jpg",
+            "TotalClosedManualPositions": 30,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 9.17615599,
+            "TotalProfitabilityPercentage": 93.33333333,
+            "RiskScore": 6,
+            "Country": "Italy",
+            "Copiers": 10
+        },
+        {
+            "username": "SSAVISS",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/10773835/6.jpg",
+            "TotalClosedManualPositions": 180,
+            "TotalClosedMirrorPositions": 532,
+            "TotalNetProfitPercentage": 65.0490118,
+            "TotalProfitabilityPercentage": 62.21910112,
+            "RiskScore": 3,
+            "Country": "Lithuania",
+            "Copiers": 4
+        },
+        {
+            "username": "Stoopystoop",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/26929376/1.jpg",
+            "TotalClosedManualPositions": 23,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 42.53939518,
+            "TotalProfitabilityPercentage": 95.65217391,
+            "RiskScore": 6,
+            "Country": "United Kingdom",
+            "Copiers": 2
+        },
+        {
+            "username": "Survive2021",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/18230847/3.jpg",
+            "TotalClosedManualPositions": 947,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 7.70489973,
+            "TotalProfitabilityPercentage": 71.80570222,
+            "RiskScore": 6,
+            "Country": "Hungary",
+            "Copiers": 11
+        },
+        {
+            "username": "Teknatexx",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/19832994/2.jpg",
+            "TotalClosedManualPositions": 63,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 16.30428408,
+            "TotalProfitabilityPercentage": 98.41269841,
+            "RiskScore": 5,
+            "Country": "France",
+            "Copiers": 1
+        },
+        {
+            "username": "thambf7",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12893551/5.jpg",
+            "TotalClosedManualPositions": 363,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 83.26710603,
+            "TotalProfitabilityPercentage": 58.12672176,
+            "RiskScore": 6,
+            "Country": "Malaysia",
+            "Copiers": 2
+        },
+        {
+            "username": "Tjplumbing",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/13275192/4.jpg",
+            "TotalClosedManualPositions": 777,
+            "TotalClosedMirrorPositions": 1043,
+            "TotalNetProfitPercentage": 30.25244148,
+            "TotalProfitabilityPercentage": 42.69230769,
+            "RiskScore": 6,
+            "Country": "United Kingdom",
+            "Copiers": 0
+        },
+        {
+            "username": "Tomtomtomas",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/14516014/2.jpg",
+            "TotalClosedManualPositions": 59,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 2.51518365,
+            "TotalProfitabilityPercentage": 44.06779661,
+            "RiskScore": 7,
+            "Country": "United Kingdom",
+            "Copiers": 13
+        },
+        {
+            "username": "Trade-Union",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/32741210/7.jpg",
+            "TotalClosedManualPositions": 110,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 4.04981484,
+            "TotalProfitabilityPercentage": 83.63636364,
+            "RiskScore": 5,
+            "Country": "France",
+            "Copiers": 31
+        },
+        {
+            "username": "TraderAlexander",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/16436016/19.jpg",
+            "TotalClosedManualPositions": 587,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": -26.79368433,
+            "TotalProfitabilityPercentage": 30.15332198,
+            "RiskScore": 4,
+            "Country": "Kuwait",
+            "Copiers": 10
+        },
+        {
+            "username": "TradingInvest890",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/10069066/4.jpg",
+            "TotalClosedManualPositions": 42,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 14.14199412,
+            "TotalProfitabilityPercentage": 97.61904762,
+            "RiskScore": 3,
+            "Country": "Italy",
+            "Copiers": 81
+        },
+        {
+            "username": "trinky2000",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12118089/3.jpg",
+            "TotalClosedManualPositions": 18,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 0.28160854,
+            "TotalProfitabilityPercentage": 61.11111111,
+            "RiskScore": 5,
+            "Country": "Italy",
+            "Copiers": 1
+        },
+        {
+            "username": "Ultracloud",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/8795119/4.jpg",
+            "TotalClosedManualPositions": 6,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 5.80298678,
+            "TotalProfitabilityPercentage": 83.33333333,
+            "RiskScore": 7,
+            "Country": "United Kingdom",
+            "Copiers": 1
+        },
+        {
+            "username": "Vince0513",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/11507747/7.jpg",
+            "TotalClosedManualPositions": 1213,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 19.30136272,
+            "TotalProfitabilityPercentage": 55.48227535,
+            "RiskScore": 7,
+            "Country": "France",
+            "Copiers": 3
+        },
+        {
+            "username": "wantonietti",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/35100899/1.jpg",
+            "TotalClosedManualPositions": 43,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 1.03340196,
+            "TotalProfitabilityPercentage": 90.69767442,
+            "RiskScore": 4,
+            "Country": "Mexico",
+            "Copiers": 2
+        },
+        {
+            "username": "Wealth_Flow",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/40969997/1.jpg",
+            "TotalClosedManualPositions": 73,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 2.15522269,
+            "TotalProfitabilityPercentage": 54.79452055,
+            "RiskScore": 4,
+            "Country": "United Kingdom",
+            "Copiers": 9
+        },
+        {
+            "username": "welshpete",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/16875083/8.jpg",
+            "TotalClosedManualPositions": 135,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 10.1736157,
+            "TotalProfitabilityPercentage": 82.96296296,
+            "RiskScore": 4,
+            "Country": "United Kingdom",
+            "Copiers": 26
+        },
+        {
+            "username": "willymarto",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/12293650/4.jpg",
+            "TotalClosedManualPositions": 240,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 32.03702088,
+            "TotalProfitabilityPercentage": 69.16666667,
+            "RiskScore": 7,
+            "Country": "United Arab Emirates",
+            "Copiers": 354
+        },
+        {
+            "username": "worldtrade4858",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/7522482/39.jpg",
+            "TotalClosedManualPositions": 27,
+            "TotalClosedMirrorPositions": 0,
+            "TotalNetProfitPercentage": 90.41185306,
+            "TotalProfitabilityPercentage": 74.07407407,
+            "RiskScore": 7,
+            "Country": "United Kingdom",
+            "Copiers": 42
+        },
+        {
+            "username": "ziobianchi",
+            "avatar_url": "https://etoro-cdn.etorostatic.com/avatars/original/10028590/4.jpg",
+            "TotalClosedManualPositions": 252,
+            "TotalClosedMirrorPositions": 54,
+            "TotalNetProfitPercentage": 67.5792575,
+            "TotalProfitabilityPercentage": 75.49019608,
+            "RiskScore": 6,
+            "Country": "Italy",
+            "Copiers": 5
+        }
+    ],
+    "country_percentage": {
+        "France": 11.403508771929824,
+        "Italy": 20.175438596491226,
+        "Sweden": 0.8771929824561403,
+        "United Kingdom": 15.789473684210526,
+        "Norway": 0.8771929824561403,
+        "Hungary": 1.7543859649122806,
+        "Czech Republic": 2.631578947368421,
+        "Cyprus": 1.7543859649122806,
+        "Romania": 2.631578947368421,
+        "Poland": 0.8771929824561403,
+        "Singapore": 0.8771929824561403,
+        "Reunion Island": 0.8771929824561403,
+        "Taiwan": 2.631578947368421,
+        "Slovenia": 1.7543859649122806,
+        "Peru": 0.8771929824561403,
+        "Dominican Republic": 1.7543859649122806,
+        "Slovakia": 1.7543859649122806,
+        "Spain": 7.894736842105263,
+        "Portugal": 0.8771929824561403,
+        "Lithuania": 1.7543859649122806,
+        "Denmark": 0.8771929824561403,
+        "Mexico": 4.385964912280701,
+        "Malta": 1.7543859649122806,
+        "Greece": 0.8771929824561403,
+        "Guatemala": 0.8771929824561403,
+        "Austria": 0.8771929824561403,
+        "Ireland": 2.631578947368421,
+        "Bulgaria": 1.7543859649122806,
+        "Curacao": 0.8771929824561403,
+        "Azerbaijan": 0.8771929824561403,
+        "Luxembourg": 0.8771929824561403,
+        "Belgium": 0.8771929824561403,
+        "Malaysia": 0.8771929824561403,
+        "Kuwait": 0.8771929824561403,
+        "United Arab Emirates": 0.8771929824561403
+    },
+    "copier_percentage": {
+        "0-100": 95.61,
+        "101-300": 1.75,
+        "601-1000": 0.88,
+        "301-600": 1.75
+    },
+    "ordered_aggregated_counts": {},
+    "ordered_aggregated_closed_counts": {},
+    "size": 140,
+    "price_data": [],
+    "average_invested_amount": {},
+    "total_users_invested": 114,
+    "total_copiers": 0,
+    "instrument_information": {
+        "Instrument Name": "Official Trump (Experimental)",
+        "Symbol": "TRUMP",
+        "Instrument ID": 100308,
+        "Exchange Name": "Digital Currency",
+        "Stock Industry Name": "",
+        "Asset Class Name": "Crypto"
+    },
+    "price_information": {
+        "Current Rate": 29.88,
+        "Closing Price": 29.88,
+        "Daily Price Change": -3.95,
+        "Weekly Price Change": -3.95,
+        "Monthly Price Change": 13.35,
+        "Three Month Price Change": 824.23,
+        "Six Month Price Change": 824.23,
+        "Year-to-Date Price Change": 824.23,
+        "High Price Last 9 Months": 0.0,
+        "Low Price Last 13 Weeks": 0.0,
+        "High Price Last 13 Weeks": 0.0,
+        "One Month Ago Price Change": 824.23,
+        "Two Months Ago Price Change": 824.23,
+        "Three Months Ago Price Change": 824.23,
+        "Six Months Ago Price Change": 824.23
+    },
+    "volume_and_popularity": {
+        "Average Daily Volume (52 Weeks)": 0,
+        "Popularity (7 Days)": 0,
+        "Popularity (14 Days)": 0,
+        "Popularity (30 Days)": 0,
+        "Traders 7 Day Change": 0,
+        "Traders 14 Day Change": 0,
+        "Traders 30 Day Change": 0
+    },
+    "financial_metrics": {
+        "Operating Income (TTM)": 0.0,
+        "3-Year Annual Income Growth Rate": 0.0,
+        "Short Term Debt (TTM)": 0.0,
+        "Deferred Taxes": 0.0,
+        "Investment in Unconsolidated Affiliates": 0.0,
+        "5-Year Average Total Debt/Equity Ratio": 0.0,
+        "Percent Price Change 26 Weeks (TTM)": 0.0,
+        "High Price Last 9 Months (TTM)": 0.0,
+        "Low Price Last 13 Weeks (TTM)": 0.0,
+        "High Price Last 13 Weeks (TTM)": 0.0,
+        "Investment in Unconsolidated Affiliates (Annual)": 0.0,
+        "Deferred Taxes (Annual)": 0.0,
+        "5-Year Average Total Debt/Equity Ratio (TTM)": 0.0
+    },
+    "market_sentiment": {
+        "Currently Tradable": true,
+        "Exchange Open": true,
+        "Buy Enabled": true,
+        "Is Delisted": false,
+        "Is Active In Platform": true
+    },
+    "business_description": {
+        "Business Description": "The Official Trump Token, also known as TRUMP, is a meme token launched by President-elect Donald Trump on his Truth Social account. Built on the Solana blockchain, TRUMP is a meme coin that allows users to trade and invest while embracing its connection to the President\u2019s political legacy.\n\nTRUMP, like other meme coins, experiences high volatility due to its speculative nature and its success primarily relies on its community-driven growth and social media buzz.\n\nExperimental Crypto assets might be riskier than other crypto assets and require careful consideration. Further details of these risks may be found here.\n\nStay up to date on the share price of TRUMP by adding it to your eToro watchlist."
+    },
+    "users_percentage_profit_loss": [
+        {
+            "username": "AamrAbdelhadi",
+            "net_profit": 0
+        },
+        {
+            "username": "adrianopd99",
+            "net_profit": 0
+        },
+        {
+            "username": "AlbertiniAlex",
+            "net_profit": 0
+        },
+        {
+            "username": "Alphafixinvest",
+            "net_profit": 0
+        },
+        {
+            "username": "andrecole96",
+            "net_profit": 0
+        },
+        {
+            "username": "Babylon39",
+            "net_profit": 0
+        },
+        {
+            "username": "Bellosguardo",
+            "net_profit": 0
+        },
+        {
+            "username": "bielus86",
+            "net_profit": 0
+        },
+        {
+            "username": "BjornEmil",
+            "net_profit": 0
+        },
+        {
+            "username": "CesareQuerci",
+            "net_profit": 0
+        },
+        {
+            "username": "ChartMatthew",
+            "net_profit": 0
+        },
+        {
+            "username": "CryptoAnalyzer",
+            "net_profit": 0
+        },
+        {
+            "username": "cvorka01",
+            "net_profit": 0
+        },
+        {
+            "username": "c_carpineanu",
+            "net_profit": 0
+        },
+        {
+            "username": "damide98",
+            "net_profit": 0
+        },
+        {
+            "username": "DaSilva_PI",
+            "net_profit": 0
+        },
+        {
+            "username": "dcdsd01182018",
+            "net_profit": 0
+        },
+        {
+            "username": "DimitriHoarau",
+            "net_profit": 0
+        },
+        {
+            "username": "DolarovyHamoun",
+            "net_profit": 0
+        },
+        {
+            "username": "doll753",
+            "net_profit": 0
+        },
+        {
+            "username": "DOOMUS",
+            "net_profit": 0
+        },
+        {
+            "username": "Doulou83",
+            "net_profit": 0
+        },
+        {
+            "username": "DV1982",
+            "net_profit": 0
+        },
+        {
+            "username": "ELPAPUA",
+            "net_profit": 0
+        },
+        {
+            "username": "ErnestasLev",
+            "net_profit": 0
+        },
+        {
+            "username": "Erwan_",
+            "net_profit": 0
+        },
+        {
+            "username": "EstephanyTejada",
+            "net_profit": 0
+        },
+        {
+            "username": "F1l1pp1",
+            "net_profit": 0
+        },
+        {
+            "username": "Fiurah",
+            "net_profit": 0
+        },
+        {
+            "username": "fletchbee21",
+            "net_profit": 0
+        },
+        {
+            "username": "FreedomFund",
+            "net_profit": 0
+        },
+        {
+            "username": "fstege",
+            "net_profit": 0
+        },
+        {
+            "username": "fxmamun",
+            "net_profit": 0
+        },
+        {
+            "username": "Geppo75",
+            "net_profit": 0
+        },
+        {
+            "username": "GilbertoAlmonte",
+            "net_profit": 0
+        },
+        {
+            "username": "Giorgioverni1976",
+            "net_profit": 0
+        },
+        {
+            "username": "GIUSEPPE1980ANA",
+            "net_profit": 0
+        },
+        {
+            "username": "gmagalhaes",
+            "net_profit": 0
+        },
+        {
+            "username": "GPRPasculli",
+            "net_profit": 0
+        },
+        {
+            "username": "Greenflagmoney",
+            "net_profit": 0
+        },
+        {
+            "username": "HanzekV",
+            "net_profit": 0
+        },
+        {
+            "username": "Heliosac",
+            "net_profit": 0
+        },
+        {
+            "username": "hitchinsa",
+            "net_profit": 0
+        },
+        {
+            "username": "hospatle",
+            "net_profit": 0
+        },
+        {
+            "username": "InvestmentsPro",
+            "net_profit": 0
+        },
+        {
+            "username": "Inyanga-Invest",
+            "net_profit": 0
+        },
+        {
+            "username": "IsraMX",
+            "net_profit": 0
+        },
+        {
+            "username": "Ivanpiperberg",
+            "net_profit": 0
+        },
+        {
+            "username": "JFerr11",
+            "net_profit": 0
+        },
+        {
+            "username": "jmej136",
+            "net_profit": 0
+        },
+        {
+            "username": "jmwaller",
+            "net_profit": 0
+        },
+        {
+            "username": "JohnnieGreek",
+            "net_profit": 0
+        },
+        {
+            "username": "Johnnysp01",
+            "net_profit": 0
+        },
+        {
+            "username": "JuanCarlosPazos",
+            "net_profit": 0
+        },
+        {
+            "username": "Juanchacon3",
+            "net_profit": 0
+        },
+        {
+            "username": "JulianFx05",
+            "net_profit": 0
+        },
+        {
+            "username": "julienpourtier",
+            "net_profit": 0
+        },
+        {
+            "username": "JutofTrading",
+            "net_profit": 0
+        },
+        {
+            "username": "kutas04",
+            "net_profit": 0
+        },
+        {
+            "username": "LeeColl14",
+            "net_profit": 0
+        },
+        {
+            "username": "LeoConsta",
+            "net_profit": 0
+        },
+        {
+            "username": "liyakim",
+            "net_profit": 0
+        },
+        {
+            "username": "Lupocs94",
+            "net_profit": 0
+        },
+        {
+            "username": "LuTraderLB",
+            "net_profit": 0
+        },
+        {
+            "username": "ManuelSB11",
+            "net_profit": 0
+        },
+        {
+            "username": "MarcDa",
+            "net_profit": 0
+        },
+        {
+            "username": "MarielkaK",
+            "net_profit": 0
+        },
+        {
+            "username": "markgrech1",
+            "net_profit": 0
+        },
+        {
+            "username": "Matteospaggiari",
+            "net_profit": 0
+        },
+        {
+            "username": "MaurizioMaritan",
+            "net_profit": 0
+        },
+        {
+            "username": "maverick7113",
+            "net_profit": 0
+        },
+        {
+            "username": "metriix",
+            "net_profit": 0
+        },
+        {
+            "username": "MrLloydz",
+            "net_profit": 0
+        },
+        {
+            "username": "murphy1124",
+            "net_profit": 0
+        },
+        {
+            "username": "NathanGilbert",
+            "net_profit": 0
+        },
+        {
+            "username": "Nextalgo",
+            "net_profit": 0
+        },
+        {
+            "username": "Nico24091992",
+            "net_profit": 0
+        },
+        {
+            "username": "NikolayNedyalkov",
+            "net_profit": 0
+        },
+        {
+            "username": "NIQUE3",
+            "net_profit": 0
+        },
+        {
+            "username": "OliviGauth",
+            "net_profit": 0
+        },
+        {
+            "username": "OptimInvest",
+            "net_profit": 0
+        },
+        {
+            "username": "OtelloRuggeri",
+            "net_profit": 0
+        },
+        {
+            "username": "Peanut44",
+            "net_profit": 0
+        },
+        {
+            "username": "philcarey1968",
+            "net_profit": 0
+        },
+        {
+            "username": "pizarrosaul",
+            "net_profit": 0
+        },
+        {
+            "username": "RaimonGarcia",
+            "net_profit": 0
+        },
+        {
+            "username": "raphaelpizzaia",
+            "net_profit": 0
+        },
+        {
+            "username": "RCDSV9",
+            "net_profit": 0
+        },
+        {
+            "username": "ricco095",
+            "net_profit": 0
+        },
+        {
+            "username": "Rokeno",
+            "net_profit": 0
+        },
+        {
+            "username": "Roronoazorro007",
+            "net_profit": 0
+        },
+        {
+            "username": "ruffjarek",
+            "net_profit": 0
+        },
+        {
+            "username": "SalvadorMaV",
+            "net_profit": 0
+        },
+        {
+            "username": "SandyVizir",
+            "net_profit": 0
+        },
+        {
+            "username": "Scaccopacco",
+            "net_profit": 0
+        },
+        {
+            "username": "SSAVISS",
+            "net_profit": 0
+        },
+        {
+            "username": "Stoopystoop",
+            "net_profit": 0
+        },
+        {
+            "username": "Survive2021",
+            "net_profit": 0
+        },
+        {
+            "username": "Teknatexx",
+            "net_profit": 0
+        },
+        {
+            "username": "thambf7",
+            "net_profit": 0
+        },
+        {
+            "username": "Tjplumbing",
+            "net_profit": 0
+        },
+        {
+            "username": "Tomtomtomas",
+            "net_profit": 0
+        },
+        {
+            "username": "Trade-Union",
+            "net_profit": 0
+        },
+        {
+            "username": "TraderAlexander",
+            "net_profit": 0
+        },
+        {
+            "username": "TradingInvest890",
+            "net_profit": 0
+        },
+        {
+            "username": "trinky2000",
+            "net_profit": 0
+        },
+        {
+            "username": "Ultracloud",
+            "net_profit": 0
+        },
+        {
+            "username": "Vince0513",
+            "net_profit": 0
+        },
+        {
+            "username": "wantonietti",
+            "net_profit": 0
+        },
+        {
+            "username": "Wealth_Flow",
+            "net_profit": 0
+        },
+        {
+            "username": "welshpete",
+            "net_profit": 0
+        },
+        {
+            "username": "willymarto",
+            "net_profit": 0
+        },
+        {
+            "username": "worldtrade4858",
+            "net_profit": 0
+        },
+        {
+            "username": "ziobianchi",
+            "net_profit": 0
+        }
+    ]
+}

@@ -19,6 +19,16 @@ def fetch_prices():
         }
 
     return prices
+def fetch_price_and_date(ticker, start_date, end_date):
+    stock = yf.Ticker(ticker)
+    hist = stock.history(start=start_date, end=end_date)
+    prices = []
+    for date, row in hist.iterrows():
+        prices.append({
+            'date': date.strftime('%Y-%m-%d'),
+            'price': round(row['Close'], 2)
+        })
+    return prices
 
 if __name__ == "__main__":
     prices = fetch_prices()

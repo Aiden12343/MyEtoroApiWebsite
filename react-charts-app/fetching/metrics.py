@@ -21,6 +21,7 @@ def get_headers():
 
 import os
 import time
+import glob
 
 def fetch_user_data(username):
     headers      = get_headers() 
@@ -45,22 +46,6 @@ def fetch_user_data(username):
     response     = requests.get(rankings_url, headers=headers, proxies=proxies)
     response.raise_for_status()
     rankings_data = response.json()
-
-    copiers                 = rankings_data['Data']['Copiers']
-    YGain                   = rankings_data['Data']['Gain']
-    DailyGain               = rankings_data['Data']['DailyGain']
-    WeekGain                = rankings_data['Data']['ThisWeekGain']
-    riskscore               = rankings_data['Data']['RiskScore']
-    MaxDailyRiskScore       = rankings_data['Data']['MaxDailyRiskScore']
-    MaxMonthlyRiskScore     = rankings_data['Data']['MaxMonthlyRiskScore']
-    WeeksSinceRegistration  = rankings_data['Data']['WeeksSinceRegistration']
-    WinRatio                = rankings_data['Data']['WinRatio']
-    ProfitableWeeksPct      = rankings_data['Data']['ProfitableWeeksPct']
-    LongPosPct              = rankings_data['Data']['LongPosPct']
-    TopTradedInstrumentId   = rankings_data['Data']['TopTradedInstrumentId']
-    TotalTradedInstruments  = rankings_data['Data']['TotalTradedInstruments']
-    AvgPosSize              = rankings_data['Data']['AvgPosSize']
-
     #<---------------------------------------------------------- Fetching Open Positions Data (Total Positions) ---------------------------------------------------------->#
     print(f"Fetching portfolio data for https://www.etoro.com/sapi/trade-data-real/live/public/portfolios?cid={cid_data['realCID']}")
     portfolio_url = f"https://www.etoro.com/sapi/trade-data-real/live/public/portfolios?cid={cid_data['realCID']}"
@@ -68,26 +53,27 @@ def fetch_user_data(username):
     response.raise_for_status()
     portfolio_data = response.json()
 
-    positions_data             = []
+    positions_data = []
     total_open_dollar_invested = 0
-    total_unrealised_value     = 0
+    total_unrealised_value = 0
+
     for position in portfolio_data.get('AggregatedPositions', []):
-        instrument_id   = position.get('InstrumentID')
+        instrument_id = position.get('InstrumentID')
         if instrument_id:
-            #<---------------------------------------------------------- Fetching Open Position Data (Individual Positions incl duplicated)---------------------------------------------------------->#
+            # Fetching Open Position Data
             print(f"Fetching open position data for https://www.etoro.com/sapi/trade-data-real/live/public/positions?cid={cid_data['realCID']}&InstrumentID={instrument_id}")
             position_url = f"https://www.etoro.com/sapi/trade-data-real/live/public/positions?cid={cid_data['realCID']}&InstrumentID={instrument_id}"
-            response     = requests.get(position_url, headers=headers, proxies=proxies)
+            response = requests.get(position_url, headers=headers, proxies=proxies)
             response.raise_for_status()
             position_data = response.json()
-            
-            average_open     = position_data.get('AverageOpen', 0)
-            invested_amount  = position_data.get('Invested', 0)
-            net_profit       = position_data.get('NetProfit', 0)
-            current_rate     = position_data.get('CurrentRate', 0)
-            current_rate = position_data['PublicPositions'][0]['CurrentRate'] if position_data['PublicPositions'] else 0
-            IsBuy = position_data['PublicPositions'][0]['IsBuy']
 
+            average_open = position_data.get('AverageOpen', 0)
+            invested_amount = position_data.get('Invested', 0)
+            net_profit = position_data.get('NetProfit', 0)
+            current_rate = position_data.get('CurrentRate', 0)
+            current_rate = position_data['PublicPositions'][0]['CurrentRate'] if position_data['PublicPositions'] else 0
+
+            IsBuy = position_data['PublicPositions'][0]['IsBuy']
 
             leverage = sum(pos.get('Leverage', 1) for pos in position_data['PublicPositions']) / len(position_data['PublicPositions'])
             if IsBuy:
@@ -97,19 +83,27 @@ def fetch_user_data(username):
             profit_loss_percentage *= leverage
             unrealised_value = invested_amount * (1 + net_profit / 100)
             total_unrealised_value += unrealised_value
-            
+
             ticker_name_open_position = instrument_map.get(str(instrument_id).lower(), 'Unknown')
-            
+
+            open_dates = [pos['OpenDateTime'].split('T')[0] for pos in position_data['PublicPositions'] if 'OpenDateTime' in pos]
+
             positions_data.append({
-                'TickerName'       : ticker_name_open_position,
-                'AverageOpen'      : average_open,
-                'InvestedAmount'   : invested_amount,
-                'UnrealisedValue'  : profit_loss_percentage,
-                'Leverage'         : leverage,
-                'CurrentRate'      : current_rate,
+                'TickerName': ticker_name_open_position,
+                'AverageOpen': average_open,
+                'InvestedAmount': invested_amount,
+                'UnrealisedValue': profit_loss_percentage,
+                'Leverage': leverage,
+                'CurrentRate': current_rate,
+                'OpenDates': open_dates,
             })
-    
+
     print(f"Cumulative Invested Amount: {total_open_dollar_invested}, Cumulative Unrealised Value: {total_unrealised_value}")
+
+    ##Save the date the user bought assets
+    portfolio_data_path = f'C:/Users/aiden/OneDrive/Documents/Desktop/bullaware/portfolio_data/{username}_positions.json'
+    with open(portfolio_data_path, 'w') as f:
+        json.dump(positions_data, f, indent=4)
 
     with open('C:/Users/aiden/OneDrive/Documents/Desktop/bullaware/react-charts-app/fetching/open_positions_equity.json', 'w') as f:
         json.dump(positions_data, f, indent=4)
@@ -179,14 +173,45 @@ def fetch_user_data(username):
         else:
             print(f"Missing data in trade: {trade}")
 
-    average_position_size = total_position_size / total_trades if total_trades > 0 else 0
-
     with open('C:/Users/aiden/OneDrive/Documents/Desktop/bullaware/react-charts-app/fetching/temp_equity.json', 'w') as f:
         json.dump(trade_data, f, indent=4)
+        closed_positions_data = {}
+        
+        closed_position_url = f"https://www.etoro.com/sapi/trade-data-real/history/public/credit/flat?StartTime=2019-01-12T00:00:00.000Z&PageNumber=1&ItemsPerPage=300&PublicHistoryPortfolioFilter=&CID={cid_data['realCID']}"
+        print(f"Fetching open and close date data for {closed_position_url}")
+        
+        response = requests.get(closed_position_url, headers=headers, proxies=proxies)
+        response.raise_for_status()
+        closed_position_data = response.json()
+
+        for position in closed_position_data.get('PublicHistoryPositions', []):
+            ClosedTradeInstrumentID = position.get('InstrumentID')
+            ticker_name_closed_position = instrument_map.get(str(ClosedTradeInstrumentID).lower(), 'Unknown')
+
+            if ticker_name_closed_position not in closed_positions_data:
+                closed_positions_data[ticker_name_closed_position] = {
+                    'TickerName': ticker_name_closed_position,
+                    'OpenDates': [],
+                    'CloseDates': []
+                }
+
+            open_date = position.get('OpenDateTime', '').split('T')[0]
+            close_date = position.get('CloseDateTime', '').split('T')[0]
+
+            closed_positions_data[ticker_name_closed_position]['OpenDates'].append(open_date)
+            closed_positions_data[ticker_name_closed_position]['CloseDates'].append(close_date)
+
+        # Convert the dictionary to a list
+        closed_positions_data_list = list(closed_positions_data.values())
+
+        # Save the closed positions data to the user's JSON file
+        closed_positions_data_path = f'C:/Users/aiden/OneDrive/Documents/Desktop/bullaware/portfolio_data/{username}_closed_positions.json'
+        with open(closed_positions_data_path, 'w') as f:
+            json.dump(closed_positions_data_list, f, indent=4)
 
     #<---------------------------------------------------------- Fetching Aggregated Closed Trade Data (Total Closed Trades, Total Closed Manual Trades, Net % Closed Realised) ---------------------------------------------------------->#
     print(f"Fetching aggregated closed trade data for https://www.etoro.com/sapi/trade-data-real/history/public/credit/flat/aggregated?StartTime=2024-01-13T00:00:00.000Z&CID={cid_data['realCID']}")
-    aggregated_closed_trade_url = f"https://www.etoro.com/sapi/trade-data-real/history/public/credit/flat/aggregated?StartTime=2024-01-13T00:00:00.000Z&CID={cid_data['realCID']}"
+    aggregated_closed_trade_url = f"https://www.etoro.com/sapi/trade-data-real/history/public/credit/flat/aggregated?StartTime=2000-01-13T00:00:00.000Z&CID={cid_data['realCID']}"
     response                    = requests.get(aggregated_closed_trade_url, headers=headers, proxies=proxies)
     response.raise_for_status()
     aggregated_closed_trade_data = response.json()
@@ -272,6 +297,126 @@ def fetch_user_data(username):
 
     return result
 
+def fetch_ticker_posts(mapping_file, post_tickers, loop, filter_term):
+    """
+    Fetches market data from eToro API based on tickers and counts posts per date.
+
+    :param mapping_file: Path to the instrument mapping JSON file.
+    :param post_tickers: List of tickers to fetch data for.
+    :param loop: Number of loops to fetch multiple pages.
+    :param filter_term: Term to filter posts by.
+    :return: JSON data containing market data for the tickers.
+    """
+    # Load the instrument mapping JSON file
+    with open(mapping_file, 'r') as file:
+        instrument_mapping = json.load(file)
+
+    # Reverse the mapping to get a ticker-to-ID dictionary
+    ticker_to_id = {v: k for k, v in instrument_mapping.items()}
+
+    # Generate URLs for each ticker and fetch data
+    base_url = "https://www.etoro.com/api/edm-streams/v1/feed/market/all/{ticker_id}"
+    results = {}
+    all_post_counts = {}
+
+    for ticker in post_tickers:
+        instrument_id = ticker_to_id.get(ticker.upper())  # Ensure case insensitivity
+        if instrument_id:
+            post_counts = {}
+            for i in range(loop):  # Loop to fetch multiple pages
+                offset = i * 25  # Adjust offset for each loop
+                url = base_url.format(ticker_id=instrument_id)
+                params = {
+                    "take": 100,
+                    "offset": offset,
+                    "reactionsPageSize": 25,
+                    "recentReactionsLimit": 251
+                }
+                try:
+                    # Fetch the market data
+                    response = requests.get(url, params=params)
+                    response.raise_for_status()  # Raise an error for bad status codes
+                    data = response.json()
+                    results.setdefault(ticker, []).append(data)
+
+                    # Count posts per date
+                    for discussion in data.get('discussions', []):
+                        created_date = discussion['post']['created'].split('T')[0]
+                        message_text = discussion['post']['message']['text'].lower()
+                        comments = discussion.get('commentsData', {}).get('comments', [])
+                        comment_texts = [comment['entity']['message']['text'].lower() for comment in comments]
+
+                        if filter_term:
+                            if filter_term.lower() in message_text or any(filter_term.lower() in comment for comment in comment_texts):
+                                if created_date in post_counts:
+                                    post_counts[created_date] += 1
+                                else:
+                                    post_counts[created_date] = 1
+                        else:
+                            if created_date in post_counts:
+                                post_counts[created_date] += 1
+                            else:
+                                post_counts[created_date] = 1
+
+                    # Stop the loop if the number of post_counts reaches more than loop*25
+                    if sum(post_counts.values()) >= loop * 25:
+                        break
+
+                except requests.exceptions.RequestException as e:
+                    results.setdefault(ticker, []).append({"error": str(e)})
+
+            all_post_counts[ticker] = post_counts
+
+            # Save the post counts to a file
+            post_counts_path = f'C:/Users/aiden/OneDrive/Documents/Desktop/bullaware/post_data/{ticker}_post_counts.json'
+            with open(post_counts_path, 'w') as f:
+                json.dump(post_counts, f, indent=4)
+            print(f"Fetched and saved post counts for ticker: {ticker}")
+        else:
+            results[ticker] = {"error": "Instrument ID not found"}
+
+    # Read all JSON files in the post_data folder with the format tickername_post_counts.json
+    post_data_folder = 'C:/Users/aiden/OneDrive/Documents/Desktop/bullaware/post_data'
+    post_count_files = glob.glob(os.path.join(post_data_folder, '*_post_counts.json'))
+
+    all_post_counts = {}
+
+    for file_path in post_count_files:
+        ticker = os.path.basename(file_path).replace('_post_counts.json', '')
+        with open(file_path, 'r') as f:
+            post_counts = json.load(f)
+            all_post_counts[ticker] = post_counts
+
+    # Check if the most recent date's post count is in the top 100
+    recent_date_counts = []
+    for ticker, counts in all_post_counts.items():
+        if counts:
+            most_recent_date = max(counts.keys())
+            recent_date_counts.append((ticker, counts[most_recent_date]))
+
+    # Sort by post count and get top 100
+    recent_date_counts.sort(key=lambda x: x[1], reverse=True)
+    top_100_recent = recent_date_counts[:100]
+
+    # Load existing top_100_posts.json if it exists
+    top_100_posts_path = os.path.join(post_data_folder, 'top_100_posts.json')
+    if os.path.exists(top_100_posts_path):
+        with open(top_100_posts_path, 'r') as f:
+            top_100_posts = json.load(f)
+    else:
+        top_100_posts = {}
+
+    # Add top 100 recent post counts to top_100_posts.json
+    for ticker, _ in top_100_recent:
+        top_100_posts[ticker] = all_post_counts[ticker]
+        print(f"Updated top 100 posts for ticker: {ticker}")
+
+    # Save updated top_100_posts.json
+    with open(top_100_posts_path, 'w') as f:
+        json.dump(top_100_posts, f, indent=4)
+
+    return results
+
 def load_instrument_map(filepath):
     with open(filepath, 'r') as f:
         return json.load(f)
@@ -309,16 +454,15 @@ def map_instrument_ids_test(instrument_id, instrument_map_path):
     else:
         return 'Unknown'  # Return 'Unknown' if instrument_id is None
 
-def main(usernames_file):
+def main(usernames_file, skip_existing=True):
     user_data_dir = 'C:/Users/aiden/OneDrive/Documents/Desktop/bullaware/react-charts-app/user_data'
     with open(usernames_file, 'r') as f:
         usernames = f.read().splitlines()
     
     for username in usernames:
-        user_data_file = os.path.join(user_data_dir, f"{username}.json")
-        if os.path.exists(user_data_file):
-            print(f"User data for {username} already exists. Skipping...")
-            print("------------------------------------------------------------------------------------------------------------------------------------------------------------------")
+        user_data_path = os.path.join("C:/Users/aiden\OneDrive/Documents/Desktop/bullaware/portfolio_data", f"{username}_positions.json")
+        if skip_existing and os.path.exists(user_data_path):
+            print(f"Skipping {username} as data already exists.")
             continue
         
         try:
@@ -332,15 +476,15 @@ def main(usernames_file):
         except requests.exceptions.HTTPError as e:
             if e.response.status_code == 429:
                 print(f"Rate limit exceeded for {username}. Waiting for an additional minute before retrying...")
-                time.sleep(60)
+                time.sleep(120)
                 continue
             else:
                 print(f"Error fetching data for {username}: {e}")
         except Exception as e:
             print(f"Error fetching data for {username}: {e}")
         print("------------------------------------------------------------------------------------------------------------------------------------------------------------------")
-        print("Pausing for 20 seconds...")
-        time.sleep(20)  # Pause for 20 seconds between each user request
+        print("Pausing for 30 seconds...")
+        time.sleep(30)  # Pause for 20 seconds between each user request
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:

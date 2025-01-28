@@ -1,722 +1,722 @@
 [
     {
+        "FromDate": "2025-01-27T00:00:00Z",
+        "Open": 594.7763,
+        "Close": 596.3341,
+        "PercentChange": 0.2619135967589904,
+        "Equity": null,
+        "EquityPercentChange": null
+    },
+    {
+        "FromDate": "2025-01-24T00:00:00Z",
+        "Open": 608.8853,
+        "Close": 606.9682,
+        "PercentChange": -0.31485404558132785,
+        "Equity": 13002.81,
+        "EquityPercentChange": null
+    },
+    {
+        "FromDate": "2025-01-23T00:00:00Z",
+        "Open": 604.7613,
+        "Close": 608.6557,
+        "PercentChange": 0.6439565494683636,
+        "Equity": 12798.04,
+        "EquityPercentChange": -1.5748134441709032
+    },
+    {
+        "FromDate": "2025-01-22T00:00:00Z",
+        "Open": 604.8513,
+        "Close": 605.5403,
+        "PercentChange": 0.11391229546831833,
+        "Equity": 12726.77,
+        "EquityPercentChange": -0.5568821475788513
+    },
+    {
+        "FromDate": "2025-01-21T00:00:00Z",
+        "Open": 599.8388,
+        "Close": 601.6862,
+        "PercentChange": 0.3079827446974076,
+        "Equity": 12615.75,
+        "EquityPercentChange": -0.8723344572110633
+    },
+    {
         "FromDate": "2025-01-17T00:00:00Z",
         "Open": 596.1544,
         "Close": 596.7136,
         "PercentChange": 0.09380120317824252,
-        "Equity": 9626.54,
-        "EquityPercentChange": null
+        "Equity": 12408.95,
+        "EquityPercentChange": -1.6392208152507721
     },
     {
         "FromDate": "2025-01-16T00:00:00Z",
         "Open": 593.1389,
         "Close": 590.6526,
         "PercentChange": -0.4191766886306105,
-        "Equity": 9006.87,
-        "EquityPercentChange": -6.4370999341404085
+        "Equity": 12309.25,
+        "EquityPercentChange": -0.8034523468947874
     },
     {
         "FromDate": "2025-01-15T00:00:00Z",
         "Open": 589.4645,
         "Close": 591.8608,
         "PercentChange": 0.4065215123217762,
-        "Equity": 9041.23,
-        "EquityPercentChange": 0.3814865763578109
+        "Equity": 12193.41,
+        "EquityPercentChange": -0.9410808944492974
     },
     {
         "FromDate": "2025-01-14T00:00:00Z",
         "Open": 583.2039,
         "Close": 581.3566,
         "PercentChange": -0.3167502823626554,
-        "Equity": 8583.72,
-        "EquityPercentChange": -5.0602628182227445
+        "Equity": 12119.48,
+        "EquityPercentChange": -0.6063111139541792
     },
     {
         "FromDate": "2025-01-13T00:00:00Z",
         "Open": 574.7964,
         "Close": 580.518,
         "PercentChange": 0.9954133324425972,
-        "Equity": 8525.74,
-        "EquityPercentChange": -0.6754647169292517
+        "Equity": 12130.4,
+        "EquityPercentChange": 0.09010287570093826
     },
     {
         "FromDate": "2025-01-10T00:00:00Z",
         "Open": 584.8514,
         "Close": 579.5195,
         "PercentChange": -0.911667476559006,
-        "Equity": 8551.39,
-        "EquityPercentChange": 0.3008536502403268
+        "Equity": 12267.8,
+        "EquityPercentChange": 1.13269141990371
     },
     {
         "FromDate": "2025-01-08T00:00:00Z",
         "Open": 587.6372,
         "Close": 588.5457,
         "PercentChange": 0.15460219332608685,
-        "Equity": 9091.36,
-        "EquityPercentChange": 6.314412042954435
+        "Equity": 12470.38,
+        "EquityPercentChange": 1.6513148241738531
     },
     {
         "FromDate": "2025-01-07T00:00:00Z",
         "Open": 596.6237,
         "Close": 587.8068,
         "PercentChange": -1.47779915548109,
-        "Equity": 9371.57,
-        "EquityPercentChange": 3.0821571250065896
+        "Equity": 12543.13,
+        "EquityPercentChange": 0.583382382894507
     },
     {
         "FromDate": "2025-01-06T00:00:00Z",
         "Open": 595.2059,
         "Close": 594.3171,
         "PercentChange": -0.14932647677048566,
-        "Equity": 9695.4,
-        "EquityPercentChange": 3.455450900969634
+        "Equity": 12704.48,
+        "EquityPercentChange": 1.2863615381487745
     },
     {
         "FromDate": "2025-01-03T00:00:00Z",
         "Open": 586.4491,
         "Close": 591.2716,
         "PercentChange": 0.8223220054391747,
-        "Equity": 9212.75,
-        "EquityPercentChange": -4.978133960434842
+        "Equity": 12738.87,
+        "EquityPercentChange": 0.2706919134037854
     },
     {
         "FromDate": "2025-01-02T00:00:00Z",
         "Open": 588.0365,
         "Close": 583.8828,
         "PercentChange": -0.7063677169699621,
-        "Equity": 8721.72,
-        "EquityPercentChange": -5.329896067949316
+        "Equity": 12667.93,
+        "EquityPercentChange": -0.5568782788426329
     },
     {
         "FromDate": "2024-12-31T00:00:00Z",
         "Open": 588.7656,
         "Close": 585.1909,
         "PercentChange": -0.6071516406529006,
-        "Equity": 8655.09,
-        "EquityPercentChange": -0.763954816251831
+        "Equity": 12611.18,
+        "EquityPercentChange": -0.44798163551582615
     },
     {
         "FromDate": "2024-12-30T00:00:00Z",
         "Open": 586.8983,
         "Close": 587.4376,
         "PercentChange": 0.09188985553374847,
-        "Equity": 8778.87,
-        "EquityPercentChange": 1.430141107718125
+        "Equity": 12568.45,
+        "EquityPercentChange": -0.33882634297503933
     },
     {
         "FromDate": "2024-12-27T00:00:00Z",
         "Open": 596.5437,
         "Close": 593.9977,
         "PercentChange": -0.42679186788829315,
-        "Equity": 9188.6,
-        "EquityPercentChange": 4.667229381457973
+        "Equity": 12657.05,
+        "EquityPercentChange": 0.704939749929375
     },
     {
         "FromDate": "2024-12-26T00:00:00Z",
         "Open": 598.6307,
         "Close": 600.2581,
         "PercentChange": 0.2718537488972694,
-        "Equity": 9354.17,
-        "EquityPercentChange": 1.8019067104890811
+        "Equity": 12752.7,
+        "EquityPercentChange": 0.7557053183798867
     },
     {
         "FromDate": "2024-12-24T00:00:00Z",
         "Open": 594.9563,
         "Close": 600.2681,
         "PercentChange": 0.8928050682041602,
-        "Equity": 9365.41,
-        "EquityPercentChange": 0.12016031352861645
-    },
-    {
-        "FromDate": "2024-12-23T00:00:00Z",
-        "Open": 590.1735,
-        "Close": 593.8379,
-        "PercentChange": 0.6209021584330711,
-        "Equity": 9168.29,
-        "EquityPercentChange": -2.104766369011063
+        "Equity": 12724.71,
+        "EquityPercentChange": -0.21948293302595998
     },
     {
         "FromDate": "2024-12-20T00:00:00Z",
         "Open": 580.7276,
         "Close": 590.0037,
         "PercentChange": 1.5973237710761339,
-        "Equity": 8591.89,
-        "EquityPercentChange": -6.286886649527899
+        "Equity": 12609.7,
+        "EquityPercentChange": -0.9038319930277264
     },
     {
         "FromDate": "2024-12-19T00:00:00Z",
         "Open": 590.0235,
         "Close": 585.1609,
         "PercentChange": -0.8241366657429818,
-        "Equity": 8315.0,
-        "EquityPercentChange": -3.2226902346282302
+        "Equity": 12532.0,
+        "EquityPercentChange": -0.6161922964067402
     },
     {
         "FromDate": "2024-12-18T00:00:00Z",
         "Open": 602.9543,
         "Close": 586.3391,
         "PercentChange": -2.755631728640124,
-        "Equity": 8640.76,
-        "EquityPercentChange": 3.9177390258568883
+        "Equity": 12574.75,
+        "EquityPercentChange": 0.3411267156080434
     },
     {
         "FromDate": "2024-12-17T00:00:00Z",
         "Open": 603.2039,
         "Close": 603.2937,
         "PercentChange": 0.01488717165123905,
-        "Equity": 9485.96,
-        "EquityPercentChange": 9.78154699355148
+        "Equity": 12807.85,
+        "EquityPercentChange": 1.8537147855822211
     },
     {
         "FromDate": "2024-12-16T00:00:00Z",
         "Open": 604.9812,
         "Close": 605.8498,
         "PercentChange": 0.1435747094289897,
-        "Equity": 9824.92,
-        "EquityPercentChange": 3.573280933084274
+        "Equity": 12815.54,
+        "EquityPercentChange": 0.06004130279477437
     },
     {
         "FromDate": "2024-12-13T00:00:00Z",
         "Open": 605.1709,
         "Close": 603.2937,
         "PercentChange": -0.3101933685178875,
-        "Equity": 9468.04,
-        "EquityPercentChange": -3.6323959889749657
+        "Equity": 12891.61,
+        "EquityPercentChange": 0.5935762363505533
     },
     {
         "FromDate": "2024-12-12T00:00:00Z",
         "Open": 605.5202,
         "Close": 603.5632,
         "PercentChange": -0.3231931816642935,
-        "Equity": 9185.14,
-        "EquityPercentChange": -2.9879468189826133
+        "Equity": 12990.34,
+        "EquityPercentChange": 0.7658469345566579
     },
     {
         "FromDate": "2024-12-11T00:00:00Z",
         "Open": 604.8413,
         "Close": 606.6687,
         "PercentChange": 0.30212883941620683,
-        "Equity": 9266.69,
-        "EquityPercentChange": 0.8878471095704703
+        "Equity": 13095.1,
+        "EquityPercentChange": 0.806445404816196
     },
     {
         "FromDate": "2024-12-10T00:00:00Z",
         "Open": 604.1924,
         "Close": 601.8059,
         "PercentChange": -0.3949900726987081,
-        "Equity": 8839.73,
-        "EquityPercentChange": -4.607470412844295
+        "Equity": 13110.83,
+        "EquityPercentChange": 0.12012126673335494
     },
     {
         "FromDate": "2024-12-09T00:00:00Z",
         "Open": 606.5987,
         "Close": 603.6632,
         "PercentChange": -0.48392784224563073,
-        "Equity": 9371.07,
-        "EquityPercentChange": 6.010817072467147
+        "Equity": 13166.13,
+        "EquityPercentChange": 0.42178870445272554
     },
     {
         "FromDate": "2024-12-06T00:00:00Z",
         "Open": 606.5388,
         "Close": 607.038,
         "PercentChange": 0.08230306123861712,
-        "Equity": 9621.17,
-        "EquityPercentChange": 2.6688521161404233
+        "Equity": 13006.14,
+        "EquityPercentChange": -1.2151634534977231
     },
     {
         "FromDate": "2024-12-05T00:00:00Z",
         "Open": 606.7386,
         "Close": 605.7101,
         "PercentChange": -0.16951286765008985,
-        "Equity": 9557.14,
-        "EquityPercentChange": -0.6655115749955635
+        "Equity": 12920.86,
+        "EquityPercentChange": -0.6556903124216626
     },
     {
         "FromDate": "2024-12-04T00:00:00Z",
         "Open": 604.6817,
         "Close": 606.5388,
         "PercentChange": 0.30712025847649427,
-        "Equity": 9965.73,
-        "EquityPercentChange": 4.2752329671847455
+        "Equity": 12940.27,
+        "EquityPercentChange": 0.15022219883196516
     },
     {
         "FromDate": "2024-12-03T00:00:00Z",
         "Open": 602.7446,
         "Close": 602.9243,
         "PercentChange": 0.029813622552574554,
-        "Equity": 9750.25,
-        "EquityPercentChange": -2.1622098933043494
+        "Equity": 12913.15,
+        "EquityPercentChange": -0.2095783163720757
     },
     {
         "FromDate": "2024-12-02T00:00:00Z",
         "Open": 602.1354,
         "Close": 602.6446,
         "PercentChange": 0.0845656973497928,
-        "Equity": 9970.6,
-        "EquityPercentChange": 2.2599420527678817
+        "Equity": 12918.32,
+        "EquityPercentChange": 0.040036706767907694
     },
     {
         "FromDate": "2024-11-27T00:00:00Z",
         "Open": 599.5493,
         "Close": 597.7818,
         "PercentChange": -0.2948047808578946,
-        "Equity": 9444.54,
-        "EquityPercentChange": -5.2761117685996775
+        "Equity": 12871.99,
+        "EquityPercentChange": -0.3586379653081819
     },
     {
         "FromDate": "2024-11-26T00:00:00Z",
         "Open": 598.0315,
         "Close": 600.0285,
         "PercentChange": 0.3339288983941409,
-        "Equity": 9618.64,
-        "EquityPercentChange": 1.8433931139049495
+        "Equity": 12706.8,
+        "EquityPercentChange": -1.2833291511258207
     },
     {
         "FromDate": "2024-11-25T00:00:00Z",
         "Open": 598.6207,
         "Close": 596.7136,
         "PercentChange": -0.31858236776643606,
-        "Equity": 9875.4,
-        "EquityPercentChange": 2.66940024785209
+        "Equity": 12728.44,
+        "EquityPercentChange": 0.1703025151887276
     },
     {
         "FromDate": "2024-11-22T00:00:00Z",
         "Open": 593.029,
         "Close": 594.6167,
         "PercentChange": 0.26772721064231947,
-        "Equity": 9592.42,
-        "EquityPercentChange": -2.8655041821090745
+        "Equity": 12638.62,
+        "EquityPercentChange": -0.7056638519724311
     },
     {
         "FromDate": "2024-11-21T00:00:00Z",
         "Open": 592.3601,
         "Close": 592.8094,
         "PercentChange": 0.07584913298515444,
-        "Equity": 9446.01,
-        "EquityPercentChange": -1.5263093150633507
+        "Equity": 12486.29,
+        "EquityPercentChange": -1.2052739935214438
     },
     {
         "FromDate": "2024-11-19T00:00:00Z",
         "Open": 584.1324,
         "Close": 589.2648,
         "PercentChange": 0.8786364187297393,
-        "Equity": 9360.88,
-        "EquityPercentChange": -0.9012270789465713
+        "Equity": 12295.08,
+        "EquityPercentChange": -1.5313595952040273
     },
     {
         "FromDate": "2024-11-18T00:00:00Z",
         "Open": 585.121,
         "Close": 587.2776,
         "PercentChange": 0.36857333782243773,
-        "Equity": 9330.09,
-        "EquityPercentChange": -0.32892206715606925
+        "Equity": 12264.42,
+        "EquityPercentChange": -0.24936803989888523
     },
     {
         "FromDate": "2024-11-15T00:00:00Z",
         "Open": 588.8354,
         "Close": 584.7316,
         "PercentChange": -0.6969350008508476,
-        "Equity": 9194.72,
-        "EquityPercentChange": -1.450897043865609
+        "Equity": 12277.92,
+        "EquityPercentChange": 0.11007450821155831
     },
     {
         "FromDate": "2024-11-14T00:00:00Z",
         "Open": 596.454,
         "Close": 592.7196,
         "PercentChange": -0.6261002524922186,
-        "Equity": 9470.31,
-        "EquityPercentChange": 2.9972636469626064
+        "Equity": 12395.68,
+        "EquityPercentChange": 0.9591201115498408
     },
     {
         "FromDate": "2024-11-13T00:00:00Z",
         "Open": 596.5039,
         "Close": 596.384,
         "PercentChange": -0.020100455336508217,
-        "Equity": 9378.4,
-        "EquityPercentChange": -0.9705067732735239
+        "Equity": 12481.8,
+        "EquityPercentChange": 0.6947581738153855
     },
     {
         "FromDate": "2024-11-12T00:00:00Z",
         "Open": 597.8818,
         "Close": 595.8748,
         "PercentChange": -0.33568508022822374,
-        "Equity": 9691.43,
-        "EquityPercentChange": 3.337776166510286
+        "Equity": 12568.52,
+        "EquityPercentChange": 0.6947715874313093
     },
     {
         "FromDate": "2024-11-11T00:00:00Z",
         "Open": 599.07,
         "Close": 597.7619,
         "PercentChange": -0.2183551170981824,
-        "Equity": 9877.12,
-        "EquityPercentChange": 1.9160227128504306
+        "Equity": 12800.2,
+        "EquityPercentChange": 1.8433355717300073
     },
     {
         "FromDate": "2024-11-08T00:00:00Z",
         "Open": 595.4655,
         "Close": 597.093,
         "PercentChange": 0.2733155825148461,
-        "Equity": 10014.32,
-        "EquityPercentChange": 1.3890688783774916
+        "Equity": 12637.19,
+        "EquityPercentChange": -1.273495726629273
     },
     {
         "FromDate": "2024-11-07T00:00:00Z",
         "Open": 592.2901,
         "Close": 594.8164,
         "PercentChange": 0.4265308503383716,
-        "Equity": 10138.0,
-        "EquityPercentChange": 1.2350314349851044
+        "Equity": 12771.29,
+        "EquityPercentChange": 1.0611536267160688
     },
     {
         "FromDate": "2024-11-06T00:00:00Z",
         "Open": 587.6472,
         "Close": 590.0735,
         "PercentChange": 0.4128837846925791,
-        "Equity": 9947.99,
-        "EquityPercentChange": -1.8742355494180334
+        "Equity": 12870.39,
+        "EquityPercentChange": 0.7759592022418921
     },
     {
         "FromDate": "2024-11-05T00:00:00Z",
         "Open": 569.7142,
         "Close": 575.7751,
         "PercentChange": 1.0638492071989687,
-        "Equity": 9858.28,
-        "EquityPercentChange": -0.9017902108868137
+        "Equity": 12848.55,
+        "EquityPercentChange": -0.1696918275203793
     },
     {
         "FromDate": "2024-11-04T00:00:00Z",
         "Open": 570.4731,
         "Close": 568.8953,
         "PercentChange": -0.27657745825351354,
-        "Equity": 9758.74,
-        "EquityPercentChange": -1.009709604515198
+        "Equity": 12682.41,
+        "EquityPercentChange": -1.2930641979055957
     },
     {
         "FromDate": "2024-11-01T00:00:00Z",
         "Open": 570.1335,
         "Close": 570.3831,
         "PercentChange": 0.04377922013001984,
-        "Equity": 9752.89,
-        "EquityPercentChange": -0.059946263554519985
+        "Equity": 12684.95,
+        "EquityPercentChange": 0.020027739207302657
     },
     {
         "FromDate": "2024-10-31T00:00:00Z",
         "Open": 574.5968,
         "Close": 568.9953,
         "PercentChange": -0.9748575000765732,
-        "Equity": 9774.39,
-        "EquityPercentChange": 0.22044747761945435
+        "Equity": 12705.28,
+        "EquityPercentChange": 0.16026866483509927
     },
     {
         "FromDate": "2024-10-30T00:00:00Z",
         "Open": 580.3881,
         "Close": 578.7806,
         "PercentChange": -0.2769698413871613,
-        "Equity": 9870.13,
-        "EquityPercentChange": 0.9794984648658359
+        "Equity": 12775.55,
+        "EquityPercentChange": 0.5530771458794974
     },
     {
         "FromDate": "2024-10-29T00:00:00Z",
         "Open": 578.9803,
         "Close": 580.6377,
         "PercentChange": 0.2862618987208958,
-        "Equity": 9864.21,
-        "EquityPercentChange": -0.05997894657922513
+        "Equity": 12865.61,
+        "EquityPercentChange": 0.7049402961125064
     },
     {
         "FromDate": "2024-10-28T00:00:00Z",
         "Open": 581.4165,
         "Close": 579.7291,
         "PercentChange": -0.2902222417148507,
-        "Equity": 9825.89,
-        "EquityPercentChange": -0.38847510342946584
+        "Equity": 13088.11,
+        "EquityPercentChange": 1.7294166386203218
     },
     {
         "FromDate": "2024-10-24T00:00:00Z",
         "Open": 578.9702,
         "Close": 578.2514,
         "PercentChange": -0.12415146755394102,
-        "Equity": 9829.83,
-        "EquityPercentChange": 0.040098148869980324
+        "Equity": 12833.05,
+        "EquityPercentChange": -1.9487916895564088
     },
     {
         "FromDate": "2024-10-23T00:00:00Z",
         "Open": 580.5977,
         "Close": 577.063,
         "PercentChange": -0.6088036518229478,
-        "Equity": 9807.27,
-        "EquityPercentChange": -0.2295054950085555
+        "Equity": 12963.99,
+        "EquityPercentChange": 1.0203342151709882
     },
     {
         "FromDate": "2024-10-22T00:00:00Z",
         "Open": 580.1285,
         "Close": 582.5447,
         "PercentChange": 0.41649393194783624,
-        "Equity": 9841.72,
-        "EquityPercentChange": 0.35127002723488704
+        "Equity": 12989.97,
+        "EquityPercentChange": 0.20040126535117325
     },
     {
         "FromDate": "2024-10-21T00:00:00Z",
         "Open": 583.0142,
         "Close": 582.7246,
         "PercentChange": -0.04967288961400089,
-        "Equity": 9826.0,
-        "EquityPercentChange": -0.1597281775949666
+        "Equity": 13057.87,
+        "EquityPercentChange": 0.5227109839360788
     },
     {
         "FromDate": "2024-10-17T00:00:00Z",
         "Open": 585.1908,
         "Close": 581.5463,
         "PercentChange": -0.6227883281828754,
-        "Equity": 9889.59,
-        "EquityPercentChange": 0.6471605943415443
+        "Equity": 12997.46,
+        "EquityPercentChange": -0.4626328796350528
     },
     {
         "FromDate": "2024-10-16T00:00:00Z",
         "Open": 578.9103,
         "Close": 581.4865,
         "PercentChange": 0.4450084926801219,
-        "Equity": 9957.3,
-        "EquityPercentChange": 0.684659323591768
+        "Equity": 12989.67,
+        "EquityPercentChange": -0.0599347872584263
     },
     {
         "FromDate": "2024-10-15T00:00:00Z",
         "Open": 583.8028,
         "Close": 578.5407,
         "PercentChange": -0.9013488801355581,
-        "Equity": 9944.37,
-        "EquityPercentChange": -0.12985447862370797
+        "Equity": 13003.97,
+        "EquityPercentChange": 0.11008747720303344
     },
     {
         "FromDate": "2024-10-14T00:00:00Z",
         "Open": 580.3481,
         "Close": 583.2836,
         "PercentChange": 0.5058171121780073,
-        "Equity": 9933.44,
-        "EquityPercentChange": -0.10991143732584657
+        "Equity": 13246.38,
+        "EquityPercentChange": 1.8641230331967844
     },
     {
         "FromDate": "2024-10-10T00:00:00Z",
         "Open": 574.7666,
         "Close": 575.2559,
         "PercentChange": 0.08513020763557892,
-        "Equity": 9868.21,
-        "EquityPercentChange": -0.6566708008504746
+        "Equity": 13173.12,
+        "EquityPercentChange": -0.5530567596580983
     },
     {
         "FromDate": "2024-10-09T00:00:00Z",
         "Open": 572.1704,
         "Close": 576.3441,
         "PercentChange": 0.7294505273254356,
-        "Equity": 9893.93,
-        "EquityPercentChange": 0.2606349074452324
+        "Equity": 13081.55,
+        "EquityPercentChange": -0.6951276538891433
     },
     {
         "FromDate": "2024-10-08T00:00:00Z",
         "Open": 569.6043,
         "Close": 572.2104,
         "PercentChange": 0.4575281471716564,
-        "Equity": 9892.94,
-        "EquityPercentChange": -0.010006135074735537
+        "Equity": 13084.17,
+        "EquityPercentChange": 0.020028207666528818
     },
     {
         "FromDate": "2024-10-07T00:00:00Z",
         "Open": 570.513,
         "Close": 566.519,
         "PercentChange": -0.7000716898650912,
-        "Equity": 9860.4,
-        "EquityPercentChange": -0.32892143286021014
+        "Equity": 13536.28,
+        "EquityPercentChange": 3.4553968650667226
     },
     {
         "FromDate": "2024-10-04T00:00:00Z",
         "Open": 571.5415,
         "Close": 572.1205,
         "PercentChange": 0.10130497960339727,
-        "Equity": 9941.92,
-        "EquityPercentChange": 0.826741308669024
+        "Equity": 13532.22,
+        "EquityPercentChange": -0.029993469402238352
     },
     {
         "FromDate": "2024-10-03T00:00:00Z",
         "Open": 566.6088,
         "Close": 567.078,
         "PercentChange": 0.08280845620470434,
-        "Equity": 9964.84,
-        "EquityPercentChange": 0.23053897033973392
+        "Equity": 13269.48,
+        "EquityPercentChange": -1.9415882981506343
     },
     {
         "FromDate": "2024-10-02T00:00:00Z",
         "Open": 566.6288,
         "Close": 567.8769,
         "PercentChange": 0.22026766023894698,
-        "Equity": 10014.91,
-        "EquityPercentChange": 0.5024666728216379
+        "Equity": 13337.5,
+        "EquityPercentChange": 0.5126048646970374
     },
     {
         "FromDate": "2024-10-01T00:00:00Z",
         "Open": 572.0308,
         "Close": 567.6672,
         "PercentChange": -0.7628260576178799,
-        "Equity": 10076.38,
-        "EquityPercentChange": 0.6137848467934245
+        "Equity": 13102.96,
+        "EquityPercentChange": -1.7585004686035681
     },
     {
         "FromDate": "2024-09-30T00:00:00Z",
         "Open": 569.6343,
         "Close": 573.3587,
         "PercentChange": 0.6538229878362215,
-        "Equity": 10089.5,
-        "EquityPercentChange": 0.13020549046384516
+        "Equity": 13088.56,
+        "EquityPercentChange": -0.10989883201963249
     },
     {
         "FromDate": "2024-09-27T00:00:00Z",
         "Open": 572.6398,
         "Close": 570.4531,
         "PercentChange": -0.3818630839141965,
-        "Equity": 10105.67,
-        "EquityPercentChange": 0.16026562267704123
+        "Equity": 13004.03,
+        "EquityPercentChange": -0.645831168593022
     },
     {
         "FromDate": "2024-09-26T00:00:00Z",
         "Open": 573.7082,
         "Close": 571.7212,
         "PercentChange": -0.3463433152951413,
-        "Equity": 10141.16,
-        "EquityPercentChange": 0.35118898598509335
+        "Equity": 12811.85,
+        "EquityPercentChange": -1.4778495589444216
     },
     {
         "FromDate": "2024-09-25T00:00:00Z",
         "Open": 570.5031,
         "Close": 568.9153,
         "PercentChange": -0.27831575323605,
-        "Equity": 10037.77,
-        "EquityPercentChange": -1.019508616371297
+        "Equity": 12351.15,
+        "EquityPercentChange": -3.595889742699147
     },
     {
         "FromDate": "2024-09-24T00:00:00Z",
         "Open": 569.4046,
         "Close": 570.2734,
         "PercentChange": 0.15258043226206436,
-        "Equity": 10095.31,
-        "EquityPercentChange": 0.5732348918136105
+        "Equity": 12420.71,
+        "EquityPercentChange": 0.5631864239362285
     },
     {
         "FromDate": "2024-09-23T00:00:00Z",
         "Open": 568.0966,
         "Close": 568.7657,
         "PercentChange": 0.11777926500529512,
-        "Equity": 10059.1,
-        "EquityPercentChange": -0.35868140750506056
+        "Equity": 12058.94,
+        "EquityPercentChange": -2.9126354290535614
     },
     {
         "FromDate": "2024-09-20T00:00:00Z",
         "Open": 567.0482,
         "Close": 567.0183,
         "PercentChange": -0.005272920361972372,
-        "Equity": 10077.24,
-        "EquityPercentChange": 0.18033422473182908
+        "Equity": 11981.06,
+        "EquityPercentChange": -0.6458279085889889
     },
     {
         "FromDate": "2024-09-19T00:00:00Z",
         "Open": 570.1535,
         "Close": 569.8639,
         "PercentChange": -0.050793338986792856,
-        "Equity": 10116.7,
-        "EquityPercentChange": 0.39157547106153023
+        "Equity": 12065.52,
+        "EquityPercentChange": 0.7049459730608223
     },
     {
         "FromDate": "2024-09-18T00:00:00Z",
         "Open": 562.6847,
         "Close": 560.3682,
         "PercentChange": -0.41168704249467225,
-        "Equity": 10037.4,
-        "EquityPercentChange": -0.7838524420018493
+        "Equity": 11804.64,
+        "EquityPercentChange": -2.1621944184751345
     },
     {
         "FromDate": "2024-09-17T00:00:00Z",
         "Open": 563.9528,
         "Close": 561.8359,
         "PercentChange": -0.3753682932330484,
-        "Equity": 10124.47,
-        "EquityPercentChange": 0.867455715623565
+        "Equity": 11818.82,
+        "EquityPercentChange": 0.120122257010805
     },
     {
         "FromDate": "2024-09-16T00:00:00Z",
         "Open": 561.0373,
         "Close": 561.8659,
         "PercentChange": 0.1476907150380289,
-        "Equity": 10001.45,
-        "EquityPercentChange": -1.215075949654635
+        "Equity": 11682.14,
+        "EquityPercentChange": -1.1564606280491647
     },
     {
         "FromDate": "2024-09-13T00:00:00Z",
         "Open": 558.6007,
         "Close": 561.067,
         "PercentChange": 0.44151394726144216,
-        "Equity": 10072.19,
-        "EquityPercentChange": 0.7072974418709265
+        "Equity": 11619.39,
+        "EquityPercentChange": -0.5371447354679879
     },
     {
         "FromDate": "2024-09-12T00:00:00Z",
         "Open": 554.1975,
         "Close": 557.8419,
         "PercentChange": 0.6575995019825999,
-        "Equity": 9563.42,
-        "EquityPercentChange": -5.051235133570757
+        "Equity": 11504.35,
+        "EquityPercentChange": -0.9900691860760251
     },
     {
         "FromDate": "2024-09-11T00:00:00Z",
         "Open": 547.6273,
         "Close": 554.4171,
         "PercentChange": 1.2398578376205887,
-        "Equity": 9398.94,
-        "EquityPercentChange": -1.7198868187322063
+        "Equity": 11413.05,
+        "EquityPercentChange": -0.7936128507912319
     },
     {
         "FromDate": "2024-09-10T00:00:00Z",
         "Open": 547.6273,
         "Close": 548.3064,
         "PercentChange": 0.12400769647533318,
-        "Equity": 9032.23,
-        "EquityPercentChange": -3.901610181573677
+        "Equity": 11388.0,
+        "EquityPercentChange": -0.21948558886537142
     },
     {
         "FromDate": "2024-09-09T00:00:00Z",
         "Open": 543.3636,
         "Close": 545.5006,
         "PercentChange": 0.3932909749567221,
-        "Equity": 8966.77,
-        "EquityPercentChange": -0.7247379661500994
-    },
-    {
-        "FromDate": "2024-09-06T00:00:00Z",
-        "Open": 549.185,
-        "Close": 539.3497,
-        "PercentChange": -1.7908901372033035,
-        "Equity": 8681.19,
-        "EquityPercentChange": -3.1848703602300485
-    },
-    {
-        "FromDate": "2024-09-05T00:00:00Z",
-        "Open": 550.3732,
-        "Close": 548.0865,
-        "PercentChange": -0.41548171313574067,
-        "Equity": 9089.3,
-        "EquityPercentChange": 4.701083607201302
-    },
-    {
-        "FromDate": "2024-09-04T00:00:00Z",
-        "Open": 549.4346,
-        "Close": 550.7927,
-        "PercentChange": 0.24718137518094457,
-        "Equity": 9112.99,
-        "EquityPercentChange": 0.260636132595475
-    },
-    {
-        "FromDate": "2024-09-03T00:00:00Z",
-        "Open": 559.7193,
-        "Close": 551.3119,
-        "PercentChange": -1.5020743433360149,
-        "Equity": 9063.14,
-        "EquityPercentChange": -0.5470213398675996
+        "Equity": 11350.54,
+        "EquityPercentChange": -0.32894274675095825
     }
 ]
